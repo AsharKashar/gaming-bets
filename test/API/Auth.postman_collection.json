@@ -1,0 +1,413 @@
+{
+	"info": {
+		"_postman_id": "5c534aaa-3e1c-4c8b-99ae-b2829b863c70",
+		"name": "Auth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "d27bf660-554a-4922-8900-9ee518ee6bad",
+						"exec": [
+							"pm.globals.set(\"User_Name\", pm.variables.replaceIn(\"{{$randomFirstName}}\"));\r",
+							"pm.globals.set(\"email\", pm.variables.replaceIn(\"{{User_Name}}@bangergames.com\"));\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "37d350f7-8848-4221-bffe-d8c89a14ed6a",
+						"exec": [
+							"pm.test(\"Register Request\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"access_token\");\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"User Registered Successfully\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.environment.set(\"email1\", \"{{email}}\");\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "banger2020",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "banger",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev.bangergames.com/api/auth/register?name=Test User&email={{email}}&password=banger2020&username={{User_Name}}&country_id=25&gender=Male&date_of_birth=01/01/1990&password_confirmation=banger2020",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"bangergames",
+						"com"
+					],
+					"path": [
+						"api",
+						"auth",
+						"register"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Test User"
+						},
+						{
+							"key": "email",
+							"value": "{{email}}"
+						},
+						{
+							"key": "password",
+							"value": "banger2020"
+						},
+						{
+							"key": "username",
+							"value": "{{User_Name}}"
+						},
+						{
+							"key": "country_id",
+							"value": "25"
+						},
+						{
+							"key": "gender",
+							"value": "Male"
+						},
+						{
+							"key": "date_of_birth",
+							"value": "01/01/1990"
+						},
+						{
+							"key": "password_confirmation",
+							"value": "banger2020"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "13d81cda-3246-4d01-9b6f-d38325c89410",
+						"exec": [
+							"let jsonData = pm.response.json();\r",
+							"let token = jsonData.access_token;\r",
+							"pm.environment.set('acc_token', token);\r",
+							"\r",
+							"pm.test(\"Successful Login request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201]);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Login Successful\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"access_token\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "banger2020",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "banger",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://dev.bangergames.com/api/auth/login?email=qa@bangergames.com&password=banger2020",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"bangergames",
+						"com"
+					],
+					"path": [
+						"api",
+						"auth",
+						"login"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "qa@bangergames.com"
+						},
+						{
+							"key": "password",
+							"value": "banger2020"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Validate Login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "93e55d4e-0d46-43d1-9483-fde19f564656",
+						"exec": [
+							"pm.test(\"Login Authenticated\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"true\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "banger2020",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "banger",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"token\":\"{{acc_token}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev.bangergames.com/api/auth/check",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"bangergames",
+						"com"
+					],
+					"path": [
+						"api",
+						"auth",
+						"check"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logout",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "d68bac8e-8733-48cd-addf-822fd6412a69",
+						"exec": [
+							"pm.test(\"Logout Successfully\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201]);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "banger2020",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "banger",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"token\":\"{{acc_token}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev.bangergames.com/api/auth/logout",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"bangergames",
+						"com"
+					],
+					"path": [
+						"api",
+						"auth",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Validate Logout",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b6a7d43b-bd97-42ce-abd9-83f1fd790341",
+						"exec": [
+							"pm.test(\"Logout Validated\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201]);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "banger2020",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "banger",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"token\":\"{{acc_token}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev.bangergames.com/api/auth/me",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"bangergames",
+						"com"
+					],
+					"path": [
+						"api",
+						"auth",
+						"me"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "84eb6c5e-4d96-4cbb-b898-b8c7f4b28091",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "372a56b3-a2f8-4f03-b3ea-5488844473d1",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

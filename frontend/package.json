@@ -1,0 +1,64 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "bangergames frontend",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "prod": "npm run build && npm run start",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --max-warnings=0 --fix --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "dependencies": {
+    "@nuxtjs/feed": "^2.0.0",
+    "@nuxtjs/pwa": "^3.1.0",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@sentry/browser": "^5.24.2",
+    "@sentry/integrations": "^5.24.2",
+    "@stripe/stripe-js": "^1.9.0",
+    "@vuejs-community/vue-directive-mask": "^1.2.5",
+    "axios": "^0.20.0",
+    "cookie-universal-nuxt": "^2.1.4",
+    "dayjs": "^1.8.36",
+    "eslint": "^5.12.1",
+    "eslint-config-prettier": "^3.6.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "express": "^4.17.1",
+    "husky": "^4.3.0",
+    "locize-editor": "^3.0.2",
+    "locizer": "^3.0.8",
+    "lodash": "^4.17.20",
+    "nuxt": "^2.0.0",
+    "nuxt-i18n": "^6.15.1",
+    "nuxt-lazy-load": "^1.2.4",
+    "socket.io-client": "^2.3.0",
+    "vue-clamp": "^0.3.1",
+    "vue-country-flag": "^2.0.1",
+    "vue-hotjar": "^1.2.0",
+    "vue-masked-input": "^0.5.2",
+    "vue-notification": "^1.3.20",
+    "vue-owl-carousel": "^2.0.3",
+    "vue-social-sharing": "^3.0.0-beta.11",
+    "vue-upload-component": "^2.8.20",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/laravel-echo": "^1.1.0",
+    "@nuxtjs/router-extras": "^1.1.0",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "babel-eslint": "^10.0.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2"
+  }
+}

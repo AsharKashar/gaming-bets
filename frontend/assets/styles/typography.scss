@@ -1,0 +1,157 @@
+$font-family: Telegraf-Regular, serif;
+$font-family-bold: Telegraf-UltraBold, serif;
+
+@mixin font-default {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: normal;
+    color: $text-primary-color;
+}
+// media queries
+@mixin responsive($breakpoint) {
+    @if $breakpoint == desktop-width {
+        @media only screen and (max-width: $desktop-width) {
+            @content;
+        }
+    }
+    @if $breakpoint == tablet-large-width {
+        @media only screen and (max-width: $tablet-large-width) {
+            @content;
+        }
+    }
+    @if $breakpoint == tablet-small-width {
+        @media only screen and (max-width: $tablet-small-width) {
+            @content;
+        }
+    }
+    @if $breakpoint == mobile-width {
+        @media only screen and (max-width: $mobile-width) {
+            @content;
+        }
+    }
+    @if $breakpoint == min-resolution {
+        @media only screen and (max-width: $min-resolution) {
+            @content;
+        }
+    }
+}
+
+// main headings
+.heading {
+    &-primary,
+    &-primary-big {
+        @include font-default;
+        font-family: $font-family-bold;
+        font-weight: 900;
+        word-break: break-all;
+    }
+    &-primary-big {
+        font-size: 72px;
+        line-height: 76px;
+
+        // media-queries
+        @include responsive(mobile-width) {
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 100%;
+        }
+    }
+    &-primary {
+        font-size: 56px;
+        line-height: 59px;
+        // media-queries
+        @include responsive(mobile-width) {
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 100%;
+        }
+    }
+}
+
+// subtitles
+.subtitles {
+    &-primary,
+    &-secondary {
+        @include font-default;
+        font-family: $font-family-bold;
+        font-weight: 900;
+        letter-spacing: 0.05em;
+        font-size: 32px;
+        word-break: break-all;
+    }
+    &-primary {
+        line-height: 120%;
+        text-transform: uppercase;
+
+        @include responsive(mobile-width) {
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 100%;
+        }
+    }
+    &-secondary {
+        line-height: 92%;
+
+        @include responsive(mobile-width) {
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 100%;
+        }
+    }
+
+    // .subtitles-sm
+    &-sm {
+        &,
+        &-bold {
+            @include font-default;
+            font-size: 24px;
+            line-height: 94%;
+            word-break: break-all;
+
+            @include responsive(mobile-width) {
+                font-size: 20px;
+                line-height: 100%;
+            }
+        }
+        &-bold {
+            font-weight: 800;
+        }
+    }
+}
+
+p {
+    margin: 0;
+    &,
+    &.bold {
+        @include font-default;
+        font-size: 20px;
+        line-height: 110%;
+
+        @include responsive(mob-width) {
+            font-size: 16px;
+        }
+    }
+
+    &.bold {
+        font-family: $font-family-bold;
+        font-weight: 900;
+    }
+
+    &.sm {
+        &,
+        &-bold {
+            @include font-default;
+            font-size: 16px;
+        }
+
+        &-bold {
+            font-weight: 800;
+        }
+    }
+}
+
+.footnote {
+    @include font-default;
+    font-size: 14px;
+    line-height: 94%;
+}

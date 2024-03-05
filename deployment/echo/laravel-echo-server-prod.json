@@ -1,0 +1,34 @@
+{
+	"authHost": "http://nginx",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [],
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {
+			"port": "6379",
+			"host": "redis"
+		},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": false,
+	"host": null,
+	"port": "6001",
+	"protocol": "https",
+	"socketio": {},
+	"sslCertPath": "/etc/letsencrypt/live/prod.bangergames.com/fullchain.pem",
+	"sslKeyPath": "/etc/letsencrypt/live/prod.bangergames.com/privkey.pem",
+	"sslCertChainPath": "/etc/letsencrypt/live/prod.bangergames.com/chain.pem",
+	"sslPassphrase": "",
+	"subscribers": {
+		"http": true,
+		"redis": true
+	},
+	"apiOriginAllow": {
+		"allowCors": false,
+		"allowOrigin": "",
+		"allowMethods": "",
+		"allowHeaders": ""
+	}
+}

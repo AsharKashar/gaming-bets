@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "0c11e553-df54-4a5d-836b-39ef45c3afb2",
+		"name": "Home",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Monthly_Top_Player",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5f588aa2-8fd1-4c24-9714-879c4acb1361",
+						"exec": [
+							"pm.test(\"Successfully Returns Monthly Top Players\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201]);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "banger2020",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "banger",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.bangergames.com/api/home/monthly-top-player",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"bangergames",
+						"com"
+					],
+					"path": [
+						"api",
+						"home",
+						"monthly-top-player"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

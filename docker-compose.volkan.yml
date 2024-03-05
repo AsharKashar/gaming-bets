@@ -1,0 +1,88 @@
+version: '3.7'
+
+services:
+#  php:
+#    container_name: banger-php
+#    build: ./deployment/backend
+#    volumes:
+#      - ./backend/:/application
+#      - ./deployment/backend/workers:/workers
+#      - ./deployment/backend/entrypoint.sh:/usr/local/bin/entrypoint.sh
+#      - ./deployment/backend/custom-php-dev.ini:/usr/local/etc/php/conf.d/custom-php.ini
+#    command: php-fpm
+#    depends_on:
+#      - redis
+#      - mysql
+#    restart: always
+
+#  vue:
+#    container_name: banger-vue
+#    build: ./deployment/frontend
+#    volumes:
+#      - ./frontend/:/frontend
+#      - ./deployment/frontend/entrypoint.sh:/usr/local/bin/entrypoint.sh
+#    command: npm run serve
+
+  mysql:
+    image: mysql:latest
+    container_name: banger-mysql
+    volumes:
+      - banger_db:/var/lib/mysql
+    ports:
+      - 3306:3306
+    command: --max_allowed_packet=100M
+    environment:
+      - MYSQL_ROOT_PASSWORD=banger123
+      - MYSQL_USER=banger
+      - MYSQL_PASSWORD=banger123
+      - MYSQL_DATABASE=banger
+    restart: always
+
+#  nginx:
+#    container_name: banger-nginx
+#    image: nginx
+#    ports:
+#      - "80:80"
+#      - "443:443"
+#    volumes:
+#      - ./deployment/nginx/default.conf:/etc/nginx/conf.d/default.conf
+#      - ./backend:/application
+#      - ./deployment/certbot/conf:/etc/letsencrypt
+#      - ./deployment/certbot/www:/var/www/certbot
+#      - ./deployment/nginx/ssl123:/ssl123
+#      - ./deployment/nginx/proxy.conf:/etc/nginx/proxy.conf
+#      - ./deployment/nginx/auth/htpasswd:/deployment/nginx/auth/htpasswd
+#    depends_on:
+#      - php
+#      - vue
+
+  redis:
+    container_name: banger-redis
+    image: redis
+    ports:
+      - 6379:6379
+    volumes:
+      - redis_data:/data
+
+  portainer:
+      container_name: banger-portainer
+      image: portainer/portainer
+      ports:
+      - "9000:9000"
+      command: -H unix:///var/run/docker.sock
+      volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+
+#  certbot:
+#    image: certbot/certbot
+#    volumes:
+#      - ./deployment/certbot/conf:/etc/letsencrypt
+#      - ./deployment/certbot/www:/var/www/certbot
+#    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew --cert-name dev.bangergames.com; sleep 12h & wait $${!}; done;'"
+#
+
+volumes:
+    redis_data:
+    portainer_data:
+    banger_db:

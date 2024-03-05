@@ -1,0 +1,62 @@
+[
+{
+"match_type": "Battle Royale",
+"game_mode": "Solo"
+}
+,
+{
+"match_type": "Battle Royale",
+"game_mode": "Duo"
+}
+,
+{
+"match_type": "Battle Royale",
+"game_mode": "Squad"
+}
+,
+{
+"match_type": "Team Deathmatch",
+"game_mode": "Solo"
+}
+,
+{
+"match_type": "Team Deathmatch",
+"game_mode": "Duo"
+}
+,
+{
+"match_type": "Team Deathmatch",
+"game_mode": "Squad"
+}
+,
+{
+"match_type": "Search & Destroy",
+"game_mode": "Solo"
+}
+,
+{
+"match_type": "Search & Destroy",
+"game_mode": "Duo"
+}
+,
+{
+"match_type": "Search & Destroy",
+"game_mode": "Squad"
+}
+,
+{
+"match_type": "Domination",
+"game_mode": "Solo"
+}
+,
+{
+"match_type": "Domination",
+"game_mode": "Duo"
+}
+,
+{
+"match_type": "Domination",
+"game_mode": "Squad"
+}
+
+]

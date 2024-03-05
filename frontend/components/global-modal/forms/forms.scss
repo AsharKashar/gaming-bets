@@ -1,0 +1,109 @@
+@import "~/assets/styles/colors";
+@import "~/assets/styles/sizes.scss";
+.v-application  .custom-forms {
+  color: $text-primary-color;
+  .error--text {
+    color: $text-secondary-color!important;
+    caret-color: $text-secondary-color!important;
+  }
+
+  .form-heading {
+      margin-bottom: 15px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $text-secondary-color;
+  }
+
+  .v-text-field {
+    padding-top: 0;
+    margin: 0 0 5px;
+    & > .v-input__control {
+      padding-bottom: 18px;
+      position: relative;
+      & > .v-input__slot {
+        margin-bottom: 0;
+        &::before {
+          border-color: currentColor;
+        }
+        & > .v-text-field__slot {
+          align-items: center;
+          padding: 0;
+          .v-label {
+            @media all and (min-width: $tablet-small-width) {
+              position: static !important;
+              width: 100%;
+              flex: 0 0 200px;
+              max-width: 200px;
+              text-align: right;
+              color: $text-primary-color;
+              line-height: 1.4;
+              transform-origin: unset;
+              height: auto;
+              transform: none;
+              padding-right: 33px;
+            }
+            &.error--text + input {
+              &::-webkit-input-placeholder,
+              &::-moz-placeholder,
+              &:-moz-placeholder,
+              &:-ms-input-placeholder,
+              &::placeholder {
+                color: $text-secondary-color;
+                opacity: 1;
+              }
+            }
+          }
+          input {
+            @media all and (min-width: $tablet-small-width) {
+              width: 100%;
+              flex: 0 0 calc(100% - 200px);
+              max-width: calc(100% - 200px);
+            }
+          }
+        }
+      }
+      & > .v-text-field__details {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -8px;
+        .v-messages__message {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .member {
+    text-align: center;
+    font-weight: 800;
+  }
+
+  .form-error {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: $text-secondary-color;
+  }
+
+    .actions {
+        margin: 15px 0 5px;
+    }
+}
+
+@media all and (max-width: $tablet-small-width) {
+  .v-application  .custom-forms {
+    .form-heading {
+      margin-bottom: 44px;
+    }
+
+    .v-text-field {
+      margin-bottom: 20px;
+    }
+  }
+  .actions {
+    margin: 24px 0 4px;
+  }
+}

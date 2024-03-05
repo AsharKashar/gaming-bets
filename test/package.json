@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "cypress implementation banger games",
+  "main": "index.js",
+  "scripts": {
+    "test-locally": "cypress run",
+    "test-dashboard": "npx cypress run --record --key=60830376-1571-4b2c-84b4-7e6d418ed544",
+    "docker-run": "",
+    "cy:open": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/banger-games/banger-games.git"
+  },
+  "keywords": [
+    "cypress",
+    "test"
+  ],
+  "author": "priamo ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/banger-games/banger-games/issues"
+  },
+  "homepage": "https://gitlab.com/banger-games/banger-games#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^5.3.0"
+  }
+}

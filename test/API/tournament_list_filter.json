@@ -1,0 +1,41 @@
+[
+{
+    "game_id":"1",
+    "game_mode":"Battle Royale",
+    "game_type":"Solo",
+    "platform":"Xbox",
+    "hield_on":"daily"
+}
+,
+{
+    "game_id":"2",
+    "game_mode":"Team Deathmatch",
+    "game_type":"Duo",
+    "platform":"Playstation",
+    "hield_on":"weekly"
+}
+,
+{
+    "game_id":"3",
+    "game_mode":"Search & Destroy,",
+    "game_type":"Triplet",
+    "platform":"PC",
+    "hield_on":"monthly"
+}
+,
+{
+    "game_id":"4",
+    "game_mode":"Domination",
+    "game_type":"Squad",
+    "platform":"All Platform",
+    "hield_on":"daily"
+}
+,
+{
+    "game_id":"5",
+    "game_mode":"Battle Royale",
+    "game_type":"Squad",
+    "platform":"All Platform",
+    "hield_on":"weekly"
+}
+]

@@ -1,0 +1,6766 @@
+@media (max-width: 2599px){
+  .wrapper{
+    width:100%;
+    padding-top: 20px;
+    text-align:center;
+
+  }
+  .top-card-row{
+    margin-top:20px;
+    margin-left:0%;
+  }
+  .carousel1{
+    width: 75%;
+    margin: 0px 0px 0px auto;
+  }
+  .wrapper .slick-next{
+    right: 35%;
+    color: #bf1338;
+  }
+  .slick-prev.slick-disabled:before{
+opacity: 1;
+  }
+  .slick-next.slick-disabled:before{
+opacity: 1;
+  }
+  .wrapper button{
+height: 100%;
+  }
+
+  .tournament-text{
+    font-size: 32px;
+    line-height: 100%;
+    font-family:'Telegraf-UltraBold';
+    margin-top:60px;
+    color:#a1afd3;
+  }
+  .game-tournament-banner{
+    height: 60vh;
+    width: 76%;
+    flex-shrink: 0;
+    margin-bottom: 0px;
+  }
+  .game-tournament-description-text{
+    font-size: 20px;
+    line-height: 94%;
+    font-family:'Telegraf-Regular';
+    margin-top:60px;
+    color:#a1afd3;
+    width:100%;
+  }
+  .tournament-banner-img{
+    height:70vh;width:100%;flex-shrink: 0;
+  }
+  .bombcard-btn{
+
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+    padding-left: 0px;
+    font-family: Telegraf-UltraBold;
+    line-height: 51px;
+    width: 159px;
+    display: inline-block;
+    color: #010432;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    background: -webkit-gradient(linear, left top, right top, from(#a1afd3), to(#a1afd3));
+    background: -webkit-linear-gradient(left, #a1afd3, a1afd3);
+    background: -o-linear-gradient(left, #a1afd3, #a1afd3);
+    background: linear-gradient(to right, #a1afd3, #a1afd3); }
+    .bombcard-btn:hover{
+      background: -webkit-gradient(linear, left top, right top, from(#A1AFD3), to(#A1AFD3));
+      background: -webkit-linear-gradient(left, #A1AFD3, #A1AFD3);
+      background: -o-linear-gradient(left, #A1AFD3, #A1AFD3);
+      background: linear-gradient(to right, #A1AFD3, #A1AFD3);
+      color: #010432;
+      -webkit-transform: translateY(-2px);
+      -ms-transform: translateY(-2px);
+      transform: translateY(-2px);
+    }
+  .wagerbtn {
+
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+    padding-left: 0px;
+    font-family: Telegraf-UltraBold;
+    line-height: 51px;
+    width: 159px;
+    display: inline-block;
+    color: #010432;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+    background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+    background: -o-linear-gradient(left, #BF1438, #BF1438);
+    background: linear-gradient(to right, #BF1438, #BF1438); }
+  .bomb-area{
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 60px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/assets/images/Content-coder/Background.png);
+    background-repeat: no-repeat;
+  }
+  .bomb-cards-area{
+    padding-top: 250px;
+  }
+  .bomb-card{
+    border: 4px solid #bf1438;
+    border-radius: 25px;
+    width: 100%;
+    height: 470px;
+  }
+  .card-top-area{
+    font-size: 44px;
+    font-family: "Telegraf-UltraBold";
+    text-transform: uppercase;
+    color: #bf1438;
+    margin-top: 13px;
+  }
+  .bomb-card-list-details .lis{
+    font-size: 20px;
+    font-family: "Telegraf-Regular";
+    color:#a1afd3;
+    margin-top: 10px;
+    list-style-type: none;
+    margin-left: 10px;
+  }
+  .bomb-card-img{
+    width: 250px;
+    height: 250px;
+    margin-left: 10%;
+  }
+  .bottom-button{
+    width: 100%;
+    height: 92px;
+    padding-left: 90px;
+      padding-top: 11px;
+    margin-top: -47px;
+  }
+  .ladderboard-toparea{
+    width: 100%;
+    height:auto;
+    padding-top: 225px;
+  }
+  .ladderboard{
+    background-color:#010432;
+    background-position: center;
+      background-size: cover;
+      background-image: url(/assets/images/Content-coder/Background.png);
+      background-repeat: no-repeat;
+      margin-top: -10px;
+  }
+  .leader-f1{
+    padding-left: 44px;
+    font-size: 72px;
+    line-height: 76px;
+    font-family: "Telegraf-UltraBold";
+    color: #a1afd3;
+  }
+  .leader-link{
+    font-family: "Telegraf-Regular";
+    font-size: 22px;
+    text-transform:uppercase;
+    cursor: pointer;
+  }
+  .leader-link:hover{
+    font-family: "Telegraf-UltraBold";
+    font-size: 22px;
+    text-transform:uppercase;
+    cursor: pointer;
+  }
+  .leader-f1-1{
+    padding-left: 44px;
+    font-size: 24px;
+    line-height: 25px;
+    width: 445px;
+    font-family: "Telegraf-UltraBold";
+    color: #a1afd3;
+
+  }
+  .leader-f1-2{
+    padding-left: 44px;
+    font-size: 20px;
+    line-height: 94%;
+    font-family: "Telegraf-Regular";
+    color: #a1afd3;
+    width: 540px;
+    margin-bottom: 233px;
+  }
+  .leader-2nd-title{
+    padding-left: 44px;
+    font-size: 66px;
+    font-family: "Telegraf-UltraBold";
+    color: #a1afd3;
+    width: 69%;
+  }
+  .ladderboard-toparea-part2{
+    width: 100%;
+    height:70vh;
+    padding-top: 25px;
+  }
+  .top-area-leader{
+    font-family:'Telegraf-UltraBold';
+    font-size:66px;
+    color:#a1afd3;
+    margin-left:44px;
+   opacity: 30%;
+    margin-top:-2px;
+  }
+  .about-img{
+    margin-top: 56px;
+    width: 57%;
+  }
+  .about-top-section{
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/assets/images/Content-coder/aboutPage.png);
+    background-repeat: no-repeat;
+  }
+  .about-text{
+    margin-top: 48px;
+    font-size: 24px;
+  line-height: 120%;
+    font-family: "Telegraf-Regular";
+    color:#a1afd3;
+  margin-bottom: 56px;
+  }
+  .single-game .mybtn2 {
+    position: absolute;
+    display: block;
+    height: 50px;
+    bottom: -25px;
+    left: 50%;
+    opacity: 1;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4); }
+    .single-game:hover .mybtn2 {
+      opacity: 1;
+    color:#E7E7E7;}
+  .single-game:hover {
+border: 7px solid #bf1438; }
+  .space1{
+
+    margin-right: 75px;
+      }
+  .header .mainmenu-area {
+    background: none; }
+    .mobile-nav{
+      display: none;
+    }
+  .footer-text1{
+    margin-left:34px;
+    margin-top:34px;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .footer-text-m{
+    display: none;
+    margin-left:34px;
+    margin-top:34px;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .footer-options{
+    font-size: 16px;
+color: #a1afd3;
+cursor: pointer;
+font-family: "Telegraf-Regular";
+margin-top:-23px;
+  }
+  .footer-options-1{
+    margin-top:34px;
+    font-size: 16px;
+color: #a1afd3;
+cursor: pointer;
+font-family: "Telegraf-Regular";
+  }
+  .page-timer{
+margin-top: 20px;
+    font-family:'Telegraf-UltraBold';
+    font-size: 72px;
+    line-height: 76px;
+    color:#bf1438;
+  }
+  .leader-page-timer{
+    font-family:'Telegraf-UltraBold';
+    font-size:72px;
+    color:#bf1438;
+    margin-top: 40px;
+  }
+  .leader-table-td{
+    font-size: 24px;
+    line-height: 100%;
+    color:#a1afd3;
+  }
+  .timer-tag{
+    font-family:'Telegraf-Regular';
+    font-size:24px;
+    color:#a1afd3;
+
+  }
+  .funfact .single-fun img {
+    display: inline-block;
+    margin-bottom: 13px;
+    width: 123px;
+height: 300px; }
+  .top-title{
+    font-family:'Telegraf-UltraBold';
+    font-size:72px;
+    color:#a1afd3;
+    line-height: 76px;
+  }
+  .top-paragraf{
+    font-size: 20px;
+    font-family: "Telegraf-Regular";
+    color:#a1afd3;
+    line-height: 94%;
+    margin-top: 20px;
+  }
+  .top-player-card{
+    background-color: #090E53;
+    width: 350px;
+    height: 400px;
+
+    border-radius: 12px;
+  }
+  .Bomb-membership{
+    padding: 110px 0px 130px;
+      background: #010432;
+      background-position: center;
+      background-size: cover;
+      background-image: url(/assets/images/Content-coder/Background.png);
+      background-repeat: no-repeat;
+      margin-bottom: -10px;
+  }
+  .hero-area .left-content .content .title {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #a1afd3;
+    font-family: "Telegraf-UltraBold";
+    margin-bottom: 37px;
+    letter-spacing: -1px; }
+  .hero-area .left-content .content .subtitle {
+    font-size: 24px;
+    line-height: 38px;
+
+    margin-bottom: 25px;
+    font-family: "Telegraf-UltraBold";
+    color:#a1afd3 }
+  .hero-area .left-content .content .text {
+    font-size: 20px;
+    line-height: 94%;
+    font-weight: 300;
+    margin-bottom: 37px;
+    width: 540px;
+   }
+  .latest-news{
+    position: relative;
+    padding: 260px 0px 260px;
+    position: relative;
+    background:#010432;
+    background-image: url("/assets/images/Content-coder/Play-for-cash.png");
+    background-position: center;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+  }
+
+  .news-heading{
+    font-size: 72px;
+    font-family: "Telegraf-UltraBold";
+    color:#a1afd3;
+  }
+  .news-heading2{
+    font-size: 24px;
+    font-family: "Telegraf-UltraBold";
+    color:#a1afd3;
+  }
+  .news-p{
+    font-size: 20px;
+    font-family: "Telegraf-Regular";
+    color:#a1afd3;
+    line-height: 94%;
+  }
+  .bomb-heading{
+    font-size: 72px;
+    line-height: 76px;
+    color:#a1afd3;
+    font-family: "telegraf-UltraBold";
+  }
+  .bomb-sub-heading{
+    font-size: 20px;
+    line-height: 94%;
+    color:#a1afd3;
+    font-family: "telegraf-Regular";
+    margin-top: 20px;
+  }
+  .single-game {
+    height: 400px;
+    width:350px;
+    margin-bottom: 20px;
+    display: block;
+    line-height: 300px;
+    text-align: center;
+    border: 7px solid #bf1438;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    position: relative;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; }
+  .get-text{
+    Font-Family: "Telegraf-UltraBold";
+    font-size: 23px;
+line-height: 24px;
+    color: #a1afd3;
+    width: 198px;
+    margin-left: 80px;
+      margin-top: -94px;
+  }
+
+  .indexbtn2 {
+
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Telegraf-UltraBold;
+    line-height: 50px;
+    display: inline-block;
+    color: #010432;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+    background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+    background: -o-linear-gradient(left, #BF1438, #BF1438);
+    background: linear-gradient(to right, #BF1438, #BF1438); }
+    .indexbtn2:hover {
+      background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+      background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+      background: -o-linear-gradient(left, #BF1438, #BF1438);
+      background: linear-gradient(to right, #BF1438, #BF1438);
+      color: #a1afd3;
+      -webkit-transform: translateY(-2px);
+      -ms-transform: translateY(-2px);
+      transform: translateY(-2px); }
+      .indexbtn3 {
+display:none;
+        font-size: 26px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        height: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: Telegraf-UltraBold;
+        line-height: 50px;
+        display: inline-block;
+        color: #010432;
+        border: 0px;
+        border-radius: 50px;
+        cursor: pointer;
+        -webkit-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+        background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+        background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+        background: -o-linear-gradient(left, #BF1438, #BF1438);
+        background: linear-gradient(to right, #BF1438, #BF1438); }
+        .indexbtn3:hover {
+          background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+          background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+          background: -o-linear-gradient(left, #BF1438, #BF1438);
+          background: linear-gradient(to right, #BF1438, #BF1438);
+          color: #a1afd3;
+          -webkit-transform: translateY(-2px);
+          -ms-transform: translateY(-2px);
+          transform: translateY(-2px); }
+  .indexbtn {
+  width: 156px;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    height: 56px;
+    text-align: center;
+    font-family: Telegraf-UltraBold;
+    line-height: 216%;
+    display: inline-block;
+    color: #010432;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+    background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+    background: -o-linear-gradient(left, #BF1438, #BF1438);
+    background: linear-gradient(to right, #BF1438, #BF1438); }
+    .indexbtn:hover {
+      background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+      background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+      background: -o-linear-gradient(left, #BF1438, #BF1438);
+      background: linear-gradient(to right, #BF1438, #BF1438);
+      color: #a1afd3;
+      -webkit-transform: translateY(-2px);
+      -ms-transform: translateY(-2px);
+      transform: translateY(-2px); }
+  .section-heading .title {
+    font-size: 72px;
+line-height: 76px;
+    font-weight: 700;
+    font-family: Telegraf-UltraBold;
+    color: #a1afd3;
+    margin-bottom: 10px;
+  margin-top: 55px;
+margin-left: 28%; }
+   /* login modal Area Start */
+.login-modal .modal-dialog .modal-content {
+  background: #010432;
+  border-radius: 30px;
+border: 3px solid #bf1438;
+
+}
+  .login-modal .modal-dialog .modal-content .modal-body {
+    padding: 0px;
+    }
+    .login-modal .modal-dialog .modal-content .modal-body .logo-area {
+      display: block;
+      text-align: center;
+      position: relative; }
+      .login-modal .modal-dialog .modal-content .modal-body .logo-area::after {
+        position: absolute;
+        content: "";
+        width: 135px;
+        height: 135px;
+        border-radius: 50%;
+        background: #252f5a;
+        top: -65px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%); }
+      .login-modal .modal-dialog .modal-content .modal-body .logo-area img {
+        display: inline-block;
+        max-width: 100px;
+        position: relative;
+        z-index: 9;
+        top: -4px; }
+    .login-modal .modal-dialog .modal-content .modal-body .header-area {
+      padding: 47px 30px 10px;
+      position: relative;
+      z-index: 9;
+    margin-left: -35px; }
+      .login-modal .modal-dialog .modal-content .modal-body .header-area .title {
+        font-size: 66px;
+        line-height: 34px;
+        font-weight: 700;
+        color: #a1afd3;
+
+        margin: 44px 44px 44px 44px;
+        font-family: "Telegraf-UltraBold";
+       }
+      .login-modal .modal-dialog .modal-content .modal-body .header-area .sub-title {
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: 300; }
+    .login-modal .modal-dialog .modal-content .modal-body .form-area {
+      padding: 44px 44px 44px; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group {
+        margin-bottom: 0px;
+        ;
+       }
+       .login-modal .modal-dialog .modal-content .modal-body .form-area .fbtn {
+        margin-left: 0%;margin-top:44px;margin-bottom:40px;
+       }
+
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .box {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between; }
+          .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .box label {
+            font-size: 16px;
+            font-weight: 400;
+            color: #a1aed4;
+            text-transform: capitalize; }
+          .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .box a {
+            font-size: 16px;
+            font-weight: 400;
+            color: #a1aed4;
+            text-transform: capitalize; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .check-group label {
+          font-size: 14px;
+          font-weight: 400;
+          color: #a1aed4;
+          text-transform: capitalize; }
+          .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .check-group label a {
+            color: #f9314b;
+            font-family: "Telegraf-Regular"; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area label {
+        font-size: 24px;
+line-height: 100%;
+        color: #a1afd3;
+        font-family: "Telegraf-UltraBold";
+        margin-bottom: 4px;
+      width: 48%; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field {
+        width: 50%;
+        border: 0px;
+        height: 50px;
+        font-size: 18px;
+        color: #a1aed4;
+        background: none;
+        font-family: "Telegraf-Regular";
+        margin-bottom: 12px; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field::-webkit-input-placeholder {
+          color: #a1aed4; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field:-moz-placeholder {
+          color: #a1aed4; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field::-moz-placeholder {
+          color: #a1aed4; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field:-ms-input-placeholder {
+          color: #a1aed4; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area select {
+        margin-top: 8px;
+        width: 100%;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 50px;
+        background: #273261;
+        padding: 0px 30px;
+        color: #fff;
+        text-transform: uppercase; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area .mybtn1 {
+        margin-top: 22px;
+        display: block;
+        width: 100%; }
+    .login-modal .modal-dialog .modal-content .modal-body .form-footer {
+      text-align: center;
+      padding: 0px 30px 6px; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-footer a {
+        -webkit-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+        color: #fff; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-footer a i {
+          font-size: 14px; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-footer a:hover {
+          color: #f9314b; }
+
+          /***/
+
+
+          .createfight .modal-dialog .modal-content {
+            background: #010432;
+            border-radius: 30px;
+          border: 3px solid #bf1438;
+
+          }
+            .createfight .modal-dialog .modal-content .modal-body {
+              padding: 0px;
+              }
+              .createfight .modal-dialog .modal-content .modal-body .logo-area {
+                display: block;
+                text-align: center;
+                position: relative; }
+                .createfight .modal-dialog .modal-content .modal-body .logo-area::after {
+                  position: absolute;
+                  content: "";
+                  width: 135px;
+                  height: 135px;
+                  border-radius: 50%;
+                  background: #252f5a;
+                  top: -65px;
+                  left: 50%;
+                  -webkit-transform: translateX(-50%);
+                  -ms-transform: translateX(-50%);
+                  transform: translateX(-50%); }
+                .createfight .modal-dialog .modal-content .modal-body .logo-area img {
+                  display: inline-block;
+                  max-width: 100px;
+                  position: relative;
+                  z-index: 9;
+                  top: -4px; }
+              .createfight .modal-dialog .modal-content .modal-body .header-area {
+                padding: 47px 30px 10px;
+                position: relative;
+                z-index: 9;
+              margin-left: -35px; }
+                .createfight .modal-dialog .modal-content .modal-body .header-area .title {
+                  font-size: 44px;
+                  line-height: 34px;
+                  font-weight: 700;
+                  color: #a1afd3;
+
+                  margin: 44px 44px 44px 44px;
+                  font-family: "Telegraf-UltraBold";
+                 }
+                .createfight .modal-dialog .modal-content .modal-body .header-area .sub-title {
+                  font-size: 24px;
+                  line-height: 34px;
+                  font-weight: 300; }
+              .createfight .modal-dialog .modal-content .modal-body .form-area {
+                padding: 0px 44px 10px; }
+                .createfight .modal-dialog .modal-content .modal-body .form-area .form-group {
+                  margin-bottom: 6px;
+                 }
+                 .createfight .modal-dialog .modal-content .modal-body .form-area .fbtn {
+                  margin-left: 0%;margin-top:44px;margin-bottom:40px;
+                 }
+
+                  .createfight .modal-dialog .modal-content .modal-body .form-area .form-group .box {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-pack: justify;
+                    -ms-flex-pack: justify;
+                    justify-content: space-between; }
+                    .createfight .modal-dialog .modal-content .modal-body .form-area .form-group .box label {
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: #a1aed4;
+                      text-transform: capitalize; }
+                    .createfight .modal-dialog .modal-content .modal-body .form-area .form-group .box a {
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: #a1aed4;
+                      text-transform: capitalize; }
+                  .createfight .modal-dialog .modal-content .modal-body .form-area .form-group .check-group label {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #a1aed4;
+                    text-transform: capitalize; }
+                    .createfight .modal-dialog .modal-content .modal-body .form-area .form-group .check-group label a {
+                      color: #f9314b;
+                      font-family: "Telegraf-Regular"; }
+                      .createfight .modal-dialog .modal-content .modal-body .form-area label {
+                  font-size: 20px;
+                  line-height: 28px;
+                  color: #a1afd3;
+                  font-family: "Telegraf-UltraBold";
+                  margin-bottom: 4px;
+                width: 90%; }
+                .createfight .modal-dialog .modal-content .modal-body .form-area .input-field {
+                  width: 100%;
+                  border: 0px;
+                  height: 50px;
+                  font-size: 18px;
+                  color: #a1aed4;
+                  background: none;
+                  font-family: "Telegraf-Regular";
+                  margin-bottom: 12px; }
+                  .createfight .modal-dialog .modal-content .modal-body .form-area .input-field::-webkit-input-placeholder {
+                    color: #a1aed4; }
+                  .createfight .modal-dialog .modal-content .modal-body .form-area .input-field:-moz-placeholder {
+                    color: #a1aed4; }
+                  .createfight .modal-dialog .modal-content .modal-body .form-area .input-field::-moz-placeholder {
+                    color: #a1aed4; }
+                  .createfight .modal-dialog .modal-content .modal-body .form-area .input-field:-ms-input-placeholder {
+                    color: #a1aed4; }
+                .createfight .modal-dialog .modal-content .modal-body .form-area select {
+                  margin-top: 8px;
+                  width: 100%;
+                  height: 50px;
+                  border: 1px solid rgba(255, 255, 255, 0.1);
+                  border-radius: 50px;
+                  background: #273261;
+                  padding: 0px 30px;
+                  color: #fff;
+                  text-transform: uppercase; }
+                .createfight .modal-dialog .modal-content .modal-body .form-area .mybtn1 {
+                  margin-top: 22px;
+                  display: block;
+                  width: 100%; }
+              .createfight .modal-dialog .modal-content .modal-body .form-footer {
+                text-align: center;
+                padding: 0px 30px 6px; }
+                .createfight .modal-dialog .modal-content .modal-body .form-footer a {
+                  -webkit-transition: all 0.3s ease-in;
+                  -o-transition: all 0.3s ease-in;
+                  transition: all 0.3s ease-in;
+                  color: #fff; }
+                  .createfight .modal-dialog .modal-content .modal-body .form-footer a i {
+                    font-size: 14px; }
+                  .createfight .modal-dialog .modal-content .modal-body .form-footer a:hover {
+                    color: #f9314b; }
+/****/
+/***/
+.joinfight .modal-dialog .modal-content {
+  background: #010432;
+  border-radius: 30px;
+border: 3px solid #bf1438;
+
+}
+  .joinfight .modal-dialog .modal-content .modal-body {
+    padding: 0px;
+    }
+    .joinfight .modal-dialog .modal-content .modal-body .logo-area {
+      display: block;
+      text-align: center;
+      position: relative; }
+      .joinfight .modal-dialog .modal-content .modal-body .logo-area::after {
+        position: absolute;
+        content: "";
+        width: 135px;
+        height: 135px;
+        border-radius: 50%;
+        background: #252f5a;
+        top: -65px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%); }
+      .joinfight .modal-dialog .modal-content .modal-body .logo-area img {
+        display: inline-block;
+        max-width: 100px;
+        position: relative;
+        z-index: 9;
+        top: -4px; }
+    .joinfight .modal-dialog .modal-content .modal-body .header-area {
+      padding: 47px 30px 10px;
+      position: relative;
+      z-index: 9;
+    margin-left: -35px; }
+      .joinfight .modal-dialog .modal-content .modal-body .header-area .title {
+        font-size: 32px;
+        line-height: 34px;
+        font-weight: 700;
+        color: #a1afd3;
+
+        margin: 44px 44px 44px 44px;
+        font-family: "Telegraf-UltraBold";
+       }
+      .joinfight .modal-dialog .modal-content .modal-body .header-area .sub-title {
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: 300;
+      margin-left: 100px; }
+    .joinfight .modal-dialog .modal-content .modal-body .form-area {
+      padding: 0px 44px 10px; }
+      .joinfight .modal-dialog .modal-content .modal-body .form-area .form-group {
+        margin-bottom: 6px;
+       }
+       .joinfight .modal-dialog .modal-content .modal-body .form-area .fbtn {
+        margin-left: 0%;margin-top:44px;margin-bottom:40px;
+       }
+
+        .joinfight .modal-dialog .modal-content .modal-body .form-area .form-group .box {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between; }
+          .joinfight .modal-dialog .modal-content .modal-body .form-area .form-group .box label {
+            font-size: 16px;
+            font-weight: 400;
+            color: #a1aed4;
+            text-transform: capitalize; }
+          .joinfight .modal-dialog .modal-content .modal-body .form-area .form-group .box a {
+            font-size: 16px;
+            font-weight: 400;
+            color: #a1aed4;
+            text-transform: capitalize; }
+        .joinfight .modal-dialog .modal-content .modal-body .form-area .form-group .check-group label {
+          font-size: 14px;
+          font-weight: 400;
+          color: #a1aed4;
+          text-transform: capitalize; }
+          .joinfight .modal-dialog .modal-content .modal-body .form-area .form-group .check-group label a {
+            color: #f9314b;
+            font-family: "Telegraf-Regular"; }
+            .joinfight .modal-dialog .modal-content .modal-body .form-area label {
+        font-size: 20px;
+        line-height: 28px;
+        color: #a1afd3;
+        font-family: "Telegraf-UltraBold";
+        margin-bottom: 4px;
+      width: 90%; }
+      .joinfight .modal-dialog .modal-content .modal-body .form-area .input-field {
+        width: 100%;
+        border: 0px;
+        height: 50px;
+        font-size: 18px;
+        color: #a1aed4;
+        background: none;
+        font-family: "Telegraf-Regular";
+        margin-bottom: 12px; }
+        .joinfight .modal-dialog .modal-content .modal-body .form-area .input-field::-webkit-input-placeholder {
+          color: #a1aed4; }
+        .joinfight .modal-dialog .modal-content .modal-body .form-area .input-field:-moz-placeholder {
+          color: #a1aed4; }
+        .joinfight .modal-dialog .modal-content .modal-body .form-area .input-field::-moz-placeholder {
+          color: #a1aed4; }
+        .joinfight .modal-dialog .modal-content .modal-body .form-area .input-field:-ms-input-placeholder {
+          color: #a1aed4; }
+      .joinfight .modal-dialog .modal-content .modal-body .form-area select {
+        margin-top: 8px;
+        width: 100%;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 50px;
+        background: #273261;
+        padding: 0px 30px;
+        color: #fff;
+        text-transform: uppercase; }
+      .joinfight .modal-dialog .modal-content .modal-body .form-area .mybtn1 {
+        margin-top: 22px;
+        display: block;
+        width: 100%; }
+    .joinfight .modal-dialog .modal-content .modal-body .form-footer {
+      text-align: center;
+      padding: 0px 30px 6px; }
+      .joinfight .modal-dialog .modal-content .modal-body .form-footer a {
+        -webkit-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+        color: #fff; }
+        .joinfight .modal-dialog .modal-content .modal-body .form-footer a i {
+          font-size: 14px; }
+        .joinfight .modal-dialog .modal-content .modal-body .form-footer a:hover {
+          color: #f9314b; }
+/***/
+.login-modal.sign-in .modal-body .form-area {
+  padding-bottom: 18px !important; }
+
+.modal-dialog .modal-content {
+  position: relative; }
+
+.modal-dialog .modal-content .close {
+  position: absolute;
+  right: 9px;
+  z-index: 9; }
+
+.modal-dialog .modal-content .close span {
+  color: #fff;
+  font-size: 20px; }
+
+/* login modal Area End */
+  .coming{
+    overflow: hidden;
+    background: url(/assets/images/Content-coder/Comingsoon.jpg) no-repeat center center fixed;
+    width: 100%;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .coming .toparea .p1{
+    margin-left: 60px;
+    margin-top: -9px;
+  }
+  .coming .toparea .p2{
+    margin-left: -5px;
+    margin-top: 7px;
+  }
+  .coming .toparea .p3{
+    margin-left: -25px;
+  }
+  .coming .toparea .p4{
+    margin-left: 0px;
+    margin-left: 80px;
+  }
+  .coming .toparea .p5{
+    display: none;
+  }
+  .coming .toparea .p6{
+    display: block;
+  }
+  .coming .toparea .p7{
+    display: block;
+  }
+  .coming .toparea .p6 .ctag{
+    width: 828px;
+    margin-left: 338px;
+  }
+  .coming .toparea{
+    padding-top: 56px;
+    padding-left: 60px;
+  }
+  .coming .toparea .titles{
+    font-size: 25px;
+    color: #BF1438;
+    font-weight: bolder;
+    font-family: "Telegraf-Regular";
+
+  }
+  .coming .toparea .title1{
+    font-size: 25px;
+    color: #BF1438;
+   font-weight:300;
+   font-family: "Telegraf-Regular";
+   margin-top: -9px;
+   margin-left: 4px;
+
+  }
+  .coming .toparea .title2{
+    font-size: 25px;
+    color: #BF1438;
+   font-weight:bolder;
+   font-family: "Telegraf-UltraBold";
+   margin-top: -5px;
+   margin-left: -10px;
+
+  }
+  .coming .toparea .title4{
+    font-size: 25px;
+    color: #BF1438;
+   font-weight:400;
+   font-family: "Telegraf-Regular";
+   margin-top: 417px;
+   margin-left: -200px;
+  width: 450px;
+  }
+  .coming .toparea .title3{
+ display: none;
+
+  }
+  .our-vision{
+    height: 95vh;
+  }
+  .our-vision .l1{
+    font-size:60px;color:#d2273c;margin-top:20px
+  }
+  .our-vision .l2{
+    font-size:45px;margin-top:20px
+  }
+  .our-vision .l3{
+    font-size:28px;margin-top:20px
+  }
+  .our-vision .l4{
+    font-size:30px;color:#bbf7f9;margin-top:20px
+  }
+  .our-vision .l5{
+    font-size:36px;color:#15c1aa;margin-top:20px
+  }
+  .header .mainmenu-area .navbar .site-logo {
+    width:300px;
+    margin-left:-30px;
+    margin-top: -47px;
+    content: url(../images/Logo1.png);
+
+  }
+   .mainmenu-area .navbar-brand .site-logo {
+    width:300px;
+
+    content: url(../images/bangers-logo.png);
+    margin-left: 65px;
+  }
+  .mainmenu-area .navbar-nav1 .nav-item .nav-link {
+  font-size: 20px;
+  color: #bf1438;
+  font-family: Telegraf-Regular;
+  text-transform : uppercase;
+  }
+  .mainmenu-area .navbar-nav1 .nav-item .nav-link:hover {
+    font-size: 20px;
+    color: #bf1438;
+    font-family: Telegraf-UltraBold;
+    text-transform : uppercase;
+    }
+  .mainmenu-area .navbar-nav1 .nav-item .nav-link1 {
+    font-size: 20px;
+    color: #a1afd3;
+    font-family: Telegraf-Regular;
+    text-transform : uppercase;
+    }
+    .mainmenu-area .navbar-nav1 .nav-item .nav-link1:hover {
+      font-size: 20px;
+      color: #a1afd3;
+      font-family: Telegraf-UltraBold;
+      text-transform : uppercase;
+
+      }
+      .mainmenu-area .topbtn{
+        margin-left: 117px;
+        margin-top: 10px;
+      }
+      .featured-games .carousel-inner{
+        height:91vh;
+      }
+      .featured-games .carousel-inner .carousel-item .cimg{
+        height:91vh;
+      }
+      .featured-games .carousel-inner .carousel-item .cbimg{
+        height:825px;
+        margin-bottom:-140px;
+      }
+      .featured-games  .carousel-control-prev .slider-icon{
+        width:57px;
+      }
+      .featured-games  .carousel-control-next .slider-icon{
+        width:57px;
+      }
+      .featured-games .carousel-inner .carousel-item .cbtext{
+        margin-left:994px;
+        width:500px;
+        font-family:"Telegraf-Regular";
+        font-size:22px;
+        margin-bottom:-308px;
+        color:#bf1438;
+        text-align: left;
+      }
+      .featured-games .carousel-inner .carousel-item{
+        height:680px;
+      }
+      .featured-games {
+        padding: 0px 0px 10px;
+        background: #010432;
+        background-position: center;
+        background-size: cover;
+        background-image: url("/assets/images/Content-coder/Background.png");
+        background-repeat: no-repeat;
+      margin-bottom: -10px; }
+      .featured-game2 {
+        padding: 120px 0px 10px;
+        background: #010432;
+        background-position: center;
+        background-size: cover;
+        background-image: url("/assets/images/Content-coder/Background.png");
+        background-repeat: no-repeat;
+      margin-bottom: -10px; }
+  .featured-game {
+    padding: 80px 0px 180px;
+    background: #010432;
+    background-position: center;
+    background-size: cover;
+    background-image: url("/assets/images/Content-coder/Background.png");
+    background-repeat: no-repeat;
+  margin-bottom: -10px; }
+  .breadcrumb-area.bc-tournaments .boxrow{
+    margin-top: 140px;
+  }
+  .breadcrumb-area.bc-tournaments .boxrow .boxcol2{
+    margin-top: 268px;
+  }
+  .head-top-player-area{
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 2000px){
+
+  .single-game .mybtn2 {
+    position: absolute;
+    display: block;
+    height: 50px;
+    bottom: -25px;
+    width: 40%;
+    left: 50%;
+    opacity: 1;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4); }
+    .single-game:hover .mybtn2 {
+      opacity: 1;
+    color:#E7E7E7;}
+  .game-card-name{
+    font-family: "Telegraf-UltraBold";
+    color:#a1afd3;
+    font-size: 32px;
+    margin-top: 300px;
+  }
+  .single-game:hover .overlay{
+    display: block;
+    background: linear-gradient(180deg, rgba(190, 19, 56, 0) -31.92%, #BE1338 110.22%);
+  }
+  .single-game img {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+   .single-game-extra img {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+  .hero-area {
+    position: relative;
+    padding: 208px 0px 208px;
+    position: relative;
+    background:#010432;
+    background-image: url("/assets/images/Content-coder/Play-for-cash.png");
+    background-position: center;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+     }
+  .single-game {
+    height: 400px;
+    width:100%;
+    margin-bottom: 20px;
+    display: block;
+    line-height: 300px;
+    text-align: center;
+    border: 7px solid #bf1438;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    position: relative;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; }
+    .single-game-extra {
+      height: 400px;
+      width:98%;
+      margin-bottom: 20px;
+      display: block;
+      line-height: 300px;
+      text-align: center;
+      border:7px solid #a1afd3;
+      border-radius: 12px;
+      -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+      box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+      position: relative;
+      -webkit-transition: all 0.3s ease-in;
+      -o-transition: all 0.3s ease-in;
+      transition: all 0.3s ease-in; }
+  .buy-cards{
+    width: 532px;
+height: 360px;
+    border: 7px solid #bf1438;
+    border-radius: 20px;
+
+  }
+  .buy-card-text{
+    color:#bf1438;
+    font-family: "Telegraf-UltraBold";
+    font-size: 72px;
+line-height: 76px;
+    margin-left: 30px;
+  }
+  .bomb-img{
+    width: 532px;
+  height: 475px;
+    margin-top: -62px;
+  }
+  .featured-games .carousel-inner{
+    height:940px;
+  }
+  .featured-games .carousel-inner .carousel-item .cimg{
+    height:940px;
+  }
+  .featured-games .carousel-inner .carousel-item .cbimg{
+    height:900px;
+    margin-bottom:-200px;
+  }
+  .featured-games .carousel-inner .carousel-item .cbtext{
+    margin-left:890px;
+    width:465px;
+    font-family:"Telegraf-Regular";
+    font-size:22px;
+    margin-bottom:0px;
+    color:#bf1438;
+    text-align: left;
+  }
+  .featured-games .carousel-inner .carousel-item{
+    height:940px;
+
+}
+@media (max-width: 1800px){
+  .featured-games .carousel-inner{
+    height:780px;
+  }
+  .featured-games .carousel-inner .carousel-item .cimg{
+    height:780px;
+  }
+  .featured-games .carousel-inner .carousel-item .cbimg{
+    height:600px;
+    margin-bottom:-148px;
+  }
+  .featured-games .carousel-inner .carousel-item .cbtext{
+    margin-left:761px;
+    width:465px;
+    font-family:"Telegraf-Regular";
+    font-size:22px;
+    margin-bottom:0px;
+    color:#bf1438;
+    text-align: left;
+  }
+  .featured-games .carousel-inner .carousel-item{
+    height:780px;
+
+}
+@media (max-width: 1599px){
+  .mainmenu-area .navbar-brand .site-logo {
+    width:250px;
+
+    content: url(../images/bangers-logo.png);
+    margin-left: 65px;
+  }
+  .mainmenu-area .navbar-nav1 .nav-item .nav-link {
+  font-size: 20px;
+  color: #bf1438;
+  font-family: Telegraf-Regular;
+  text-transform : uppercase;
+  }
+  .mainmenu-area .navbar-nav1 .nav-item .nav-link:hover {
+    font-size: 20px;
+    color: #bf1438;
+    font-family: Telegraf-UltraBold;
+    text-transform : uppercase;
+    }
+  .mainmenu-area .navbar-nav1 .nav-item .nav-link1 {
+    font-size: 20px;
+    color: #a1afd3;
+    font-family: Telegraf-Regular;
+    text-transform : uppercase;
+    }
+    .mainmenu-area .navbar-nav1 .nav-item .nav-link1:hover {
+      font-size: 20px;
+      color: #a1afd3;
+      font-family: Telegraf-UltraBold;
+      text-transform : uppercase;
+
+      }
+      .mainmenu-area .topbtn{
+        margin-left: 85px;
+        margin-top: 10px;
+      }
+      .featured-games .carousel-inner{
+        height:730px;
+      }
+      .featured-games .carousel-inner .carousel-item .cimg{
+        height:730px;
+      }
+      .featured-games .carousel-inner .carousel-item .cbimg{
+        height:600px;
+        margin-bottom:-148px;
+      }
+      .featured-games .carousel-inner .carousel-item .cbtext{
+        margin-left:625px;
+        width:465px;
+        font-family:"Telegraf-Regular";
+        font-size:22px;
+        margin-bottom:0px;
+        color:#bf1438;
+        text-align: left;
+      }
+      .featured-games .carousel-inner .carousel-item{
+        height:730px;
+      }
+  /* login modal Area End */
+  .coming{
+    overflow: hidden;
+    background: url(/assets/images/Content-coder/Comingsoon.jpg) no-repeat center center fixed;
+    width: 100%;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .coming .toparea .p1{
+    margin-left: 0px;
+    margin-top: -9px;
+  }
+  .coming .toparea .p2{
+    margin-left: -5px;
+    margin-top: 7px;
+  }
+  .coming .toparea .p3{
+    margin-left: -25px;
+  }
+  .coming .toparea .p4{
+    margin-left: 0px;
+    margin-left: 80px;
+  }
+  .coming .toparea .p4 .cbtn{
+    height:60px
+  }
+  .coming .toparea .p5{
+    display: none;
+  }
+  .coming .toparea .p6{
+    display: block;
+  }
+  .coming .toparea .p7{
+    display: block;
+  }
+  .coming .toparea .p6 .ctag{
+    width: 818px;
+    margin-left: 202px;
+  }
+  .coming .toparea{
+    padding-top: 56px;
+    padding-left: 60px;
+  }
+  .coming .toparea .titles{
+    font-size: 25px;
+    color: #BF1438;
+    font-weight: bolder;
+    font-family: "Telegraf-Regular";
+
+  }
+  .coming .toparea .title1{
+    font-size: 25px;
+    color: #BF1438;
+   font-weight:300;
+   font-family: "Telegraf-Regular";
+   margin-top: -9px;
+   margin-left: 4px;
+
+  }
+  .coming .toparea .title2{
+    font-size: 25px;
+    color: #BF1438;
+   font-weight:bolder;
+   font-family: "Telegraf-UltraBold";
+   margin-top: -5px;
+   margin-left: -10px;
+
+  }
+  .coming .toparea .title4{
+    font-size: 25px;
+    color: #BF1438;
+   font-weight:400;
+   font-family: "Telegraf-Regular";
+   margin-top: 400px;
+   margin-left: -110px;
+   width: 400px;
+
+  }
+  .coming .toparea .title3{
+ display: none;
+
+  }
+}
+@media (max-width: 1500px){
+  .bombcard-btn{
+
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+    padding-left: 0px;
+    font-family: Telegraf-UltraBold;
+    line-height: 51px;
+    width: 159px;
+    display: inline-block;
+    color: #010432;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    background: -webkit-gradient(linear, left top, right top, from(#a1afd3), to(#a1afd3));
+    background: -webkit-linear-gradient(left, #a1afd3, a1afd3);
+    background: -o-linear-gradient(left, #a1afd3, #a1afd3);
+    background: linear-gradient(to right, #a1afd3, #a1afd3); }
+    .bombcard-btn:hover{
+    background: -webkit-gradient(linear, left top, right top, from(#a1afd3), to(#a1afd3));
+    background: -webkit-linear-gradient(left, #a1afd3, a1afd3);
+    background: -o-linear-gradient(left, #a1afd3, #a1afd3);
+    background: linear-gradient(to right, #a1afd3, #a1afd3);
+    }
+  .featured-games .carousel-inner .carousel-item .cbimg{
+    height:600px;
+    margin-bottom:-148px;
+  }
+}
+@media (max-width: 1499px){
+  .carousel1{
+    width: 85%;
+    margin: 0px 0px 0px auto;
+  }
+  .wrapper .slick-next{
+    right: 19%;
+  }
+  .single-game .mybtn2 {
+    position: absolute;
+    display: block;
+    height: 50px;
+    bottom: -25px;
+    left: 50%;
+    opacity: 1;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4); }
+    .single-game:hover .mybtn2 {
+      opacity: 1;
+    color:#E7E7E7;}
+  .tournament-text{
+    font-size:26px;
+    font-family:'Telegraf-UltraBold';
+
+    margin-top:60px;
+    color:#a1afd3;
+  }
+  .game-tournament-banner{
+    height: 60vh;
+    width: 76%;
+    flex-shrink: 0;
+    margin-bottom: 85px;
+  }
+  .game-tournament-description-text{
+    font-size:20px;
+    font-family:'Telegraf-Regular';
+    margin-top:60px;
+    color:#a1afd3;
+    width:100%;
+  }
+  .bombcard-btn{
+
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+    padding-left: 0px;
+    font-family: Telegraf-UltraBold;
+    line-height: 51px;
+    width: 159px;
+    display: inline-block;
+    color: #010432;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    background: -webkit-gradient(linear, left top, right top, from(#a1afd3), to(#a1afd3));
+    background: -webkit-linear-gradient(left, #a1afd3, a1afd3);
+    background: -o-linear-gradient(left, #a1afd3, #a1afd3);
+    background: linear-gradient(to right, #a1afd3, #a1afd3); }
+  .wagerbtn {
+
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+    padding-left: 0px;
+    font-family: Telegraf-UltraBold;
+    line-height: 51px;
+    width: 159px;
+    display: inline-block;
+    color: #010432;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+    background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+    background: -o-linear-gradient(left, #BF1438, #BF1438);
+    background: linear-gradient(to right, #BF1438, #BF1438); }
+  .bomb-area{
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 60px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/assets/images/Content-coder/Background.png);
+    background-repeat: no-repeat;
+  }
+  .bomb-cards-area{
+    padding-top: 250px;
+  }
+  .bomb-card{
+    border: 4px solid #bf1438;
+    border-radius: 25px;
+    width: 100%;
+    height: 470px;
+  }
+  .card-top-area{
+    font-size: 44px;
+    font-family: "Telegraf-UltraBold";
+    text-transform: uppercase;
+    color: #bf1438;
+    margin-top: 13px;
+  }
+  .bomb-card-list-details .lis{
+    font-size: 20px;
+    font-family: "Telegraf-Regular";
+    color:#a1afd3;
+    margin-top: 10px;
+    list-style-type: none;
+    margin-left: 10px;
+  }
+  .bomb-card-img{
+    width: 250px;
+    height: 250px;
+    margin-left: 10%;
+  }
+  .bottom-button{
+    width: 100%;
+    height: 92px;
+    padding-left: 90px;
+      padding-top: 11px;
+    margin-top: -47px;
+  }
+  .ladderboard-toparea{
+    width: 100%;
+    height:auto;
+    padding-top: 225px;
+  }
+  .ladderboard{
+    background-color:#010432;
+    background-position: center;
+      background-size: cover;
+      background-image: url(/assets/images/Content-coder/Background.png);
+      background-repeat: no-repeat;
+      margin-top: -10px;
+  }
+  .leader-f1{
+    padding-left: 44px;
+    font-size: 72px;
+    line-height: 76px;
+    font-family: "Telegraf-UltraBold";
+    color: #a1afd3;
+  }
+  .leader-link{
+    font-family: "Telegraf-Regular";
+    font-size: 22px;
+    text-transform:uppercase;
+    cursor: pointer;
+  }
+  .leader-link:hover{
+    font-family: "Telegraf-UltraBold";
+    font-size: 22px;
+    text-transform:uppercase;
+    cursor: pointer;
+  }
+  .leader-f1-1{
+    padding-left: 44px;
+    font-size: 24px;
+    line-height: 25px;
+    width: 445px;
+    font-family: "Telegraf-UltraBold";
+    color: #a1afd3;
+
+  }
+  .leader-f1-2{
+    padding-left: 44px;
+    font-size: 20px;
+    line-height: 94%;
+    font-family: "Telegraf-Regular";
+    color: #a1afd3;
+    width: 540px;
+    margin-bottom: 233px;
+  }
+  .leader-2nd-title{
+    padding-left: 44px;
+    font-size: 66px;
+    font-family: "Telegraf-UltraBold";
+    color: #a1afd3;
+    width: 69%;
+  }
+  .ladderboard-toparea-part2{
+    width: 100%;
+    height:70vh;
+    padding-top: 25px;
+  }
+  .top-area-leader{
+    font-family:'Telegraf-UltraBold';
+    font-size:66px;
+    color:#a1afd3;
+    margin-left:44px;
+   opacity: 30%;
+    margin-top:-2px;
+  }
+  .about-img{
+    margin-top: 117px;
+    width: 60%;
+  }
+  .about-top-section{
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/assets/images/Content-coder/aboutPage.png);
+    background-repeat: no-repeat;
+  }
+  .about-text{
+    margin-top: 48px;
+    font-size: 24px;
+  line-height: 120%;
+    font-family: "Telegraf-Regular";
+    color:#a1afd3;
+  margin-bottom: 56px;
+  }
+  .space1{
+
+    margin-right: 70px;
+      }
+  .indexbtn {
+    width: 156px;
+      font-size: 26px;
+      text-transform: uppercase;
+      font-weight: bolder;
+      height: 56px;
+      text-align: center;
+      font-family: Telegraf-UltraBold;
+      line-height: 236%;
+      display: inline-block;
+      color: #010432;
+      border: 0px;
+      border-radius: 50px;
+      cursor: pointer;
+      -webkit-transition: all 0.3s ease-in;
+      -o-transition: all 0.3s ease-in;
+      transition: all 0.3s ease-in;
+      background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+      background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+      background: -o-linear-gradient(left, #BF1438, #BF1438);
+      background: linear-gradient(to right, #BF1438, #BF1438); }
+  .timer-tag{
+    font-family:'Telegraf-UltraBold';
+    font-size:24px;
+    color:#a1afd3;
+
+  }
+  .section-heading .title {
+    font-size: 72px;
+line-height: 76px;
+    font-weight: 700;
+    font-family: Telegraf-UltraBold;
+    color: #a1afd3;
+    margin-bottom: 10px;
+  margin-top: 55px;
+margin-left: 15%; }
+  .game-card-name{
+    font-family: "Telegraf-UltraBold";
+    color:#a1afd3;
+    font-size: 32px;
+    margin-top: 300px;
+  }
+  .single-game:hover .overlay{
+    display: block;
+    background: linear-gradient(180deg, rgba(190, 19, 56, 0) -31.92%, #BE1338 110.22%);
+  }
+  .single-game img {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+   .single-game-extra img {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+  .bomb-heading{
+    font-size: 72px;
+line-height: 76px;
+    color:#a1afd3;
+    font-family: "telegraf-UltraBold";
+  }
+  .bomb-sub-heading{
+    font-size: 20px;
+    line-height: 94%;
+    color:#a1afd3;
+    font-family: "telegraf-Regular";
+    margin-top: 20px;
+  }
+  .single-game {
+    height: 400px;
+    width:350px;
+    margin-bottom: 20px;
+    display: block;
+    line-height: 300px;
+    text-align: center;
+    border: 7px solid #bf1438;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    position: relative;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; }
+  .buy-cards{
+    width: 532px;
+    height: 360px;
+    border: 7px solid #bf1438;
+    border-radius: 20px;
+
+  }
+  .buy-card-text{
+    color:#bf1438;
+    font-family: "Telegraf-UltraBold";
+    font-size: 72px;
+line-height: 76px;
+    margin-left: 30px;
+  }
+  .bomb-img{
+    width: 532px;
+  height: 475px;
+    margin-top: -62px;
+  }
+  .featured-games .carousel-inner .carousel-item .cbimg{
+    height:600px;
+    margin-bottom:-148px;
+  }
+}
+@media (max-width: 1399px){
+  .featured-games .carousel-inner .carousel-item .cbimg{
+    height:600px;
+    margin-bottom:-148px;
+  }
+}
+@media (max-width: 1299px){
+  .featured-games .carousel-inner .carousel-item .cbimg{
+    height:600px;
+    margin-bottom:-225px;
+  }
+}
+
+
+}
+@media (max-width: 1199px){
+  .top-card-row{
+    margin-top:20px;
+    margin-left:0%;
+  }
+  top-title{
+    font-family:'Telegraf-UltraBold';
+    font-size: 54px;
+    line-height: 57px;
+    color:#a1afd3;
+  }
+  .top-paragraf{
+    font-size: 20px;
+    font-family: "Telegraf-Regular";
+    color:#a1afd3;
+    line-height: 94%;
+    margin-top: 20px;
+  }
+  .top-player-card{
+    background-color: #090E53;
+    width: 350px;
+    height: 400px;
+
+    border-radius: 12px;
+  }
+  .indexbtn3 {
+    display:none;
+            font-size: 21px;
+            text-transform: uppercase;
+            font-weight: bolder;
+            height: 50px;
+            padding-left: 30px;
+            padding-right: 30px;
+            font-family: Telegraf-UltraBold;
+            line-height: 55px;
+            display: inline-block;
+            color: #010432;
+            border: 0px;
+            border-radius: 50px;
+            cursor: pointer;
+            -webkit-transition: all 0.3s ease-in;
+            -o-transition: all 0.3s ease-in;
+            transition: all 0.3s ease-in;
+            background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+            background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+            background: -o-linear-gradient(left, #BF1438, #BF1438);
+            background: linear-gradient(to right, #BF1438, #BF1438); }
+            .indexbtn3:hover {
+              background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+              background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+              background: -o-linear-gradient(left, #BF1438, #BF1438);
+              background: linear-gradient(to right, #BF1438, #BF1438);
+              color: #a1afd3;
+              -webkit-transform: translateY(-2px);
+              -ms-transform: translateY(-2px);
+              transform: translateY(-2px); }
+  .latest-news{
+    position: relative;
+    padding: 160px 0px 140px;
+    position: relative;
+    background:#010432;
+    background-image: url("/assets/images/Content-coder/Play-for-cash.png");
+    background-position: center;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+  }
+  .news-heading{
+    font-size: 54px;
+    line-height: 57px;
+    font-family: "Telegraf-UltraBold";
+    color:#a1afd3;
+  }
+  .news-heading2{
+    font-size: 24px;
+    font-family: "Telegraf-UltraBold";
+    color:#a1afd3;
+  }
+  .news-p{
+    font-size: 20px;
+    font-family: "Telegraf-Regular";
+    color:#a1afd3;
+    line-height: 94%;
+  }
+  .bomb-heading{
+    font-size: 54px;
+    line-height: 57px;
+    color:#a1afd3;
+    font-family: "telegraf-UltraBold";
+  }
+  .bomb-sub-heading{
+    font-size: 20px;
+    line-height: 94%;
+    color:#a1afd3;
+    font-family: "telegraf-Regular";
+    margin-top: 20px;
+  }
+  .hero-area {
+    position: relative;
+    padding: 145px 0px 171px;
+    position: relative;
+    background:#010432;
+    background-image: url("/assets/images/Content-coder/Play-for-cash.png");
+    background-position: center;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+     }
+  .hero-area .left-content .content .title {
+    font-size: 54px;
+    line-height: 57px;
+    color: #a1afd3;
+    font-family: "Telegraf-UltraBold";
+    margin-bottom: 37px;
+    letter-spacing: -1px; }
+  .hero-area .left-content .content .subtitle {
+    font-size: 24px;
+    line-height: 38px;
+
+    margin-bottom: 25px;
+    font-family: "Telegraf-UltraBold";
+    color:#a1afd3 }
+  .hero-area .left-content .content .text {
+    font-size: 20px;
+    line-height: 94%;
+    font-weight: 300;
+    margin-bottom: 37px;
+    width: 540px;
+   }
+  .single-game-extra {
+    height: 375px;
+    width:98%;
+    margin-bottom: 20px;
+    display: block;
+    line-height: 300px;
+    text-align: center;
+    border:7px solid #a1afd3;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    position: relative;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; }
+  .carousel1{
+    width: 95%;
+    margin: 0px 0px 0px auto;
+  }
+  .wrapper .slick-next{
+    right: 13%;
+  }
+  .wrapper button{
+    padding-bottom: 0%;
+  }
+  .single-game .mybtn2 {
+    position: absolute;
+    display: block;
+    height: 50px;
+    bottom: -25px;
+    left: 50%;
+    font-size: 20px;
+    opacity: 1;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4); }
+    .single-game:hover .mybtn2 {
+      opacity: 1;
+    color:#E7E7E7;}
+  .tournament-text{
+    font-size:26px;
+    font-family:'Telegraf-UltraBold';
+    margin-top:60px;
+    color:#a1afd3;
+  }
+  .game-tournament-banner{
+    height: 60vh;
+    width: 76%;
+    flex-shrink: 0;
+    margin-bottom: 85px;
+  }
+  .game-tournament-description-text{
+    font-size:20px;
+    font-family:'Telegraf-Regular';
+    margin-top:60px;
+    color:#a1afd3;
+    width:100%;
+  }
+  .bombcard-btn{
+
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+    padding-left: 0px;
+    font-family: Telegraf-UltraBold;
+    line-height: 51px;
+    width: 159px;
+    display: inline-block;
+    color: #010432;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    background: -webkit-gradient(linear, left top, right top, from(#a1afd3), to(#a1afd3));
+    background: -webkit-linear-gradient(left, #a1afd3, a1afd3);
+    background: -o-linear-gradient(left, #a1afd3, #a1afd3);
+    background: linear-gradient(to right, #a1afd3, #a1afd3); }
+  .wagerbtn {
+
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+    padding-left: 0px;
+    font-family: Telegraf-UltraBold;
+    line-height: 51px;
+    width: 159px;
+    display: inline-block;
+    color: #010432;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+    background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+    background: -o-linear-gradient(left, #BF1438, #BF1438);
+    background: linear-gradient(to right, #BF1438, #BF1438); }
+  .bomb-area{
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 60px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/assets/images/Content-coder/Background.png);
+    background-repeat: no-repeat;
+  }
+  .bomb-cards-area{
+    padding-top: 250px;
+  }
+  .bomb-card{
+    border: 4px solid #bf1438;
+    border-radius: 25px;
+    width: 100%;
+    height: 470px;
+  }
+  .card-top-area{
+    font-size: 44px;
+    font-family: "Telegraf-UltraBold";
+    text-transform: uppercase;
+    color: #bf1438;
+    margin-top: 13px;
+  }
+  .bomb-card-list-details .lis{
+    font-size: 16px;
+    font-family: "Telegraf-Regular";
+    color:#a1afd3;
+    margin-top: 10px;
+    list-style-type: none;
+    margin-left: 10px;
+  }
+  .bomb-card-img{
+    width: 250px;
+    height: 250px;
+    margin-left: 5%;
+  }
+  .bottom-button{
+    width: 100%;
+    height: 92px;
+    padding-left: 62px;
+    padding-top: 11px;
+    margin-top: -25px;
+  }
+  .ladderboard-toparea{
+    width: 100%;
+    height:78vh;
+    padding-top: 225px;
+  }
+  .ladderboard{
+    background-color:#010432;
+    background-position: center;
+      background-size: cover;
+      background-image: url(/assets/images/Content-coder/Background.png);
+      background-repeat: no-repeat;
+      margin-top: -10px;
+  }
+  .leader-f1{
+    padding-left: 44px;
+    font-size: 54px;
+    line-height: 57px;
+    font-family: "Telegraf-UltraBold";
+    color: #a1afd3;
+  }
+  .leader-link{
+    font-family: "Telegraf-Regular";
+    font-size: 16px;
+    line-height: 22px;
+    text-transform:uppercase;
+    cursor: pointer;
+  }
+  .leader-link:hover{
+    font-family: "Telegraf-UltraBold";
+    font-size: 16px;
+    text-transform:uppercase;
+    cursor: pointer;
+  }
+  .leader-f1-1{
+    padding-left: 44px;
+    font-size: 24px;
+    line-height: 25px;
+    width: 445px;
+    font-family: "Telegraf-UltraBold";
+    color: #a1afd3;
+
+  }
+  .leader-f1-2{
+    padding-left: 44px;
+    font-size: 20px;
+    line-height: 120%;
+    font-family: "Telegraf-Regular";
+    color: #a1afd3;
+    width: 440px;
+    margin-bottom: 233px;
+  }
+  .leader-2nd-title{
+    padding-left: 44px;
+    font-size: 66px;
+    font-family: "Telegraf-UltraBold";
+    color: #a1afd3;
+    width: 69%;
+  }
+  .ladderboard-toparea-part2{
+    width: 100%;
+    height:70vh;
+    padding-top: 25px;
+  }
+  .top-area-leader{
+    font-family:'Telegraf-UltraBold';
+    font-size:66px;
+    color:#a1afd3;
+    margin-left:44px;
+   opacity: 30%;
+    margin-top:-2px;
+  }
+  .about-img{
+    margin-top: 256px;
+    width: 90%;
+  }
+  .about-top-section{
+    width: 100%;
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/assets/images/Content-coder/aboutPage.png);
+    background-repeat: no-repeat;
+  }
+  .about-text{
+    margin-top: 48px;
+    font-size: 24px;
+  line-height: 120%;
+    font-family: "Telegraf-Regular";
+    color:#a1afd3;
+  margin-bottom: 56px;
+  }
+  .space1{
+
+    margin-right: 72px;
+      }
+  .timer-tag{
+    font-family:'Telegraf-UltraBold';
+    font-size:24px;
+    color:#a1afd3;
+
+  }
+  .top-player-card{
+    background-color: #090E53;
+    width: 288px;
+    height: 400px;
+
+    border-radius: 12px;
+  }
+  .indexbtn2 {
+  width: 230px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Telegraf-UltraBold;
+
+    display: inline-block;
+    color: #010432;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+    background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+    background: -o-linear-gradient(left, #BF1438, #BF1438);
+    background: linear-gradient(to right, #BF1438, #BF1438); }
+    .indexbtn2:hover {
+      background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+      background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+      background: -o-linear-gradient(left, #BF1438, #BF1438);
+      background: linear-gradient(to right, #BF1438, #BF1438);
+      color: #a1afd3;
+      -webkit-transform: translateY(-2px);
+      -ms-transform: translateY(-2px);
+      transform: translateY(-2px); }
+  .section-heading .title {
+    font-size: 54px;
+line-height: 57px;
+    font-weight: 700;
+    font-family: Telegraf-UltraBold;
+    color: #a1afd3;
+    margin-bottom: 10px;
+  margin-top: 55px;
+margin-left: 2%; }
+  .game-card-name{
+    font-family: "Telegraf-UltraBold";
+    color:#a1afd3;
+    font-size: 32px;
+    margin-top: 265px;
+  }
+  .single-game:hover .overlay{
+    display: block;
+    background: linear-gradient(180deg, rgba(190, 19, 56, 0) -31.92%, #BE1338 110.22%);
+  }
+  .single-game img {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+   .single-game-extra img {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+  .single-game {
+    height: 375px;
+    width:100%;
+    margin-bottom: 20px;
+    display: block;
+    line-height: 300px;
+    text-align: center;
+    border: 7px solid #bf1438;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    position: relative;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; }
+  .get-text{
+    Font-Family: "Telegraf-UltraBold";
+    font-size:23px;
+    color: #a1afd3;
+    width: 198px;
+    margin-left: 45px;
+      margin-top: -94px;
+  }
+  .buy-cards{
+    width: 100%;
+    height: 288px;
+    border: 7px solid #bf1438;
+    border-radius: 20px;
+
+  }
+  .buy-card-text{
+    color:#bf1438;
+    font-family: "Telegraf-UltraBold";
+    font-size: 66px;
+    margin-left: 9px;
+  }
+  .bomb-img{
+    width: 532px;
+  height: 380px;
+    margin-top: -62px;
+  }
+  .mainmenu-area .navbar-brand .site-logo {
+    width:200px;
+
+    content: url(../images/bangers-logo.png);
+    margin-left: 40px;
+  }
+  .mainmenu-area .navbar-nav1 .nav-item .nav-link {
+  font-size: 20px;
+  color: #bf1438;
+  font-family: Telegraf-Regular;
+  text-transform : uppercase;
+  }
+  .mainmenu-area .navbar-nav1{
+    width: 200px;
+  }
+  .mainmenu-area .navbar-nav1 .nav-item .nav-link:hover {
+    font-size: 20px;
+    color: #bf1438;
+    font-family: Telegraf-UltraBold;
+    text-transform : uppercase;
+    }
+  .mainmenu-area .navbar-nav1 .nav-item .nav-link1 {
+    font-size: 20px;
+    color: #a1afd3;
+    font-family: Telegraf-Regular;
+    text-transform : uppercase;
+    }
+    .mainmenu-area .navbar-nav1 .nav-item .nav-link1:hover {
+      font-size: 20px;
+      color: #a1afd3;
+      font-family: Telegraf-UltraBold;
+      text-transform : uppercase;
+
+      }
+      .mainmenu-area .topbtn{
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+      .featured-games .carousel-inner{
+        height:530px;
+      }
+      .featured-games .carousel-inner .carousel-item .cimg{
+        height:530px;
+      }
+      .featured-games .carousel-inner .carousel-item .cbimg{
+        height:360px;
+        margin-bottom:-85px;
+      }
+      .featured-games .carousel-inner .carousel-item .cbtext{
+        margin-left: 438px;
+    width: 377px;
+    font-family: "Telegraf-Regular";
+    font-size: 20px;
+    line-height: 95%;
+    margin-bottom: -12px;
+    color: #bf1438;
+    text-align: left;
+      }
+      .featured-games .carousel-inner .carousel-item{
+        height:530px;
+      }
+  /* login modal Area End */
+  .coming{
+    overflow: hidden;
+    background: url(/assets/images/Content-coder/Comingsoon.jpg) no-repeat center center fixed;
+    width: 100%;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .coming .toparea .p1{
+    margin-left: 0px;
+    margin-top: -9px;
+  }
+  .coming .toparea .p2{
+    margin-left: -5px;
+    margin-top: 7px;
+  }
+  .coming .toparea .p3{
+    margin-left: -25px;
+  }
+  .coming .toparea .p4{
+    margin-left: 0px;
+    margin-left: 30px;
+  }
+  .coming .toparea .p4 .cbtn{
+    height:60px
+  }
+  .coming .toparea .p5{
+    display: none;
+  }
+  .coming .toparea .p6{
+    display: block;
+  }
+  .coming .toparea .p7{
+    display: block;
+  }
+  .coming .toparea .p6 .ctag{
+    width: 818px;
+    margin-left: 70px;
+  }
+  .coming .toparea{
+    padding-top: 56px;
+    padding-left: 60px;
+  }
+  .coming .toparea .titles{
+    font-size: 25px;
+    color: #BF1438;
+    font-weight: bolder;
+    font-family: "Telegraf-Regular";
+
+  }
+  .coming .toparea .title1{
+    font-size: 25px;
+    color: #BF1438;
+   font-weight:300;
+   font-family: "Telegraf-Regular";
+   margin-top: -9px;
+   margin-left: 4px;
+
+  }
+  .coming .toparea .title2{
+    font-size: 25px;
+    color: #BF1438;
+   font-weight:bolder;
+   font-family: "Telegraf-UltraBold";
+   margin-top: -5px;
+   margin-left: -10px;
+
+  }
+  .coming .toparea .title4{
+    font-size: 25px;
+    color: #BF1438;
+   font-weight:400;
+   font-family: "Telegraf-Regular";
+   margin-top: 370px;
+   margin-left: -169px;
+  width: 400px;
+  }
+  .coming .toparea .title3{
+ display: none;
+
+  }
+  .featured-game {
+    padding: 20px 0px 100px;
+    background: #010432;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  margin-bottom: -10px; }
+  .our-vision{
+    height: 90vh;
+  }
+  .our-vision .l1{
+    font-size:40px;color:#d2273c;margin-top:20px
+  }
+  .our-vision .l2{
+    font-size:30px;margin-top:20px
+  }
+  .our-vision .l3{
+    font-size:20px;margin-top:20px
+  }
+  .our-vision .l4{
+    font-size:18px;color:#bbf7f9;margin-top:20px
+  }
+  .our-vision .l5{
+    font-size:20px;color:#15c1aa;margin-top:20px
+  }
+  .header .mainmenu-area .navbar #main_menu .navbar-nav .nav-item .nav-link {
+    padding: 20px 10px;
+}
+.header .mainmenu-area .navbar .mybtn1 {
+  margin-left: 15px;
+  padding: 10px 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+.header .mainmenu-area .navbar::after {
+  border-bottom: 66px solid #070b28;
+}
+.header .mainmenu-area .navbar::before,
+.header .mainmenu-area .navbar::after
+{
+  display: none;
+}
+.play-games .gaming-activities .gaming-activities-inner .single-activities .top-area .left .icon {
+  top: 30px;
+  margin-right: 0px;
+  display: inline-block;
+}
+.play-games .gaming-activities .gaming-activities-inner .single-activities .top-area{
+  display: flow-root;
+}
+.play-games .gaming-activities .gaming-activities-inner .single-activities .top-area .right {
+  margin-top: 30px;
+  display: block;
+  flex: unset;
+}
+.play-games .gaming-activities .gaming-activities-inner .single-activities .top-area {
+  margin-bottom: 21px;
+  padding-bottom: 21px;
+}
+.play-games .gaming-activities .gaming-activities-inner .single-activities .bottom-area .pp {
+  text-align: unset;
+  margin-left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  display: block;
+  position: unset;
+  width: 100%;
+  float: unset;
+}
+.play-games .gaming-activities .gaming-activities-inner .single-activities {
+  padding: 0px 30px 25px;
+}
+.play-games .all-games .nav li a {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+.play-games .all-games .nav li a .icon img {
+  max-width: 40px;
+  max-height: 40px;
+  min-width: 40px;
+  min-height: 40px
+}
+.play-games .all-games .nav li a .icon {
+  margin-top: 16px;
+}
+.play-games .gaming-activities .gaming-activities-inner .single-activities .bottom-area .players-count{
+  display: block;
+}
+.breadcrumb-area.bc-lottery {
+  padding: 204px 0px 150px;
+}
+.breadcrumb-area.bc-tournaments .bc-img {
+  right: 0px;
+}
+.breadcrumb-area.bc-tournaments {
+  padding: 0px 0px 0px;
+}
+.breadcrumb-area.bc-tournaments .boxrow{
+  margin-top: 140px;
+}
+.breadcrumb-area.bc-tournaments .boxrow .boxcol2{
+  margin-top: 340px;
+}
+.flip-clock-wrapper ul {
+  width: 40px;
+  height: 60px;
+}
+.flip-clock-wrapper ul li a div.up:after {
+  top: 29px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.flip-clock-wrapper ul li a div div.inn {
+  font-size: 40px;
+  line-height: 62px;
+}
+.flip-clock-dot.top {
+  top: 15px;
+}
+.flip-clock-divider {
+  height: 84px;
+}
+
+.flip-clock-divider .flip-clock-label {
+  right: -74px;
+}
+.breadcrumb-area.about {
+  padding: 204px 0px 94px;
+}
+.team .team-members .team-member-inner .single-team .social-area {
+  padding: 30px 20px 30px;
+}
+.breadcrumb-area.bc-affiliate .bc-img {
+  bottom: auto;
+  width: 65%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.breadcrumb-area.bc-affiliate {
+  padding: 203px 0px 174px;
+}
+.ref-commission .ab-img {
+  left: -228px;
+}
+.breadcrumb-area.bc-awards {
+  padding: 203px 0px 94px;
+}
+.breadcrumb-area.bc-awards .bc-img {
+  width: 60%;
+}
+.breadcrumb-area.bonus {
+  padding: 203px 0px 96px;
+}
+.breadcrumb-area.cart {
+  padding: 203px 0px 94px;
+}
+.breadcrumb-area.bc-faq {
+  padding: 203px 0px 95px;
+}
+.breadcrumb-area.h-i-w {
+  padding: 203px 0px 93px;
+}
+.breadcrumb-area.h-i-w .bc-img {
+  width: 60%;
+}
+.breadcrumb-area.bc-terms {
+  padding: 203px 0px 150px;
+}
+.breadcrumb-area.bc-terms .bc-img {
+  width: 55%;
+}
+.breadcrumb-area.bc-contact {
+  padding: 203px 0px 94px;
+}
+.contact .left-img {
+  top: 390px;
+  left: 6px;
+  max-width: 480px;
+}
+.index2 .hero-area {
+  padding: 358px 0px 424px;
+}
+.video-play-btn2 span:before{
+  display: none;
+}
+.index2 .features {
+  padding: 277px 0px 90px;
+}
+.contact .section-heading {
+  margin-bottom: 80px;
+}
+.cover{
+  display: inline-block;
+  height: 400px;
+  width:100%;
+  margin-left: 0px;
+  border-radius: 9px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 50%;
+  padding-top:6px;
+}
+.texte {
+
+  color: white;
+  font-weight: bold;
+  font-size: 46px;
+  padding: 16px 32px;
+  margin-right: 630px;
+  margin-top: 130px;
+
+}
+
+
+
+
+
+}
+
+@media  (max-width: 991px) {
+  .featured-game2 {
+    padding: 20px 0px 10px;
+    background: #010432;
+    background-position: center;
+    background-size: cover;
+    background-image: url("/assets/images/Content-coder/Background.png");
+    background-repeat: no-repeat;
+  margin-bottom: -10px; }
+  .indexbtn3 {
+    display:none;
+            font-size: 21px;
+            text-transform: uppercase;
+            font-weight: bolder;
+            height: 50px;
+            width: 207px;
+            padding-left: 30px;
+            padding-right: 30px;
+            font-family: Telegraf-UltraBold;
+            line-height: 55px;
+            display: inline-block;
+            color: #010432;
+            border: 0px;
+            border-radius: 50px;
+            cursor: pointer;
+            -webkit-transition: all 0.3s ease-in;
+            -o-transition: all 0.3s ease-in;
+            transition: all 0.3s ease-in;
+            background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+            background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+            background: -o-linear-gradient(left, #BF1438, #BF1438);
+            background: linear-gradient(to right, #BF1438, #BF1438); }
+            .indexbtn3:hover {
+              background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+              background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+              background: -o-linear-gradient(left, #BF1438, #BF1438);
+              background: linear-gradient(to right, #BF1438, #BF1438);
+              color: #a1afd3;
+              -webkit-transform: translateY(-2px);
+              -ms-transform: translateY(-2px);
+              transform: translateY(-2px); }
+  .wrapper{
+    width:100%;
+    padding-top: 20px;
+    text-align:center;
+  margin-bottom: 44px;
+  }
+  .single-game-extra {
+    height: 254px;
+    width:98%;
+    margin-bottom: 20px;
+    display: block;
+    line-height: 300px;
+    text-align: center;
+    border:7px solid #a1afd3;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    position: relative;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; }
+  .wrapper button{
+    padding-bottom: 0%;
+  }
+  .carousel1{
+    width: 90%;
+    margin: 0px 0px 0px auto;
+  }
+  .wrapper .slick-next{
+    right: 13%;
+  }
+  .single-game .mybtn2 {
+    position: absolute;
+    display: block;
+    height: 50px;
+    bottom: -25px;
+    left: 50%;
+    opacity: 1;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4); }
+    .single-game:hover .mybtn2 {
+      opacity: 1;
+    color:#E7E7E7;}
+  .tournament-text{
+    font-size:26px;
+    font-family:'Telegraf-UltraBold';
+    margin-top:60px;
+    color:#a1afd3;
+  }
+  .game-tournament-banner{
+    height: 60vh;
+    width: 76%;
+    flex-shrink: 0;
+    margin-bottom: 85px;
+  }
+  .game-tournament-description-text{
+    font-size:20px;
+    font-family:'Telegraf-Regular';
+    margin-top:60px;
+    color:#a1afd3;
+    width:100%;
+  }
+  .bombcard-btn{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-left: 0px;
+    font-family: Telegraf-UltraBold;
+    line-height: 35px;
+    width: 116px;
+    display: inline-block;
+    color: #010432;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    background: -webkit-gradient(linear, left top, right top, from(#a1afd3), to(#a1afd3));
+    background: -webkit-linear-gradient(left, #a1afd3, a1afd3);
+    background: -o-linear-gradient(left, #a1afd3, #a1afd3);
+    background: linear-gradient(to right, #a1afd3, #a1afd3); }
+  .wagerbtn {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-left: 0px;
+    font-family: Telegraf-UltraBold;
+    line-height: 35px;
+    width: 116px;
+    display: inline-block;
+    color: #010432;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+    background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+    background: -o-linear-gradient(left, #BF1438, #BF1438);
+    background: linear-gradient(to right, #BF1438, #BF1438);}
+  .bomb-area{
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 60px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/assets/images/Content-coder/Background.png);
+    background-repeat: no-repeat;
+  }
+  .bomb-cards-area{
+    padding-top: 250px;
+  }
+  .bomb-card{
+    border: 4px solid #bf1438;
+    border-radius: 25px;
+    width: 100%;
+    height: 339px;
+  }
+  .card-top-area{
+    font-size: 26px;
+    font-family: "Telegraf-UltraBold";
+    text-transform: uppercase;
+    color: #bf1438;
+    margin-top: 13px;
+  }
+  .bomb-card-list-details .lis{
+    font-size: 12px;
+    font-family: "Telegraf-Regular";
+    color:#a1afd3;
+    margin-top: 10px;
+    list-style-type: none;
+    margin-left: 10px;
+  }
+  .bomb-card-img{
+    width: 190px;
+    height: 195px;
+    margin-left: 2%;
+  }
+  .bottom-button{
+    width: 100%;
+    height: 92px;
+    padding-left: 47px;
+      padding-top: 11px;
+    margin-top: -47px;
+  }
+  .ladderboard-toparea{
+    width: 100%;
+    height:auto;
+    padding-top: 225px;
+  }
+  .ladderboard{
+    background-color:#010432;
+    background-position: center;
+      background-size: cover;
+      background-image: url(/assets/images/Content-coder/Background.png);
+      background-repeat: no-repeat;
+      margin-top: -10px;
+  }
+  .leader-f1{
+    padding-left: 44px;
+    font-size: 40px;
+    line-height: 42px;
+    font-family: "Telegraf-UltraBold";
+    color: #a1afd3;
+  }
+  .leader-link{
+    font-family: "Telegraf-Regular";
+    font-size: 14px;
+    line-height: 15px;
+    text-transform:uppercase;
+    cursor: pointer;
+  }
+  .leader-link:hover{
+    font-family: "Telegraf-UltraBold";
+    font-size: 14px;
+    line-height: 15px;
+    text-transform:uppercase;
+    cursor: pointer;
+  }
+  .leader-f1-1{
+    padding-left: 44px;
+    font-size: 24px;
+    line-height: 25px;
+    width: 321px;
+    font-family: "Telegraf-UltraBold";
+    color: #a1afd3;
+
+  }
+  .leader-f1-2{
+    padding-left: 44px;
+    font-size: 14px;
+    line-height: 120%;
+    font-family: "Telegraf-Regular";
+    color: #a1afd3;
+    width: 321px;
+    margin-bottom: 233px;
+  }
+  .leader-2nd-title{
+    padding-left: 44px;
+    font-size: 66px;
+    font-family: "Telegraf-UltraBold";
+    color: #a1afd3;
+    width: 69%;
+  }
+  .ladderboard-toparea-part2{
+    width: 100%;
+    height:70vh;
+    padding-top: 25px;
+  }
+  .top-area-leader{
+    font-family:'Telegraf-UltraBold';
+    font-size:66px;
+    color:#a1afd3;
+    margin-left:44px;
+   opacity: 30%;
+    margin-top:-2px;
+  }
+  .about-img{
+    margin-top: 226px;
+    width: 90%;
+  }
+  .about-top-section{
+    width: 100%;
+    height: 72vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/assets/images/Content-coder/aboutPage.png);
+    background-repeat: no-repeat;
+  }
+  .about-text{
+    margin-top: 48px;
+    font-size: 16px;
+  line-height: 120%;
+    font-family: "Telegraf-Regular";
+    color:#a1afd3;
+  margin-bottom: 56px;
+  }
+  .space1{
+
+    margin-right: 32px;
+      }
+  .timer-tag{
+    font-family:'Telegraf-UltraBold';
+    font-size:24px;
+    color:#a1afd3;
+    margin-left:10px;
+  }
+  .footer-text1{
+    margin-left:34px;
+    margin-top:34px;
+    font-size: 12px;
+    line-height: 150%;
+  }
+  .footer-options{
+    font-size: 14px;
+    line-height: 150%;
+color: #a1afd3;
+cursor: pointer;
+font-family: "Telegraf-Regular";
+  }
+  .section-heading .title {
+    font-size: 72px;
+line-height: 76px;
+    font-weight: 700;
+    font-family: Telegraf-UltraBold;
+    color: #a1afd3;
+    margin-bottom: 10px;
+  margin-top: 55px;
+margin-left: 280px; }
+  .game-card-name{
+    font-family: "Telegraf-UltraBold";
+    color:#a1afd3;
+    font-size: 20px;
+    margin-top: 175px;
+  }
+  .single-game:hover .overlay{
+    display: block;
+    background: linear-gradient(180deg, rgba(190, 19, 56, 0) -31.92%, #BE1338 110.22%);
+  }
+  .single-game img {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    margin-top: -60px;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+   .single-game-extra img {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    margin-top: -60px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+  .page-timer{
+    font-family:'Telegraf-UltraBold';
+    font-size: 40px;
+    line-height: 42px;
+    color:#bf1438;
+   margin-left: 20px;
+  }
+  .timer-tag{
+    font-family:'Telegraf-UltraBold';
+    font-size: 16px;
+line-height: 120%;
+    color:#a1afd3;
+   margin-left: 20px;
+
+  }
+  .funfact .single-fun img {
+    display: inline-block;
+    margin-bottom: 13px;
+    width: 96px;
+height: 234px; }
+  .top-title{
+    font-family:'Telegraf-UltraBold';
+    font-size: 40px;
+line-height: 42px;
+    color:#a1afd3;
+
+  }
+  .top-paragraf{
+    font-size: 14px;
+    line-height: 120%;
+    font-family: "Telegraf-Regular";
+    color:#a1afd3;
+
+  }
+  .top-player-card{
+    background-color: #090E53;
+    width: 208px;
+height: auto;
+
+    border-radius: 12px;
+  }
+  .Bomb-membership{
+    padding: 50px 0px 50px;
+      background: #010432;
+      background-position: center;
+      background-size: cover;
+      background-image: url(/assets/images/Content-coder/Background.png);
+      background-repeat: no-repeat;
+      margin-bottom: -10px;
+  }
+  .hero-area .left-content .content .title {
+    font-size: 40px;
+line-height: 42px;
+    font-weight: 700;
+
+    color: #a1afd3;
+    font-family: "Telegraf-UltraBold";
+    margin-bottom: 37px;
+    letter-spacing: -1px; }
+  .hero-area .left-content .content .subtitle {
+    font-size: 24px;
+line-height: 25px;
+
+    margin-bottom: 25px;
+    font-family: "Telegraf-UltraBold";
+    color:#a1afd3 }
+  .hero-area .left-content .content .text {
+    font-size: 14px;
+line-height: 120%;
+    font-weight: 300;
+    margin-bottom: 37px;
+    width: 321px;
+   }
+  .mainmenu-area .navbar-brand .site-logo {
+    width: 205px;
+height: 32px;
+
+    content: url(../images/bangers-logo.png);
+    margin-left: 40px;
+  }
+  .mainmenu-area .navbar-nav1 .nav-item .nav-link {
+    font-size: 14px;
+
+  color: #bf1438;
+  font-family: Telegraf-Regular;
+  text-transform : uppercase;
+  }
+  .mainmenu-area .navbar-nav1{
+    width: 200px;
+  }
+  .mainmenu-area .navbar-nav1 .nav-item .nav-link:hover {
+    font-size: 14px;
+
+    color: #bf1438;
+    font-family: Telegraf-UltraBold;
+    text-transform : uppercase;
+    }
+  .mainmenu-area .navbar-nav1 .nav-item .nav-link1 {
+    font-size: 14px;
+    color: #a1afd3;
+    font-family: Telegraf-Regular;
+    text-transform : uppercase;
+    }
+    .mainmenu-area .navbar-nav1 .nav-item .nav-link1:hover {
+      font-size: 14px;
+      color: #a1afd3;
+      font-family: Telegraf-UltraBold;
+      text-transform : uppercase;
+
+      }
+      .mainmenu-area .topbtn{
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+  .latest-news{
+    position: relative;
+    padding: 120px 0px 120px;
+    position: relative;
+    background:#010432;
+    background-image: url("/assets/images/Content-coder/Play-for-cash.png");
+    background-position: center;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+  }
+
+  .news-heading{
+    font-size: 40px;
+line-height: 42px;
+    font-family: "Telegraf-UltraBold";
+    color:#a1afd3;
+  }
+  .news-heading2{
+    font-size: 24px;
+line-height: 25px;
+    font-family: "Telegraf-UltraBold";
+    color:#a1afd3;
+  }
+  .news-p{
+    font-size: 14px;
+line-height: 100%;
+    font-family: "Telegraf-Regular";
+    color:#a1afd3;
+
+  }
+  .bomb-heading{
+    font-size: 40px;
+line-height: 42px;
+    color:#a1afd3;
+    font-family: "telegraf-UltraBold";
+  }
+  .bomb-sub-heading{
+    font-size: 14px;
+line-height: 120%;
+    color:#a1afd3;
+    font-family: "telegraf-Regular";
+  }
+  .single-game {
+    height: 254px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+    line-height: 300px;
+    text-align: center;
+    border: 7px solid #bf1438;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    position: relative;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; }
+  .get-text{
+    Font-Family: "Telegraf-UltraBold";
+    font-size: 16px;
+line-height: 17px;
+    color: #a1afd3;
+    width: 198px;
+    margin-left: 5px;
+      margin-top: -50px;
+  }
+
+  .indexbtn2 {
+    width: 173px;
+    text-align: center;
+    font-size: 16px;
+
+    text-transform: uppercase;
+    font-weight: bolder;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Telegraf-UltraBold;
+    line-height: 50px;
+    display: inline-block;
+    color: #010432;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+    background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+    background: -o-linear-gradient(left, #BF1438, #BF1438);
+    background: linear-gradient(to right, #BF1438, #BF1438); }
+    .indexbtn2:hover {
+      background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+      background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+      background: -o-linear-gradient(left, #BF1438, #BF1438);
+      background: linear-gradient(to right, #BF1438, #BF1438);
+      color: #a1afd3;
+      -webkit-transform: translateY(-2px);
+      -ms-transform: translateY(-2px);
+      transform: translateY(-2px); }
+
+  .indexbtn {
+
+    text-align: center;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    height: 50px;
+    text-align: center;
+    font-family: Telegraf-UltraBold;
+    line-height: 50px;
+    display: inline-block;
+    color: #010432;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+    background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+    background: -o-linear-gradient(left, #BF1438, #BF1438);
+    background: linear-gradient(to right, #BF1438, #BF1438); }
+    .indexbtn:hover {
+      background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+      background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+      background: -o-linear-gradient(left, #BF1438, #BF1438);
+      background: linear-gradient(to right, #BF1438, #BF1438);
+      color: #a1afd3;
+      -webkit-transform: translateY(-2px);
+      -ms-transform: translateY(-2px);
+      transform: translateY(-2px); }
+  .section-heading .title {
+    font-size: 72px;
+    line-height: 70px;
+    font-weight: 700;
+    font-family: Telegraf-UltraBold;
+    color: #a1afd3;
+    margin-bottom: 10px;
+  margin-top: 55px;
+margin-left: 104px; }
+  .buy-cards{
+    width: 320px;
+height: 200px;
+    border: 7px solid #bf1438;
+    border-radius: 20px;
+    margin-bottom: 56px;
+  }
+  .buy-card-text{
+    color:#bf1438;
+    font-family: "Telegraf-UltraBold";
+    font-size: 40px;
+    line-height: 42px;
+    margin-left: 22px;
+  }
+  .bomb-img{
+    width: 279px;
+height: 210px;
+    margin-top: 0px;
+    margin-left: 13px;
+  }
+  .featured-games .carousel-inner{
+    height:530px;
+  }
+  .featured-games .carousel-inner .carousel-item .cimg{
+    height:530px;
+  }
+  .featured-games .carousel-inner .carousel-item .cbimg{
+    height:390px;
+    margin-bottom:-100px;
+  }
+  .featured-games .carousel-inner .carousel-item .cbtext{
+    margin-left: 350px;
+width: 264px;
+font-family: "Telegraf-Regular";
+font-size: 14px;
+margin-bottom: -12px;
+color: #bf1438;
+text-align: left;
+  }
+  .featured-games .carousel-inner .carousel-item{
+    height:530px;
+  }
+  /* login modal Area End */
+
+  .coming{
+
+    overflow: hidden;
+    background: url(/assets/images/PNG/stories4.png) no-repeat center center fixed;
+    width: 100%;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }
+  .coming .toparea .p1{
+    margin-left: 0px;
+   width: 75%;
+  }
+  .coming .toparea .p2{
+    margin-left: -34px;
+    width: 185px;
+  }
+  .coming .toparea .p3{
+    margin-left: 320px;
+    width: 400px;
+
+  }
+  .coming .toparea .p4{
+    margin-left: 300px;
+    margin-top: 2px;
+  }
+  .coming .toparea .p4 .cbtn{
+    height:60px
+  }
+  .coming .toparea .p5{
+    display: block;
+    margin-top: 40px;
+    margin-left: -10px;
+  }
+  .coming .toparea .p6{
+    display: none;
+
+  }
+  .coming .toparea .p7{
+    display: none;
+
+  }
+  .coming .toparea .p5 .gtag{
+    width: 509px ; margin-left:55px;
+  }
+
+  .coming .toparea .p6 .ctag{
+    width: 818px;
+    margin-left: 202px;
+  }
+  .coming .toparea{
+    padding-top: 56px;
+    padding-left: 60px;
+  }
+  .coming .toparea .titles{
+    font-size: 25px;
+    color: #BF1438;
+    font-weight: bolder;
+    font-family: "Telegraf-Regular";
+
+  }
+  .coming .toparea .title1{
+    font-size: 25px;
+    color: #BF1438;
+   font-weight:300;
+   font-family: "Telegraf-Regular";
+   margin-top: -9px;
+   margin-left: 4px;
+
+  }
+  .coming .toparea .title2{
+    font-size: 25px;
+    color: #BF1438;
+   font-weight:bolder;
+   font-family: "Telegraf-UltraBold";
+   margin-top: -5px;
+   margin-left: -10px;
+
+  }
+  .coming .toparea .title4{
+    font-size: 25px;
+    color: #BF1438;
+   font-weight:400;
+   font-family: "Telegraf-Regular";
+   margin-top: 400px;
+   margin-left: -110px;
+
+  }
+  .coming .toparea .title3{
+ display: block;
+ font-size: 16px;
+ color: #BF1438;
+font-weight:100;
+font-family: "Telegraf-Regular";
+margin-top: -35px;
+margin-left: -10px;
+
+  }
+
+  .featured-game {
+    padding: 41px 0px 10px;
+    background: #010432;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  margin-bottom: -10px; }
+  .header .mainmenu-area .navbar .site-logo {
+    width:280px;
+    margin-left:0px;
+    content: url(../images/logo1.png);
+
+  }
+  .header .mainmenu-area .navbar #main_menu .navbar-nav .nav-item .nav-link .mr-hover-effect{
+    display: none;
+  }
+  .header .mainmenu-area .navbar #main_menu .navbar-nav .nav-item .nav-link {
+    padding: 8px 10px;
+  }
+  .header .mainmenu-area .navbar .navbar-brand {
+    padding-left: 0px;
+    width:200px;
+    margin-top: 3%;
+
+  }
+  .header .top-header .content .left-content .left-list li p,
+  .header .top-header .content .right-content .right-list li .sign-in,
+  .header .top-header .content .right-content .right-list li i
+  {
+    font-size: 14px;
+  }
+  .header .mainmenu-area .navbar {
+    padding: 8px 0px;
+}
+
+  .hero-area {
+    padding: 106px 0px 106px;
+  }
+  .hero-area .hero-img {
+    top: 40px;
+  }
+  .hero-area .hero-img .shape.man{
+    -webkit-animation: unset;
+    -moz-animation: unset;
+    animation: unset;
+  }
+
+  .features .single-feature {
+    margin-bottom: 30px;
+    display: block;
+  }
+  .features {
+    padding-bottom: 10px;
+}
+.section-heading .title {
+  font-size: 40px;
+  line-height: 50px;
+}
+.section-heading .subtitle {
+  font-size: 20px;
+  line-height: 30px;
+}
+.section-heading .text,
+.how-it-work .single-work p,
+.funfact .single-fun p
+{
+  font-size: 20px;
+  line-height: 30px;
+}
+.activities .table tr th ,
+.activities .table tr td
+{
+  font-size: 16px;
+  line-height: 26px;
+}
+.funfact .single-fun .count-area {
+  font-size: 16px;
+line-height: 17px;
+}
+.funfact .single-fun {
+  margin-bottom: 22px;
+}
+.activities {
+  padding: 10px 0px 8px;
+}
+.get-start {
+  padding: 0px 0px 0px;
+}
+.get-start .right-image {
+  text-align: center;
+  margin-top: 60px;
+}
+.single-winer .bottom-area .left {
+  font-size: 24px;
+}
+.single-winer .top-area .left .date {
+  margin-bottom: 8px;
+}
+.single-winer{
+  margin-bottom: 30px;
+}
+.single-winer {
+  padding: 30px 30px 23px;
+}
+.footer .subscribe-box .button-area .mybtn1{
+  margin-top: 40px;
+}
+.footer .footer-widget .title {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 8px;
+}
+.footer-widget.info-link-widget {
+  margin-top: 22px;
+}
+.footer .copy-bg .left-area {
+  text-align: center;
+}
+.footer .copy-bg .copright-area-links {
+  text-align: center;
+}
+.footer .subscribe-box .heading-area .sub-title{
+  font-size: 20px;
+  line-height: 30px;
+}
+.header .top-header .content .left-content .left-list li .language-selector .language {
+  font-size: 14px;
+}
+.header .top-header .content .left-content .left-list li::before,
+.header .top-header .content .right-content .right-list li::before
+{
+  font-size: 14px;
+}
+.footer .subscribe-box {
+  margin-bottom: 90px;
+}
+.play-games .gaming-activities .gaming-activities-inner .single-activities {
+  margin-bottom: 30px;
+}
+.play-games .all-games {
+  padding: 89px 0px 120px;
+}
+.play-games .all-games .nav li a {
+  margin: 5px;
+}
+.play-games .all-games {
+  padding: 83px 0px 120px;
+}
+.breadcrumb-area .title {
+  font-size: 40px;
+  line-height: 50px;
+}
+.breadcrumb-area.play {
+  padding: 188px 0px 218px;
+}
+.breadcrumb-area .bc-img {
+  position: absolute!important;
+  right: 0px!important;
+  max-width: 50%!important;
+  top: 65%!important;
+  bottom: auto!important;
+  transform: translateY(-50%)!important;
+}
+.breadcrumb-area.bc-lottery {
+  padding: 187px 0px 152px;
+}
+.breadcrumb-area.bc-tournaments .boxrow{
+  margin-top: 140px;
+}
+.breadcrumb-area.bc-tournaments .boxrow .boxcol2{
+  margin-top: 119px;
+}
+.lottery-area .lottery-staticstics .single-staticstics{
+  margin-bottom: 30px;
+}
+.lottery-area .daily-lottery {
+  padding: 83px 0px 120px;
+}
+.lottery-area .daily-lottery .draw-time .draw-counter span {
+  font-size: 30px;
+  line-height: 40px;
+}
+.activities .tab-menu-area .nav-lend .nav-item .nav-link {
+  padding: 0px 30px;
+}
+.how-it-work .bg-shape{
+  display: none;
+}
+.how-it-work .section-heading {
+  margin-bottom: 52px;
+}
+.how-it-work .single-work {
+  text-align: center;
+  margin-bottom: 36px;
+}
+.question-area {
+  padding: 49px 0px 120px;
+}
+.question-area .section-heading {
+  margin-top: 51px;
+}
+.breadcrumb-area.bc-tournaments {
+  padding: 0px 0px 0px;
+}
+.tournament-time-box {
+  margin-bottom: 30px;
+}
+.tournaments .info-table {
+  margin-top: 30px;
+}
+.breadcrumb-area.about {
+  padding: 189px 0px 94px;
+}
+
+.about-page-section {
+  padding: 120px 0px 120px;
+}
+.features .single-feature.landscape .content .title {
+  margin-top: 37px;
+}
+.features .single-feature.landscape {
+  text-align: center;
+}
+.features .single-feature.landscape .icon{
+  display: block;
+  margin: 0 auto;
+}
+.single-feature.landscape .content{
+  display: inline-block;
+  text-align: center;
+}
+.single-feature.landscape {
+  padding: 45px 30px 22px;
+}
+.team .team-members .team-member-inner .single-team {
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.team .mybtn1 {
+  display: inline-block;
+  margin-top: 30px;
+}
+.community-blog .single-box{
+  margin-bottom: 30px;
+}
+.community-blog {
+  padding: 120px 0px 90px;
+}
+.breadcrumb-area.about {
+  padding: 229px 0px 94px;
+}
+.community-blog .single-box .content .text {
+  font-size: 20px;
+  line-height: 30px;
+}
+.community-blog .single-box .content .title {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.breadcrumb-area.bc-affiliate {
+  padding: 187px 0px 174px;
+}
+.single-process{
+ margin-bottom: 30px;
+}
+.affiliate-program .single-program .content .title {
+  margin-top: 37px;
+}
+.affiliate-program .single-program {
+  text-align: center;
+}
+.affiliate-program .single-program .icon{
+  display: block;
+  margin: 0 auto;
+}
+.affiliate-program .single-program .content{
+  display: block;
+  text-align: center;
+}
+.affiliate-program .single-program {
+  padding: 45px 30px 22px;
+  display: block;
+}
+.ref-commission .ab-img{
+  display: none;
+}
+.single-process .title {
+  font-size: 24px;
+  line-height: 34px;
+}
+.single-process .text {
+  font-size: 20px;
+  line-height: 30px;
+}
+.breadcrumb-area.bc-awards .bc-img{
+  bottom: 0px !important;
+  top: auto!important;
+  transform: unset!important;
+}
+.breadcrumb-area.bonus {
+  padding: 187px 0px 96px;
+}
+.single-deposit-bonus{
+  margin-bottom: 30px;
+}
+.deposit-bonuses {
+  padding: 112px 0px 90px;
+}
+.single-deposit-bonus .content .title {
+  font-size: 24px;
+  line-height: 34px;
+}
+.breadcrumb-area.cart {
+  padding: 188px 0px 94px;
+}
+.cart-area .message-one p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.cart-area .message-two .left p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.payment-method .text {
+  font-size: 20px;
+  line-height: 30px;
+}
+.payment-method .title {
+  font-size: 24px;
+  line-height: 34px;
+}
+.breadcrumb-area.bc-faq {
+  padding: 188px 0px 95px;
+}
+.faq-wrapper .tab-content {
+  padding: 0 0px;
+}
+.breadcrumb-area.h-i-w {
+  padding: 187px 0px 93px;
+}
+.single-h-play{
+  margin-bottom: 30px;
+}
+.how-play {
+  padding: 112px 0px 563px;
+}
+.breadcrumb-area.bc-terms {
+  padding: 187px 0px 150px;
+}
+.help-section .help-box .help-box-inner .title {
+  font-size: 40px;
+  line-height: 50px;
+}
+.help-section.writter-artical-details .help-box .help-box-inner2 .single-artical .top-title {
+  font-size: 40px;
+  line-height: 50px;
+}
+.help-section.writter-artical-details .help-box .help-box-inner2 .single-artical .writer-profile .writer-content .w-name {
+  font-size: 24px;
+  line-height: 34px;
+}
+.breadcrumb-area.bc-contact {
+  padding: 187px 0px 94px;
+}
+.contact .left-img{
+  display: none;
+}
+.contact .contact-form-wrapper{
+  padding-right: 0px;
+}
+.index2 .header .mainmenu-area {
+  background: #252f5a;
+}
+.index2 .hero-area {
+  padding: 238px 0px 341px;
+}
+.index2 .hero-area {
+  padding: 238px 0px 314px;
+}
+.video-play-btn2:after {
+  width: 115px;
+  height: 115px;
+}
+.video-play-btn2:before {
+  width: 130px;
+  height: 130px;
+}
+.video-play-btn2 span {
+  width: 145px;
+  height: 145px;
+}
+.video-play-btn2 {
+  margin: 82px 0px 0px;
+}
+.about-section .about-box .about-box-inner .section-heading {
+  padding-top: 186px;
+  text-align: center;
+}
+.recent-winners .mybtn2 {
+  margin-top: 30px;
+}
+.our-vision .single-vision {
+  margin-bottom: 55px;
+}
+.our-vision {
+  padding: 112px 0px 60px;
+  height: 100vh;
+}
+.header .mainmenu-area .navbar #main_menu .navbar-nav .nav-item .dropdown-menu {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+div#main_menu .navbar-nav{
+  height: 210px;
+  overflow-y: auto;
+}
+.marketing-tools .section-heading {
+  margin-bottom: 51px;
+}
+.marketing-tools .single-tools {
+  margin-bottom: 36px;
+}
+.marketing-tools {
+  padding: 112px 0px 80px;
+}
+.marketing-tools .single-tools .content .text {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.testimonial .single-testimonial .review-text p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.how-it-work {
+  padding: 97px 0px 484px;
+}
+
+.cover{
+  display: inline-block;
+  height: 400px;
+  width:100%;
+  margin-left: 0px;
+  border-radius: 9px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 50%;
+  padding-top:6px;
+}
+.texte {
+
+  color: white;
+  font-weight: bold;
+  font-size: 46px;
+  padding: 16px 32px;
+  margin-right: 400px;
+  margin-top: 130px;
+
+}
+
+
+
+
+}
+
+@media  (max-width: 767px) {
+  .news-heading{
+    font-size: 40px;
+    line-height: 42px;
+    font-family: "Telegraf-UltraBold";
+    color:#a1afd3;
+    margin-left: 4%;
+  }
+  .news-heading2{
+    font-size: 24px;
+    line-height: 25px;
+    font-family: "Telegraf-UltraBold";
+    color:#a1afd3;
+    margin-left: 4%;
+  }
+  .news-p{
+    font-size: 14px;
+    line-height: 100%;
+    font-family: "Telegraf-Regular";
+    color:#a1afd3;
+    margin-left: 4%;
+  }
+  .news-p{
+    font-size: 20px;
+    line-height: 120%;
+    font-family: "Telegraf-Regular";
+    color:#a1afd3;
+
+  }
+  .head-top-player-area{
+    margin-bottom: 10px;
+  }
+  .wrapper button{
+    padding-bottom: 10%;
+  }
+  .section-heading .title {
+    font-size: 40.5px;
+    line-height: 43px;
+    width: 50%;
+    margin-left: 11px;
+  }
+
+  .single-game-extra {
+    height: 390px;
+    width:98%;
+    margin-bottom: 20px;
+    display: block;
+    line-height: 300px;
+    text-align: center;
+    border:7px solid #a1afd3;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    position: relative;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; }
+  .single-game img {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: -211px;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+  .carousel1{
+    width: 100%;
+    margin: 0px 0px 0px auto;
+  }
+  .wrapper .slick-next{
+    right: 13%;
+    top: -15%;
+
+  }
+  .wrapper .slick-prev{
+    left: 67%;
+    top: -15%;
+
+  }
+  .tournament-text{
+    font-size:26px;
+    font-family:'Telegraf-UltraBold';
+    margin-left:70px;
+    margin-top:44px;
+    color:#a1afd3;
+  }
+  .game-tournament-banner{
+    height: 60vh;
+    width: 76%;
+    flex-shrink: 0;
+    margin-bottom: 85px;
+  }
+  .game-tournament-description-text{
+    font-size:26px;
+    font-family:'Telegraf-Regular';
+
+    margin-top:24px;
+    color:#a1afd3;
+    width:85%;
+  }
+  .bombcard-btn{
+
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+    padding-left: 0px;
+    font-family: Telegraf-UltraBold;
+    line-height: 51px;
+    width: 159px;
+    display: inline-block;
+    color: #010432;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    background: -webkit-gradient(linear, left top, right top, from(#a1afd3), to(#a1afd3));
+    background: -webkit-linear-gradient(left, #a1afd3, a1afd3);
+    background: -o-linear-gradient(left, #a1afd3, #a1afd3);
+    background: linear-gradient(to right, #a1afd3, #a1afd3); }
+  .wagerbtn {
+
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+    padding-left: 0px;
+    font-family: Telegraf-UltraBold;
+    line-height: 51px;
+    width: 159px;
+    display: inline-block;
+    color: #010432;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+    background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+    background: -o-linear-gradient(left, #BF1438, #BF1438);
+    background: linear-gradient(to right, #BF1438, #BF1438); }
+  .bomb-area{
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 60px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/assets/images/Content-coder/Background.png);
+    background-repeat: no-repeat;
+  }
+  .bomb-cards-area{
+    padding-top: 250px;
+  }
+  .bomb-card{
+    border: 4px solid #bf1438;
+    border-radius: 25px;
+    width: 100%;
+    height: 470px;
+  }
+  .card-top-area{
+    font-size: 44px;
+    font-family: "Telegraf-UltraBold";
+    text-transform: uppercase;
+    color: #bf1438;
+    margin-top: 13px;
+  }
+  .bomb-card-list-details .lis{
+    font-size: 20px;
+    font-family: "Telegraf-Regular";
+    color:#a1afd3;
+    margin-top: 10px;
+    list-style-type: none;
+    margin-left: 10px;
+  }
+  .bomb-card-img{
+    width: 250px;
+    height: 250px;
+    margin-left: 10%;
+  }
+  .bottom-button{
+    width: 100%;
+    height: 92px;
+    padding-left: 90px;
+      padding-top: 11px;
+    margin-top: -47px;
+  }
+  .ladderboard-toparea{
+    width: 100%;
+    height:auto;
+    padding-top: 225px;
+  }
+  .ladderboard{
+    background-color:#010432;
+    background-position: center;
+      background-size: cover;
+      background-image: url(/assets/images/Content-coder/Background.png);
+      background-repeat: no-repeat;
+      margin-top: -10px;
+  }
+  .leader-f1{
+    padding-left: 44px;
+    font-size: 72px;
+    line-height: 76px;
+    font-family: "Telegraf-UltraBold";
+    color: #a1afd3;
+  }
+  .leader-link{
+    font-family: "Telegraf-Regular";
+    font-size: 22px;
+    text-transform:uppercase;
+    cursor: pointer;
+  }
+  .leader-link:hover{
+    font-family: "Telegraf-UltraBold";
+    font-size: 22px;
+    text-transform:uppercase;
+    cursor: pointer;
+  }
+  .leader-f1-1{
+    padding-left: 44px;
+    font-size: 24px;
+    line-height: 25px;
+    width: 445px;
+    font-family: "Telegraf-UltraBold";
+    color: #a1afd3;
+
+  }
+  .leader-f1-2{
+    padding-left: 44px;
+    font-size: 20px;
+    line-height: 94%;
+    font-family: "Telegraf-Regular";
+    color: #a1afd3;
+    width: 540px;
+    margin-bottom: 233px;
+  }
+  .leader-2nd-title{
+    padding-left: 44px;
+    font-size: 66px;
+    font-family: "Telegraf-UltraBold";
+    color: #a1afd3;
+    width: 69%;
+  }
+  .ladderboard-toparea-part2{
+    width: 100%;
+    height:70vh;
+    padding-top: 25px;
+  }
+  .top-area-leader{
+    font-family:'Telegraf-UltraBold';
+    font-size:66px;
+    color:#a1afd3;
+    margin-left:44px;
+   opacity: 30%;
+    margin-top:-2px;
+  }
+  .about-img{
+    margin-top: 226px;
+    width: 90%;
+  }
+  .about-top-section{
+    width: 100%;
+    height: 72vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/assets/images/Content-coder/aboutPage.png);
+    background-repeat: no-repeat;
+  }
+  .about-text{
+    margin-top: 28px;
+    font-size: 16px;
+  line-height: 120%;
+    font-family: "Telegraf-Regular";
+    color:#a1afd3;
+  margin-bottom: 16px;
+  }
+  .game-card-name{
+    font-family: "Telegraf-UltraBold";
+    color:#a1afd3;
+    font-size: 32px;
+    margin-top: 126%;
+
+  }
+  .single-game .mybtn2 {
+    position: absolute;
+    display: block;
+    height: 25px;
+    bottom: -15px;
+    line-height: 27px;
+    left: 50%;
+    opacity: 1;
+    font-size: 14px;
+    width: 66px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4); }
+    .single-game:hover .mybtn2 {
+      opacity: 1;
+    color:#E7E7E7;}
+  .single-game:hover {
+border: 3px solid #bf1438; }
+  .single-game {
+    height: 390px;
+    width: 242px;
+    margin-bottom: 20px;
+    display: block;
+    line-height: 300px;
+    text-align: center;
+    border: 5px solid #bf1438;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    position: relative;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; }
+    .single-game img {
+      max-width: 100%;
+      margin-top: -131px;
+    }
+    .single-game-extra img {
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      margin-top: 0px;
+      border-radius: 4px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+     }
+  .mobile-nav{
+    display: block;
+  }
+  .featured-games  .carousel-control-prev .slider-icon{
+    width:37px;
+  }
+  .featured-games  .carousel-control-next .slider-icon{
+    width:37px;
+  }
+  .footer-options{
+    font-size: 16px;
+color: #a1afd3;
+cursor: pointer;
+font-family: "Telegraf-Regular";
+margin-top:-23px;
+  }
+  .footer-options-1{
+    margin-top:34px;
+    font-size: 16px;
+color: #a1afd3;
+cursor: pointer;
+font-family: "Telegraf-Regular";
+  }
+  .footer-text-m{
+    display: block;
+    margin-left:17px;
+    margin-top:17px;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .footer-text1{
+    display:none;
+    margin-left:34px;
+    margin-top:34px;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .featured-game2 {
+    padding: 80px 0px 10px;
+    background: #010432;
+    background-position: center;
+    background-size: cover;
+    background-image: url("/assets/images/Content-coder/Background.png");
+    background-repeat: no-repeat;
+  margin-bottom: -10px; }
+  .top-title{
+    font-family:'Telegraf-UltraBold';
+    font-size: 54px;
+    line-height: 57px;
+    color:#a1afd3;
+   margin-bottom: 60px;
+
+  }
+  .top-paragraf{
+    display: none;
+    font-size: 14px;
+    line-height: 120%;
+    font-family: "Telegraf-Regular";
+    color:#a1afd3;
+
+  }
+  .top-player-card{
+    background-color: #090E53;
+    width: 208px;
+height: auto;
+
+    border-radius: 12px;
+  }
+  .latest-news{
+    position: relative;
+    padding: 238px 0px 120px;
+    position: relative;
+    background:#010432;
+    background-image: url("/assets/images/Content-coder/Play-for-cash.png");
+    background-position: center;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+  }
+  .Bomb-membership{
+    padding: 80px 0px 40px;
+      background: #010432;
+      background-position: center;
+      background-size: cover;
+      background-image: url(/assets/images/Content-coder/Background.png);
+      background-repeat: no-repeat;
+      margin-bottom: -10px;
+  }
+  .indexbtn {
+    width: 100%;
+      font-size: 26px;
+      text-transform: uppercase;
+      font-weight: bolder;
+      height: 56px;
+      text-align: center;
+      font-family: Telegraf-UltraBold;
+      line-height: 120%;
+      display: inline-block;
+      color: #010432;
+      border: 0px;
+      border-radius: 50px;
+      padding-top: 8px;
+      cursor: pointer;
+      -webkit-transition: all 0.3s ease-in;
+      -o-transition: all 0.3s ease-in;
+      transition: all 0.3s ease-in;
+      background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+      background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+      background: -o-linear-gradient(left, #BF1438, #BF1438);
+      background: linear-gradient(to right, #BF1438, #BF1438); }
+      .indexbtn:hover {
+        background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+        background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+        background: -o-linear-gradient(left, #BF1438, #BF1438);
+        background: linear-gradient(to right, #BF1438, #BF1438);
+        color: #a1afd3;
+        -webkit-transform: translateY(-2px);
+        -ms-transform: translateY(-2px);
+        transform: translateY(-2px); }
+  .indexbtn3 {
+    margin-top: 20px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    background: transparent;
+    font-size: 24px;
+    line-height: 120%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    font-family: Telegraf-UltraBold;
+    display: inline-block;
+    color: #a1afd3;
+    border: 3px solid #a1afd3;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+     }
+    .indexbtn3:hover {
+
+      color: #a1afd3;
+      -webkit-transform: translateY(-2px);
+      -ms-transform: translateY(-2px);
+      transform: translateY(-2px); }
+  .get-text{
+    Font-Family: "Telegraf-UltraBold";
+    font-size: 16px;
+    line-height: 17px;
+    color: #a1afd3;
+    margin-left: 25%;
+    margin-bottom: 80px;
+    margin-top: -100px;
+  }
+  .space1{
+
+margin-right: 35px;
+  }
+  .page-timer{
+    font-family:'Telegraf-UltraBold';
+    font-size: 54px;
+line-height: 57px;
+    color:#bf1438;
+    margin-left: 16%;
+  }
+  .timer-tag{
+    font-family:'Telegraf-UltraBold';
+    font-size: 20px;
+line-height: 94%;
+    color:#a1afd3;
+    margin-left: 16%;
+
+  }
+  .top-player-card{
+    background-color: #090E53;
+    width: 288px;
+    height: 400px;
+    border-radius: 12px;
+    margin-left:8%;
+  }
+  .indexbtn2 {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+
+    text-transform: uppercase;
+    font-weight: bolder;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Telegraf-UltraBold;
+    line-height: 50px;
+    display: inline-block;
+    color: #010432;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+    background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+    background: -o-linear-gradient(left, #BF1438, #BF1438);
+    background: linear-gradient(to right, #BF1438, #BF1438); }
+    .indexbtn2:hover {
+      background: -webkit-gradient(linear, left top, right top, from(#BF1438), to(#BF1438));
+      background: -webkit-linear-gradient(left, #BF1438, #BF1438);
+      background: -o-linear-gradient(left, #BF1438, #BF1438);
+      background: linear-gradient(to right, #BF1438, #BF1438);
+      color: #a1afd3;
+      -webkit-transform: translateY(-2px);
+      -ms-transform: translateY(-2px);
+      transform: translateY(-2px); }
+  .header .mainmenu-area {
+    background: none;
+  display: none; }
+  .bomb-heading{
+    font-size: 40px;
+    line-height: 42px;
+    color:#a1afd3;
+    font-family: "telegraf-UltraBold";
+    margin-left: 4%;
+  }
+  .bomb-sub-heading{
+    margin-left: 4%;
+    width: 80%;
+    font-size: 14px;
+    line-height: 120%;
+    color:#a1afd3;
+    font-family: "telegraf-Regular";
+  }
+  .buy-cards{
+    margin-left: 4%;
+    width: 320px;
+    height: 168px;
+    border: 7px solid #bf1438;
+    border-radius: 20px;
+
+  }
+  .buy-card-text{
+    color:#bf1438;
+    font-family: "Telegraf-UltraBold";
+    font-size: 40px;
+line-height: 42px;
+    margin-left: 30px;
+  }
+  .bomb-img{
+    width: 320px;
+    height: 168px;
+    margin-top: 2px;
+    margin-left: -7px;
+  }
+  /* login modal Area End */
+  .featured-games .carousel-inner{
+    height:812px;
+  }
+  .featured-games .carousel-inner .carousel-item .cimg{
+    height:812px;
+  }
+  .featured-games .carousel-inner .carousel-item .cbimg{
+    height: 358px;
+    width: 270px;
+    margin-bottom:100px;
+  }
+  .featured-games .carousel-inner .carousel-item .cbtext{
+    margin-left: -34px;
+    width: 335px;
+font-family: "Telegraf-Regular";
+font-size: 20px;
+line-height: 120%;
+margin-bottom: -261px;
+text-transform: capitalize;
+color: #bf1438;
+text-align: left;
+  }
+  .featured-games .carousel-inner .carousel-item{
+    height:530px;
+  }
+  .coming{
+    overflow: hidden;
+    background: url(/assets/images/PNG/stories4.png) no-repeat center center fixed;
+    width: 100%;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .coming .toparea .p1{
+    margin-left: -20px;
+    width: 200px;
+  }
+  .coming .toparea .p2{
+    margin-left: 0px;
+    width: 171px;
+  }
+  .coming .toparea .p3{
+    margin-left: 0px;
+
+  }
+  .coming .toparea .p4{
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .coming .toparea .p4 .cbtn{
+    height:60px
+  }
+  .coming .toparea .p5{
+    display: block;
+    margin-top: 40px;
+    margin-left: -10px;
+  }
+  .coming .toparea .p6{
+    display: none;
+
+  }
+  .coming .toparea .p7{
+    display: none;
+
+  }
+  .coming .toparea .p6 .ctag{
+    width: 818px;
+    margin-left: 202px;
+  }
+  .coming .toparea{
+    padding-top: 56px;
+    padding-left: 60px;
+  }
+  .coming .toparea .titles{
+    font-size: 25px;
+    color: #BF1438;
+    font-weight: bolder;
+    font-family: "Telegraf-Regular";
+
+  }
+  .coming .toparea .title1{
+    font-size: 25px;
+    color: #BF1438;
+   font-weight:300;
+   font-family: "Telegraf-Regular";
+   margin-top: -9px;
+   margin-left: 4px;
+
+  }
+  .coming .toparea .title2{
+    font-size: 25px;
+    color: #BF1438;
+   font-weight:bolder;
+   font-family: "Telegraf-UltraBold";
+   margin-top: -5px;
+   margin-left: -10px;
+
+  }
+  .coming .toparea .title4{
+    font-size: 25px;
+    color: #BF1438;
+   font-weight:400;
+   font-family: "Telegraf-Regular";
+   margin-top: 400px;
+   margin-left: -110px;
+
+  }
+  .coming .toparea .title3{
+ display: none;
+
+  }
+  .featured-game {
+    padding: 4px 0px 10px;
+    background: #010432;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  margin-bottom: -10px; }
+  .header .mainmenu-area .navbar .site-logo {
+    width:180px;
+    margin-left:0px;
+    content: url(../images/logo1.png);
+
+  }
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 2.0em;
+    height: 3.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+  }
+  .hero-area .left-content .content .title {
+    font-size: 50px;
+    line-height: 60px;
+}
+.hero-area .left-content .content .subtitle {
+  font-size: 24px;
+  line-height: 34px;
+}
+.hero-area .left-content .content .text {
+  font-size: 20px;
+line-height: 120%;
+width: 100%;
+}
+.hero-img2{
+  margin-top: 60px;
+}
+.hero-area {
+  padding: 189px 0px 265px;
+}
+.header .top-header .content{
+  display: flow-root;
+}
+.header .top-header .content .left-content {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.header .top-header .content .right-content{
+  text-align: center;
+}
+.activities .tab-menu-area .nav-lend .nav-item .nav-link {
+  padding: 0px 30px;
+  font-size: 16px;
+}
+.footer .subscribe-box {
+  padding: 50px 30px 55px;
+}
+.hero-area .left-content {
+  margin-left: 4%;
+  width: 100%;
+}
+.responsive-table {
+  max-width: 100%;
+  overflow-x: auto;
+}
+.activities .tab-menu-area .nav-lend .nav-item .nav-link {
+  line-height: 40px;
+  margin: 3px;
+}
+.activities .tab-menu-area .nav-lend {
+  padding: 14px 15px;
+}
+.funfact .single-fun .count-area {
+  font-size: 30px;
+  line-height: 40px;
+}
+.breadcrumb-area.play {
+  padding: 230px 0px 218px;
+}
+.breadcrumb-area.bc-lottery {
+  padding: 230px 0px 152px;
+}
+.breadcrumb-area.bc-tournaments {
+  padding: 230px 0px 94px;
+}
+.breadcrumb-area.bc-tournaments .boxrow{
+  margin-top: 140px;
+}
+.breadcrumb-area.bc-tournaments .boxrow .boxcol2{
+  margin-top: 145px;
+}
+.tournament-time-box .top-area .status {
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+}
+.tournament-time-box .top-area .title {
+  font-size: 22px;
+  line-height: 32px;
+}
+.tournaments .info-table .main-box .inner-table-content .header-area ul .nav-item .nav-link {
+  padding: 0px 30px;
+  margin: 0px 3px;
+}
+.tournaments .info-table .main-box .inner-table-content .table tr td {
+  font-size: 16px;
+  line-height: 26px;
+}
+.breadcrumb-area.bc-affiliate {
+  padding: 229px 0px 174px;
+}
+.breadcrumb-area.bc-awards {
+  padding: 228px 0px 94px;
+}
+.breadcrumb-area.bonus {
+  padding: 229px 0px 96px;
+}
+.breadcrumb-area.cart {
+  padding: 230px 0px 94px;
+}
+.cart-area .message-one {
+  padding: 22px 30px 28px;
+}
+.cart-area .message-two{
+  display: flow-root;
+}
+.cart-area .message-two .left p {
+  margin-bottom: 30px;
+}
+.cart-area .cart-table-area .table tr td .qty {
+  width: 120px;
+}
+.breadcrumb-area.bc-faq {
+  padding: 229px 0px 95px;
+}
+.breadcrumb-area.h-i-w {
+  padding: 230px 0px 93px;
+}
+.breadcrumb-area.bc-terms {
+  padding: 229px 0px 150px;
+}
+
+.serch-area .serch-box .list {
+  display: block;
+}
+.serch-area .serch-box .list li.button{
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+.serch-area .serch-box {
+  padding: 20px 50px 40px;
+  border-radius: 20px;;
+}
+.help-section .help-box .help-box-inner .title {
+  font-size: 30px;
+  line-height: 40px;
+}
+.help-section .help-box .help-box-inner2-hearer .title {
+  font-size: 24px;
+  line-height: 34px;
+}
+.help-section .help-box .help-box-inner2 .single-artical .content .title {
+  font-size: 24px;
+  line-height: 34px;
+}
+.help-section .help-box {
+  padding: 29px 30px 40px!important;
+}
+
+.help-section.writter-artical-details .help-box {
+  padding: 29px 30px 40px!important;
+}
+.breadcrumb-area.bc-contact {
+  padding: 230px 0px 94px;
+}
+.index2 .hero-area {
+  padding: 283px 0px 314px;
+}
+.get-start .left-area .section-heading {
+  text-align: center;
+}
+.activities .shape.shape1,
+.activities .shape.shape2,
+.activities .shape.shape3
+{
+  display: none;
+}
+.cover{
+  display: inline-block;
+  height: 400px;
+  width:100%;
+  margin-left: 0px;
+  border-radius: 9px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 50%;
+  padding-top:0px;
+  margin-top: -50px;
+  margin-bottom: -100px;
+}
+.texte {
+
+  color: white;
+  font-weight: bold;
+  font-size: 46px;
+  padding: 16px 32px;
+  margin-right: 0px;
+  margin-top: 100px;
+
+}
+
+
+}
+
+
+@media  (max-width: 575px) {
+  .coming{
+    overflow: hidden;
+    background: url(/assets/images/PNG/stories4.png) no-repeat center center fixed;
+    width: 100%;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .coming .toparea .p1{
+    margin-left: -20px;
+    width: 200px;
+  }
+  .coming .toparea .p2{
+    margin-left: 0px;
+    width: 171px;
+  }
+  .coming .toparea .p3{
+    margin-left: 0px;
+
+  }
+  .coming .toparea .p4{
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .coming .toparea .p4 .cbtn{
+    height:60px
+  }
+  .coming .toparea .p5{
+    display: block;
+    margin-top: 40px;
+    margin-left: -10px;
+  }
+  .coming .toparea .p6{
+    display: none;
+
+  }
+  .coming .toparea .p7{
+    display: none;
+
+  }
+  .featured-game {
+    padding: 40px 0px 10px;
+    background: #010432;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  margin-bottom: -10px; }
+  .header .mainmenu-area .navbar .site-logo {
+    width:150px;
+
+    content: url(../images/logo1.png);
+
+  }
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 2.0em;
+    height: 3.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    margin-left: -50px;
+  }
+
+  .our-vision{
+    height: 140vh;
+  }
+  .timerbody{
+    margin-left: -12%;
+  }
+  .hero-area {
+    padding: 238px 0px 140px;
+  }
+  .hero-area .left-content .content .subtitle {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .hero-area .left-content .content .title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .features .single-feature .content .title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .tournaments .info-table .main-box .main-header-area .nav li a
+  {
+
+    line-height: 30px;
+    font-size: 20px;
+    margin: 0px 1px;
+}
+
+.tournaments .info-table .main-box .main-header-area .nav li::before{
+  height: 18px;
+}
+.tournaments .info-table .main-box .inner-table-content .header-area ul .nav-item .nav-link {
+  margin: 3px 3px;
+}
+.tournaments .info-table .main-box .inner-table-content .header-area ul {
+  border-radius: 10px;
+  padding: 14px 15px;
+}
+.single-process .num {
+  font-size: 140px;
+}
+.footer .subscribe-box .heading-area .sub-title {
+  font-size: 18px;
+  line-height: 28px;
+}
+.footer .subscribe-box .heading-area .title {
+  font-size: 24px;
+  line-height: 34px;
+}
+.four-zero-four .content .inner-content .title {
+  font-size: 24px;
+  line-height: 34px;
+}
+.breadcrumb-area .bc-img {
+  display: none;
+}
+
+.breadcrumb-area {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.play-games .gaming-activities .gaming-activities-inner .single-activities {
+  padding: 0px 30px 27px;
+}
+.play-games .all-games .nav {
+  margin-bottom: 55px;
+}
+.flip-clock-divider .flip-clock-label {
+  font-size: 16px;
+}
+.flip-clock-divider .flip-clock-label {
+  bottom: -20px;
+}
+.flip-clock-divider .flip-clock-label {
+  right: -72px;
+}
+.flip-clock-divider.hours .flip-clock-label {
+  right: -80px;
+}
+.flip-clock-divider.minutes .flip-clock-label {
+  right: -87px;
+}
+.tournament-time-box .timer-area {
+  padding: 50px 30px 55px;
+}
+.testimonial .single-testimonial .people .title {
+  font-size: 24px;
+  line-height: 34px;
+}
+.marketing-tools .single-tools .content .title {
+  font-size: 24px;
+  line-height: 34px;
+}
+.how-play {
+  padding: 100px 0px 51px;
+  margin-bottom: -2px;
+}
+.features.about-page {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+.sorteo-accordion .card-header .btn-link.collapsed::before,
+.sorteo-accordion .card-header .btn-link::before
+{
+  display: none;
+}
+.sorteo-accordion .card-body {
+    margin-top: 10px;
+    padding: 16px 30px 8px;
+}
+.sorteo-accordion .card-body p{
+  font-size: 14px;
+}
+.sorteo-accordion .card-header .btn-link {
+  display: block;
+  position: relative;
+}
+.sorteo-accordion .card-header .btn-link i{
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.sorteo-accordion .card-header .btn-link {
+  padding: 17px 10px 17px 70px;
+}
+.login-modal .modal-dialog .modal-content .modal-body .logo-area::after{
+  display: none;
+}
+.login-modal .modal-dialog .modal-content .modal-body .logo-area {
+  padding-top: 30px;
+}
+.login-modal .modal-dialog .modal-content .modal-body .header-area {
+  padding: 16px 30px 10px;
+}
+.login-modal .modal-dialog .modal-content .modal-body .header-area .sub-title {
+  font-size: 20px;
+  line-height: 30px;
+}
+.login-modal .modal-dialog .modal-content .modal-body .form-footer p{
+  font-size: 16px;
+}
+.login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .box{
+  display: flow-root;
+}
+.login-modal .modal-dialog .modal-content .modal-body .form-area {
+  padding: 0px 20px 10px;
+}
+.login-modal .modal-dialog .modal-content .modal-body .header-area {
+  padding: 16px 20px 10px;
+}
+.login-modal .modal-dialog .modal-content .modal-body .form-footer {
+  padding: 0px 20px 6px;
+}
+.section-heading .subtitle {
+  font-size: 18px;
+  line-height: 28px;
+}
+.single-winer .top-area .left .name,
+.single-winer .bottom-area .left,
+.play-games .gaming-activities .gaming-activities-inner .single-activities .top-area .right .title,
+.tournaments .info-table .main-box .info-content .info-box .title,
+.tournament-time-box .top-area .title,
+.tournament-time-box .timer-area .title,
+.team .team-members .team-member-inner .single-team .image .content .name,
+.single-process .title,
+.affiliate-program .single-program .content .title,
+.marketing-tools .single-tools .content .title,
+.testimonial .single-testimonial .people .title,
+.single-awards .content .title,
+.community-blog .single-box .content .title,
+.single-bonus .content .title,
+.single-deposit-bonus .content .title,
+.single-h-play .title,
+.help-section .help-box .help-box-inner2-hearer .title,
+.help-section .help-box .help-box-inner2 .single-artical .content .title,
+.help-section.writter-artical-details .help-box .help-box-inner2 .single-artical .writer-profile .writer-content .w-name,
+.help-section.writter-artical-details .help-box .help-box-inner2 .single-artical .inner-content .title,
+.help-section.writter-artical-details .help-box .help-box-inner2 .single-artical .footer-content .heading,
+.contact .contact-form-wrapper .contact-box .title,
+.how-it-work .single-work .title,
+.lottery-area .lottery-staticstics .single-staticstics .right .count span,
+.lottery-area .daily-lottery .draw-time .subtitle
+ {
+  font-size: 20px;
+  line-height: 30px;
+}
+.help-section.writter-artical-details .help-box .help-box-inner2 .single-artical .inner-content p{
+  font-size: 20px;
+  font-weight: 300;
+}
+.help-section .help-box .help-box-inner3-hearer .title ,
+.help-section.writter-artical-details .help-box .help-box-inner2 .single-artical .top-title
+{
+  font-size: 24px;
+  line-height: 34px;
+}
+.breadcrumb-area .title {
+  font-size: 30px;
+  line-height: 40px;
+}
+.lottery-video .video-box {
+  height: 400px;
+}
+.cart-area .cart-table-area .table {
+  width: 900px;
+}
+.team .team-members .team-member-inner .single-team .image .content .designation {
+  font-size: 16px;
+  line-height: 26px;
+}
+.activities .table {
+  width: 800px;
+}
+.index2 .hero-area {
+  padding: 232px 0px 264px;
+}
+.footer .footer-widget .title {
+  font-size: 22px;
+  line-height: 32px;
+}
+.play-games .gaming-activities .gaming-activities-inner .single-activities .top-area {
+  text-align: center;
+}
+.play-games .gaming-activities .gaming-activities-inner .single-activities .bottom-area {
+  text-align: center;
+}
+.lottery-area .lottery-staticstics .single-staticstics {
+  padding: 30px 30px 30px;
+  border-radius: 10px;
+  background-color: rgba(29, 40, 80, 0.6);
+}
+.question-area .section-heading .title {
+  margin-bottom: 18px;
+}
+.tournaments .info-table .main-box .inner-table-content .table {
+  width: 670px;
+}
+.about-page-section .about-video .play-video {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+.about-page-section .section-heading {
+  margin-top: 50px;
+}
+.help-section .help-box .help-box-inner .title {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+
+
+
+
+}
+
+
+
+@media  (max-width: 500px) {
+
+  .coming{
+    overflow: hidden;
+    background: url(/assets/images/PNG/stories4.png) no-repeat center center fixed;
+    width: 100%;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .coming .toparea .p1{
+    margin-left: -20px;
+    width: 200px;
+  }
+  .coming .toparea .p2{
+    margin-left: 0px;
+    width: 171px;
+  }
+  .coming .toparea .p3{
+    margin-left: 0px;
+
+  }
+  .coming .toparea .p4{
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .coming .toparea .p4 .cbtn{
+    height:60px
+  }
+  .coming .toparea .p5{
+    display: block;
+    margin-top: 40px;
+    margin-left: -10px;
+  }
+  .coming .toparea .p6{
+    display: none;
+
+  }
+  .coming .toparea .p7{
+    display: none;
+
+  }
+  .coming .toparea .p5 .gtag{
+    width: 509px ; margin-left:55px;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(/assets/images/bomb.svg);
+    margin-left: -50px;
+  }
+  .coming .toparea{
+    padding-top: 56px;
+    padding-left: 60px;
+  }
+  .coming .toparea .titles{
+    font-size: 20px;
+    color: #BF1438;
+    font-weight: 300;
+    font-family: "Telegraf-Regular";
+
+  }
+  .coming .toparea .title1{
+    font-size: 20px;
+    color: #BF1438;
+   font-weight:300;
+   font-family: "Telegraf-Regular";
+   margin-top: -9px;
+   margin-left: 4px;
+
+  }
+  .coming .toparea .title2{
+    font-size: 20px;
+    color: #BF1438;
+   font-weight:bolder;
+   font-family: "Telegraf-UltraBold";
+   margin-top: 65px;
+   margin-left: -10px;
+
+  }
+  .coming .toparea .title3{
+    font-size: 20px;
+    color: #BF1438;
+   font-weight:100;
+   font-family: "Telegraf-Regular";
+   margin-top: -35px;
+   margin-left: -10px;
+
+  }
+  .featured-game {
+    padding: 25px 0px 10px;
+    background: #010432;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  margin-bottom: -10px; }
+  .our-vision{
+    height: 915px;
+  }
+
+  .timerbody{
+    margin-left: 0%;
+  }
+  .flip-clock-wrapper ul {
+    width: 28px;
+    height: 33px;
+  }
+  .flip-clock-wrapper ul li a div.up:after {
+    top: 29px;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  .flip-clock-wrapper ul li a div div.inn {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .flip-clock-dot.top {
+    top: 10px;
+  }
+  .flip-clock-divider {
+    height: 57px;
+}
+
+  .flip-clock-divider .flip-clock-label {
+    right: -74px;
+  }
+  .flip-clock-divider {
+    width: 10px;
+}
+.flip-clock-dot {
+  width: 5px;
+  height: 5px;
+  left: 2px;
+}
+  .flip-clock-wrapper ul {
+    margin: 2px;
+}
+.flip-clock-divider .flip-clock-label {
+  bottom: -18px;
+  right: -46px;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.flip-clock-divider.hours .flip-clock-label {
+  right: -51px;
+}
+.flip-clock-divider.minutes .flip-clock-label {
+  right: -59px;
+}
+.tournament-time-box .timer-area {
+  padding: 50px 30px 50px;
+}
+.tournament-time-box .top-area .title {
+  font-size: 20px;
+  line-height: 30px;
+}
+.tournament-time-box .top-area .sub-title {
+  font-size: 16px;
+  line-height: 26px;
+}
+.tournament-time-box .top-area .status {
+  font-size: 12px;
+  height: 22px;
+  line-height: 22px;
+  left: -70px;
+  top: 14px;
+}
+
+
+
+
+
+
+
+}
+
+
+@media  (max-width: 469px) {
+  /* login modal Area Start */
+  .login-modal .modal-dialog .modal-content {
+    background: #010432;
+    border-radius: 30px;
+  border: 3px solid #bf1438;
+
+  }
+    .login-modal .modal-dialog .modal-content .modal-body {
+      padding: 0px;
+      }
+      .login-modal .modal-dialog .modal-content .modal-body .logo-area {
+        display: block;
+        text-align: center;
+        position: relative; }
+        .login-modal .modal-dialog .modal-content .modal-body .logo-area::after {
+          position: absolute;
+          content: "";
+          width: 135px;
+          height: 135px;
+          border-radius: 50%;
+          background: #252f5a;
+          top: -65px;
+          left: 050%;
+          -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%); }
+        .login-modal .modal-dialog .modal-content .modal-body .logo-area img {
+          display: inline-block;
+          max-width: 100px;
+          position: relative;
+          z-index: 9;
+          top: -4px; }
+      .login-modal .modal-dialog .modal-content .modal-body .header-area {
+        padding: 47px 30px 10px;
+        position: relative;
+        z-index: 9;
+        text-align: center; }
+        .login-modal .modal-dialog .modal-content .modal-body .header-area .title {
+          font-size: 66px;
+          line-height: 34px;
+          font-weight: 700;
+          color: #a1afd3;
+
+          margin: 44px 44px 44px 44px;
+          font-family: "Telegraf-UltraBold"
+         }
+        .login-modal .modal-dialog .modal-content .modal-body .header-area .sub-title {
+          font-size: 24px;
+          line-height: 34px;
+          font-weight: 300; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area {
+        padding: 0px 44px 10px; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group {
+          margin-bottom: -20px;
+         }
+         .login-modal .modal-dialog .modal-content .modal-body .form-area .fbtn {
+          margin-left: 40%;margin-top:44px;margin-bottom:20px;
+         }
+
+          .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .box {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between; }
+            .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .box label {
+              font-size: 16px;
+              font-weight: 400;
+              color: #a1aed4;
+              text-transform: capitalize; }
+            .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .box a {
+              font-size: 16px;
+              font-weight: 400;
+              color: #a1aed4;
+              text-transform: capitalize; }
+          .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .check-group label {
+            font-size: 14px;
+            font-weight: 400;
+            color: #a1aed4;
+            text-transform: capitalize; }
+            .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .check-group label a {
+              color: #f9314b; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area label {
+          font-size: 26px;
+          line-height: 28px;
+          color: #a1afd3;
+          font-family: "Telegraf-UltraBold";
+          margin-bottom: 4px;
+        width: 48%; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field {
+          width: 50%;
+          border: 0px;
+          height: 50px;
+          font-size: 13px;
+          color: #a1aed4;
+          background: none;
+          margin-bottom: 12px;
+          font-family: "Telegraf-Regular"; }
+          .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field::-webkit-input-placeholder {
+            color: #a1aed4; }
+          .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field:-moz-placeholder {
+            color: #a1aed4; }
+          .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field::-moz-placeholder {
+            color: #a1aed4; }
+          .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field:-ms-input-placeholder {
+            color: #a1aed4; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area select {
+          margin-top: 8px;
+          width: 100%;
+          height: 50px;
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          border-radius: 50px;
+          background: #273261;
+          padding: 0px 30px;
+          color: #fff;
+          text-transform: uppercase; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .mybtn1 {
+          margin-top: 22px;
+          display: block;
+          width: 100%; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-footer {
+        text-align: center;
+        padding: 0px 30px 6px; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-footer a {
+          -webkit-transition: all 0.3s ease-in;
+          -o-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+          color: #fff; }
+          .login-modal .modal-dialog .modal-content .modal-body .form-footer a i {
+            font-size: 14px; }
+          .login-modal .modal-dialog .modal-content .modal-body .form-footer a:hover {
+            color: #f9314b; }
+
+  .login-modal.sign-in .modal-body .form-area {
+    padding-bottom: 18px !important; }
+
+  .modal-dialog .modal-content {
+    position: relative; }
+
+  .modal-dialog .modal-content .close {
+    position: absolute;
+    right: 9px;
+    z-index: 9; }
+
+  .modal-dialog .modal-content .close span {
+    color: #fff;
+    font-size: 20px; }
+
+  /* login modal Area End */
+  .coming{
+    overflow: hidden;
+    background: url(/assets/images/PNG/stories4.png) no-repeat center center fixed;
+    width: 1005;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .coming .toparea .p1{
+    margin-left: -2px;
+    width: 200px;
+  }
+  .coming .toparea .p2{
+    margin-left: 0px;
+    width: 171px;
+  }
+  .coming .toparea .p3{
+    margin-left: 65px;
+    width: 350px;
+  }
+  .coming .toparea .p4{
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  .coming .toparea .p4 .cbtn{
+    height:60px
+  }
+  .coming .toparea .p5{
+    display: block;
+    margin-top: 40px;
+    margin-left: -80px;
+  }
+  .coming .toparea .p6{
+    display: none;
+
+  }
+  .coming .toparea .p7{
+    display: none;
+
+  }
+  .coming .toparea .p5 .gtag{
+    width: 509px ; margin-left:55px;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(/assets/images/bomb.svg);
+    margin-left: -50px;
+  }
+  .coming .toparea{
+    padding-top: 56px;
+    padding-left: 60px;
+  }
+  .coming .toparea .titles{
+    font-size: 20px;
+    color: #BF1438;
+    font-weight: 300;
+    font-family: "Telegraf-Regular";
+
+  }
+  .coming .toparea .title1{
+    font-size: 20px;
+    color: #BF1438;
+   font-weight:300;
+   font-family: "Telegraf-Regular";
+   margin-top: -9px;
+   margin-left: 4px;
+
+  }
+  .coming .toparea .title2{
+    font-size: 20px;
+    color: #BF1438;
+   font-weight:bolder;
+   font-family: "Telegraf-UltraBold";
+   margin-top: 40px;
+   margin-left: -10px;
+
+  }
+  .coming .toparea .title3{
+    font-size: 20px;
+    color: #BF1438;
+   font-weight:100;
+   font-family: "Telegraf-Regular";
+   margin-top: -35px;
+   margin-left: -10px;
+  display: block;
+  }
+
+  .featured-game {
+    padding: 25px 0px 10px;
+    background: #010432;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  margin-bottom: -10px; }
+  .header .mainmenu-area .navbar .mybtn1 {
+    margin-left: 15px;
+    padding: 10px 29px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: -20px;
+  }
+}
+
+
+@media  (max-width: 414px) {
+  /* login modal Area Start */
+.login-modal .modal-dialog .modal-content {
+  background: #010432;
+  border-radius: 30px;
+border: 3px solid #bf1438;
+
+}
+  .login-modal .modal-dialog .modal-content .modal-body {
+    padding: 0px;
+    }
+    .login-modal .modal-dialog .modal-content .modal-body .logo-area {
+      display: block;
+      text-align: center;
+      position: relative; }
+      .login-modal .modal-dialog .modal-content .modal-body .logo-area::after {
+        position: absolute;
+        content: "";
+        width: 135px;
+        height: 135px;
+        border-radius: 50%;
+        background: #252f5a;
+        top: -65px;
+        left: 050%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%); }
+      .login-modal .modal-dialog .modal-content .modal-body .logo-area img {
+        display: inline-block;
+        max-width: 100px;
+        position: relative;
+        z-index: 9;
+        top: -4px; }
+    .login-modal .modal-dialog .modal-content .modal-body .header-area {
+      padding: 47px 30px 10px;
+      position: relative;
+      z-index: 9;
+      text-align: center; }
+      .login-modal .modal-dialog .modal-content .modal-body .header-area .title {
+        font-size: 66px;
+        line-height: 34px;
+        font-weight: 700;
+        color: #a1afd3;
+
+        margin: 44px 44px 44px 44px;
+        font-family: "Telegraf-UltraBold"}
+      .login-modal .modal-dialog .modal-content .modal-body .header-area .sub-title {
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: 300; }
+    .login-modal .modal-dialog .modal-content .modal-body .form-area {
+      padding: 0px 44px 10px; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group {
+        margin-bottom: -20px;
+       }
+       .login-modal .modal-dialog .modal-content .modal-body .form-area .fbtn {
+        margin-left: 40%;margin-top:44px;margin-bottom:20px;
+       }
+
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .box {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between; }
+          .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .box label {
+            font-size: 16px;
+            font-weight: 400;
+            color: #a1aed4;
+            text-transform: capitalize; }
+          .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .box a {
+            font-size: 16px;
+            font-weight: 400;
+            color: #a1aed4;
+            text-transform: capitalize; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .check-group label {
+          font-size: 14px;
+          font-weight: 400;
+          color: #a1aed4;
+          text-transform: capitalize; }
+          .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .check-group label a {
+            color: #f9314b; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area label {
+        font-size: 26px;
+        line-height: 28px;
+        color: #a1afd3;
+        font-family: "Telegraf-UltraBold";
+        margin-bottom: 4px;
+      width: 48%; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field {
+        width: 50%;
+        border: 0px;
+        height: 50px;
+        font-size: 13px;
+        color: #a1aed4;
+        background: none;
+        margin-bottom: 12px;
+        font-family: "Telegraf-Regular"; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field::-webkit-input-placeholder {
+          color: #a1aed4; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field:-moz-placeholder {
+          color: #a1aed4; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field::-moz-placeholder {
+          color: #a1aed4; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field:-ms-input-placeholder {
+          color: #a1aed4; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area select {
+        margin-top: 8px;
+        width: 100%;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 50px;
+        background: #273261;
+        padding: 0px 30px;
+        color: #fff;
+        text-transform: uppercase; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area .mybtn1 {
+        margin-top: 22px;
+        display: block;
+        width: 100%; }
+    .login-modal .modal-dialog .modal-content .modal-body .form-footer {
+      text-align: center;
+      padding: 0px 30px 6px; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-footer a {
+        -webkit-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+        color: #fff; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-footer a i {
+          font-size: 14px; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-footer a:hover {
+          color: #f9314b; }
+
+.login-modal.sign-in .modal-body .form-area {
+  padding-bottom: 18px !important; }
+
+.modal-dialog .modal-content {
+  position: relative; }
+
+.modal-dialog .modal-content .close {
+  position: absolute;
+  right: 9px;
+  z-index: 9; }
+
+.modal-dialog .modal-content .close span {
+  color: #fff;
+  font-size: 20px; }
+
+/* login modal Area End */
+  .coming{
+
+    overflow: hidden;
+    background: url(/assets/images/PNG/stories4.png) no-repeat ;
+    width: 100%;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .coming .toparea .p1{
+    margin-left: -20px;
+    width: 200px;
+  }
+  .coming .toparea .p2{
+    margin-left: 0px;
+    width: 171px;
+  }
+  .coming .toparea .p3{
+    margin-left: 80px;
+    width: 275px;
+
+  }
+  .coming .toparea .p4{
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+  .coming .toparea .p4 .cbtn{
+    height:50px;
+    width: 150px;
+  }
+  .coming .toparea .p5{
+    display: block;
+    margin-top: 58px;
+    margin-left: -90px;
+  }
+  .coming .toparea .p6{
+    display: none;
+
+  }
+  .coming .toparea .p7{
+    display: none;
+
+  }
+  .coming .toparea .p5 .gtag{
+    width: 509px ; margin-left:55px;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(/assets/images/bomb.svg);
+    margin-left: -50px;
+  }
+  .coming .toparea{
+    padding-top: 56px;
+    padding-left: 60px;
+  }
+  .coming .toparea .titles{
+    font-size: 20px;
+    color: #BF1438;
+    font-weight: 100;
+    font-family: "Telegraf-Regular";
+
+  }
+  .coming .toparea .title1{
+    font-size: 20px;
+    color: #BF1438;
+   font-weight:300;
+   font-family: "Telegraf-Regular";
+   margin-top: -9px;
+   margin-left: 4px;
+
+  }
+  .coming .toparea .title2{
+    font-size: 20px;
+    color: #BF1438;
+   font-weight:bolder;
+   font-family: "Telegraf-UltraBold";
+   margin-top: 65px;
+   margin-left: -10px;
+
+  }
+  .coming .toparea .title3{
+    font-size: 20px;
+    color: #BF1438;
+   font-weight:100;
+   font-family: "Telegraf-Regular";
+   margin-top: -35px;
+   margin-left: -10px;
+  display: block;
+  }
+
+  .featured-game {
+    padding: 0px 0px 10px;
+    background: #010432;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  margin-bottom: -10px; }
+  .header .mainmenu-area .navbar .site-logo {
+    width:150px;
+    content: url(../images/logo1.png);
+
+  }
+  .header .top-header .content .right-content{
+    text-align: center;
+    width: 303px;
+  }
+  .header .mainmenu-area .navbar .navbar-brand {
+    padding: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    max-width: 130px;
+
+  }
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 2.0em;
+    height: 3.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+
+  }
+  .header .mainmenu-area .navbar .mybtn1 {
+
+    padding: 10px 29px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 110px;
+    margin-left: -30px;
+
+
+  }
+  .header .mainmenu-area .navbar {
+    padding: 8px 0px;
+
+}
+
+  .header .top-header .content .left-content .left-list li {
+    margin-right: 15px;
+}
+.header .top-header .content .left-content .left-list li::before {
+  right: -14px;
+}
+.activities .tab-menu-area .nav-lend {
+  border-radius: 10px;
+}
+.footer .subscribe-box .heading-area .title {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.single-game-extra img {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ }
+
+.lottery-area .daily-lottery .draw-time .draw-counter,
+.lottery-area .daily-lottery .draw-time .draw-counter span
+{
+  font-size: 24px!important;
+  line-height: 34px!important;
+}
+
+.help-section .help-box .help-box-inner2 .single-artical .writer-profile{
+  display: flow-root;
+  text-align: center;
+}
+.help-section .help-box .help-box-inner2 .single-artical .writer-profile img{
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+.help-section .help-box .help-box-inner2 .single-artical {
+  text-align: center;
+}
+.serch-area .serch-box {
+  padding: 20px 30px 40px;
+}
+.help-section.writter-artical-details .help-box .help-box-inner2 .single-artical .writer-profile{
+  display: flow-root;
+}
+.help-section.writter-artical-details .help-box .help-box-inner2 .single-artical .writer-profile img{
+  margin-right: 0px;
+}
+.features .single-feature .icon,
+.affiliate-program .single-program .icon
+{
+  width: 100px;
+  height: 100px;
+}
+.features .single-feature .icon img,
+.affiliate-program .single-program .icon img
+{
+  width: 40px;
+}
+.features .single-feature .icon.one,
+.features .single-feature .icon.two,
+.features .single-feature .icon.three,
+.features .single-feature .icon.four,
+.features .single-feature .icon.four,
+.features .single-feature .icon.five,
+.features .single-feature .icon.six,
+.affiliate-program .single-program .icon.one,
+.affiliate-program .single-program .icon.two,
+.affiliate-program .single-program .icon.three,
+.affiliate-program .single-program .icon.four,
+.affiliate-program .single-program .icon.four,
+.affiliate-program .single-program .icon.five,
+.affiliate-program .single-program .icon.six
+ {
+  line-height: 80px;
+}
+
+.footer .subscribe-box .heading-area .title {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+
+.hero-area .mybtn1 {
+  font-size: 14px;
+  padding: 9px 20px;
+}
+.breadcrumb-area .title {
+  font-size: 24px;
+  line-height: 34px;
+}
+.sorteo-accordion .card-header .btn-link {
+  font-size: 16px;
+}
+.breadcrumb-area.play {
+  padding: 232px 0px 218px;
+}
+.breadcrumb-area.bc-tournaments {
+  padding: 132px 0px 0px;
+}
+.breadcrumb-area.bc-lottery {
+  padding: 232px 0px 152px;
+}
+.breadcrumb-area.about {
+  padding: 232px 0px 94px;
+}
+.breadcrumb-area.bc-affiliate {
+  padding: 232px 0px 174px;
+}
+.breadcrumb-area.bc-awards {
+  padding: 232px 0px 94px;
+}
+.breadcrumb-area.bonus {
+  padding: 232px 0px 96px;
+}
+.breadcrumb-area.cart {
+  padding: 232x 0px 94px;
+}
+.breadcrumb-area.bc-faq {
+  padding: 232px 0px 95px;
+}
+.breadcrumb-area.h-i-w {
+  padding: 232px 0px 93px;
+}
+.breadcrumb-area.bc-terms {
+  padding: 232px 0px 150px;
+}
+.breadcrumb-area.bc-contact {
+  padding: 232px 0px 94px;
+}
+.breadcrumb-area.bc-tournaments .boxrow{
+  margin-top: 140px;
+}
+.breadcrumb-area.bc-tournaments .boxrow .boxcol2{
+  margin-top: 0px;
+}
+.cover{
+  display: inline-block;
+  height: 300px;
+  width:100%;
+  margin-left: 0px;
+  border-radius: 9px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 50%;
+  padding-top:26px;
+}
+.texte {
+
+  color: white;
+  font-weight: bold;
+  font-size: 46px;
+  padding: 16px 32px;
+  margin-right: 0px;
+  margin-top: 13px;
+
+}
+
+.cover{
+  display: inline-block;
+  height: 200px;
+  width:100%;
+  margin-left: 0px;
+  border-radius: 9px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 50%;
+  padding-top:0px;
+  margin-top: 80px;
+  margin-bottom: -200px;
+}
+.texte {
+
+  color: white;
+  font-weight: bold;
+  font-size: 46px;
+  padding: 16px 32px;
+  margin-right: 0px;
+  margin-top: 100px;
+
+}
+
+
+
+}
+
+
+@media  (max-width: 390px) {
+  /* login modal Area Start */
+.login-modal .modal-dialog .modal-content {
+  background: #010432;
+  border-radius: 30px;
+border: 3px solid #bf1438;
+
+}
+  .login-modal .modal-dialog .modal-content .modal-body {
+    padding: 0px;
+    }
+    .login-modal .modal-dialog .modal-content .modal-body .logo-area {
+      display: block;
+      text-align: center;
+      position: relative; }
+      .login-modal .modal-dialog .modal-content .modal-body .logo-area::after {
+        position: absolute;
+        content: "";
+        width: 135px;
+        height: 135px;
+        border-radius: 50%;
+        background: #252f5a;
+        top: -65px;
+        left: 050%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%); }
+      .login-modal .modal-dialog .modal-content .modal-body .logo-area img {
+        display: inline-block;
+        max-width: 100px;
+        position: relative;
+        z-index: 9;
+        top: -4px; }
+    .login-modal .modal-dialog .modal-content .modal-body .header-area {
+      padding: 47px 30px 10px;
+      position: relative;
+      z-index: 9;
+      text-align: center; }
+      .login-modal .modal-dialog .modal-content .modal-body .header-area .title {
+        font-size: 50px;
+        line-height: 34px;
+        font-weight: 700;
+        color: #a1afd3;
+
+        margin: 44px 44px 44px 44px;
+        font-family: "Telegraf-UltraBold"}
+      .login-modal .modal-dialog .modal-content .modal-body .header-area .sub-title {
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: 300; }
+    .login-modal .modal-dialog .modal-content .modal-body .form-area {
+      padding: 0px 44px 10px; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group {
+        margin-bottom: -20px; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .fbtn {
+          margin-left: 35%;margin-top:30px;margin-bottom:12px;
+         }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .box {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between; }
+          .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .box label {
+            font-size: 16px;
+            font-weight: 400;
+            color: #a1aed4;
+            text-transform: capitalize; }
+          .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .box a {
+            font-size: 16px;
+            font-weight: 400;
+            color: #a1aed4;
+            text-transform: capitalize; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .check-group label {
+          font-size: 14px;
+          font-weight: 400;
+          color: #a1aed4;
+          text-transform: capitalize; }
+          .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .check-group label a {
+            color: #f9314b; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area label {
+        font-size: 20px;
+        line-height: 28px;
+        color: #a1afd3;
+        font-family: "Telegraf-UltraBold";
+        margin-bottom: 4px;
+      width: 48%; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field {
+        width: 50%;
+        border: 0px;
+        height: 50px;
+        font-size: 11px;
+        color: #a1aed4;
+        background: none;
+        margin-bottom: 12px;
+        font-family: "Telegraf-Regular"; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field::-webkit-input-placeholder {
+          color: #a1aed4; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field:-moz-placeholder {
+          color: #a1aed4; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field::-moz-placeholder {
+          color: #a1aed4; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field:-ms-input-placeholder {
+          color: #a1aed4; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area select {
+        margin-top: 8px;
+        width: 100%;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 50px;
+        background: #273261;
+        padding: 0px 30px;
+        color: #fff;
+        text-transform: uppercase; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area .mybtn1 {
+        margin-top: 22px;
+        display: block;
+        width: 100%; }
+    .login-modal .modal-dialog .modal-content .modal-body .form-footer {
+      text-align: center;
+      padding: 0px 30px 6px; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-footer a {
+        -webkit-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+        color: #fff; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-footer a i {
+          font-size: 14px; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-footer a:hover {
+          color: #f9314b; }
+
+.login-modal.sign-in .modal-body .form-area {
+  padding-bottom: 18px !important; }
+
+.modal-dialog .modal-content {
+  position: relative; }
+
+.modal-dialog .modal-content .close {
+  position: absolute;
+  right: 9px;
+  z-index: 9; }
+
+.modal-dialog .modal-content .close span {
+  color: #fff;
+  font-size: 20px; }
+
+/* login modal Area End */
+  .coming{
+    overflow: hidden;
+    background: url(/assets/images/PNG/stories4.png) no-repeat center center fixed;
+    width: 100%;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .coming .toparea .p1{
+    margin-left: 6px;
+    width: 160px;
+  }
+  .coming .toparea .p2{
+    margin-left: 0px;
+    width: 130px;
+  }
+  .coming .toparea .p3{
+    margin-left: 100px;
+    width: 233px;
+  }
+  .coming .toparea .p4{
+    margin-left: 71px;
+    margin-top: 8px;
+  }
+  .coming .toparea .p4 .cbtn{
+    height:50px;
+    width: 160px;
+   margin-left: 20px;
+  }
+  .coming .toparea .p5{
+    display: block;
+    margin-top: 40px;
+    margin-left: -84px;
+
+  }
+  .coming .toparea .p6{
+    display: none;
+
+  }
+  .coming .toparea .p7{
+    display: none;
+
+  }
+  .coming .toparea .p5 .gtag{
+    width: 509px ; margin-left:55px;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(/assets/images/bomb.svg);
+    margin-left: -50px;
+  }
+  .coming .toparea{
+    padding-top: 56px;
+    padding-left: 60px;
+  }
+  .coming .toparea .titles{
+    font-size: 16px;
+    color: #BF1438;
+    font-weight: 100;
+    font-family: "Telegraf-Regular";
+
+  }
+  .coming .toparea .title1{
+    font-size: 16px;
+    color: #BF1438;
+   font-weight:300;
+   font-family: "Telegraf-Regular";
+   margin-top: -9px;
+   margin-left: 4px;
+
+  }
+  .coming .toparea .title2{
+    font-size: 16px;
+    color: #BF1438;
+   font-weight:bolder;
+   font-family: "Telegraf-UltraBold";
+   margin-top: 38px;
+   margin-left: -10px;
+
+  }
+  .coming .toparea .title3{
+    font-size: 16px;
+    color: #BF1438;
+   font-weight:100;
+   font-family: "Telegraf-Regular";
+   margin-top: -35px;
+   margin-left: -10px;
+  display: block;
+  }
+
+
+  .breadcrumb-area .bc-img{
+    display: none;
+  }
+
+
+.tournament-time-box .timer-area {
+  padding: 50px 20px 50px;
+}
+.payment-method .method-slider {
+  padding: 0px 40px;
+}
+.community-blog .single-box{
+  display: flow-root;
+}
+.community-blog .single-box .img {
+  margin-right: 0px;
+  margin-bottom: 22px;
+}
+
+.header .top-header .content .right-content .right-list > li .cart-icon.tm-dropdown .tm-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-30%);
+  -ms-transform: translateX(-30%);
+  transform: translateX(-30%);
+}
+.footer .subscribe-box .form-area input{
+  font-size: 14px;
+}
+.footer .subscribe-box .icon{
+  display: none;
+}
+.footer .subscribe-box .col-8{
+  max-width: 100%!important;
+  flex: 100%!important;
+}
+.footer .subscribe-box .heading-area .title {
+  margin-bottom: 32px;
+}
+.lottery-area .buy-tickets .buy-tickets-box .content {
+  padding: 20px 15px 20px;
+}
+
+}
+
+
+@media  (max-width: 343px) {
+  /* login modal Area Start */
+.login-modal .modal-dialog .modal-content {
+  background: #010432;
+  border-radius: 30px;
+border: 3px solid #bf1438;
+
+}
+  .login-modal .modal-dialog .modal-content .modal-body {
+    padding: 0px;
+    }
+    .login-modal .modal-dialog .modal-content .modal-body .logo-area {
+      display: block;
+      text-align: center;
+      position: relative; }
+      .login-modal .modal-dialog .modal-content .modal-body .logo-area::after {
+        position: absolute;
+        content: "";
+        width: 135px;
+        height: 135px;
+        border-radius: 50%;
+        background: #252f5a;
+        top: -65px;
+        left: 050%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%); }
+      .login-modal .modal-dialog .modal-content .modal-body .logo-area img {
+        display: inline-block;
+        max-width: 100px;
+        position: relative;
+        z-index: 9;
+        top: -4px; }
+    .login-modal .modal-dialog .modal-content .modal-body .header-area {
+      padding: 47px 30px 10px;
+      position: relative;
+      z-index: 9;
+      text-align: center; }
+      .login-modal .modal-dialog .modal-content .modal-body .header-area .title {
+        font-size: 66px;
+        line-height: 34px;
+        font-weight: 700;
+        color: #a1afd3;
+
+        margin: 44px 44px 44px 44px;
+        font-family: "Telegraf-UltraBold"}
+      .login-modal .modal-dialog .modal-content .modal-body .header-area .sub-title {
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: 300; }
+    .login-modal .modal-dialog .modal-content .modal-body .form-area {
+      padding: 0px 44px 10px; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group {
+        margin-bottom: -20px; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .fbtn {
+          margin-left: 20%;margin-top:30px;margin-bottom:12px;
+         }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .box {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between; }
+          .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .box label {
+            font-size: 16px;
+            font-weight: 400;
+            color: #a1aed4;
+            text-transform: capitalize; }
+          .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .box a {
+            font-size: 16px;
+            font-weight: 400;
+            color: #a1aed4;
+            text-transform: capitalize; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .check-group label {
+          font-size: 14px;
+          font-weight: 400;
+          color: #a1aed4;
+          text-transform: capitalize; }
+          .login-modal .modal-dialog .modal-content .modal-body .form-area .form-group .check-group label a {
+            color: #f9314b; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area label {
+        font-size: 26px;
+        line-height: 28px;
+        color: #a1afd3;
+        font-family: "Telegraf-UltraBold";
+        margin-bottom: 4px;
+      width: 45%; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field {
+        width: 50%;
+        border: 0px;
+        height: 50px;
+        font-size: 11px;
+        color: #a1aed4;
+        background: none;
+        margin-bottom: 12px;
+        font-family: "Telegraf-Regular"; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field::-webkit-input-placeholder {
+          color: #a1aed4; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field:-moz-placeholder {
+          color: #a1aed4; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field::-moz-placeholder {
+          color: #a1aed4; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-area .input-field:-ms-input-placeholder {
+          color: #a1aed4; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area select {
+        margin-top: 8px;
+        width: 100%;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 50px;
+        background: #273261;
+        padding: 0px 30px;
+        color: #fff;
+        text-transform: uppercase; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-area .mybtn1 {
+        margin-top: 22px;
+        display: block;
+        width: 100%; }
+    .login-modal .modal-dialog .modal-content .modal-body .form-footer {
+      text-align: center;
+      padding: 0px 30px 6px; }
+      .login-modal .modal-dialog .modal-content .modal-body .form-footer a {
+        -webkit-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+        color: #fff; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-footer a i {
+          font-size: 14px; }
+        .login-modal .modal-dialog .modal-content .modal-body .form-footer a:hover {
+          color: #f9314b; }
+
+.login-modal.sign-in .modal-body .form-area {
+  padding-bottom: 18px !important; }
+
+.modal-dialog .modal-content {
+  position: relative; }
+
+.modal-dialog .modal-content .close {
+  position: absolute;
+  right: 9px;
+  z-index: 9; }
+
+.modal-dialog .modal-content .close span {
+  color: #fff;
+  font-size: 20px; }
+
+/* login modal Area End */
+  .coming{
+    overflow: hidden;
+    background: url(/assets/images/PNG/stories4.png) no-repeat center center fixed;
+    width: 100%;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .coming .toparea .p1{
+    margin-left: -20px;
+    width: 160px;
+  }
+  .coming .toparea .p2{
+    margin-left: 0px;
+    width: 130px;
+  }
+  .coming .toparea .p3{
+    margin-left: 65px;
+
+  }
+  .coming .toparea .p4{
+    margin-left: 45px;
+    margin-top: 0px;
+  }
+  .coming .toparea .p4 .cbtn{
+    height:50px;
+    width: 150px;
+  }
+  .coming .toparea .p5{
+    display: block;
+    margin-top: 21px;
+    margin-left: -22px;
+  }
+  .coming .toparea .p6{
+    display: none;
+
+  }
+  .coming .toparea .p7{
+    display: none;
+
+  }
+  .coming .toparea .p5 .gtag{
+    width: 509px ; margin-left:-9px;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(/assets/images/bomb.svg);
+    margin-left: -50px;
+  }
+  .coming .toparea{
+    padding-top: 56px;
+    padding-left: 60px;
+  }
+  .coming .toparea .titles{
+    font-size: 16px;
+    color: #BF1438;
+    font-weight: 100;
+    font-family: "Telegraf-Regular";
+
+  }
+  .coming .toparea .title1{
+    font-size: 16px;
+    color: #BF1438;
+   font-weight:300;
+   font-family: "Telegraf-Regular";
+   margin-top: -9px;
+   margin-left: 4px;
+
+  }
+  .coming .toparea .title2{
+    font-size: 16px;
+    color: #BF1438;
+   font-weight:bolder;
+   font-family: "Telegraf-UltraBold";
+   margin-top: 38px;
+   margin-left: -10px;
+
+  }
+  .coming .toparea .title3{
+    font-size: 16px;
+    color: #BF1438;
+   font-weight:100;
+   font-family: "Telegraf-Regular";
+   margin-top: -35px;
+   margin-left: -10px;
+
+  }
+  .featured-game {
+    padding: 20px 0px 10px;
+    background: #010432;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  margin-bottom: -10px; }
+  .index2 .hero-area {
+    padding: 258px 0px 264px;
+}
+.hero-area {
+  padding: 58px 0px 2px;
+}
+
+.breadcrumb-area.play
+   {
+    padding: 257px 0px 218px;
+}
+
+.breadcrumb-area.bc-lottery {
+  padding: 257px 0px 218px;
+}
+.breadcrumb-area.bc-lottery {
+  padding: 257px 0px 152px;
+}
+/*.breadcrumb-area.bc-tournaments {
+  padding: 257px 0px 94px;
+}*/
+.breadcrumb-area.about {
+  padding: 257px 0px 94px;
+}
+.breadcrumb-area.bc-affiliate {
+  padding: 257px 0px 174px;
+}
+.breadcrumb-area.bc-awards {
+  padding: 257px 0px 94px;
+}
+.breadcrumb-area.bonus {
+  padding: 257px 0px 96px;
+}
+.breadcrumb-area.bc-faq {
+  padding: 257px 0px 95px;
+}
+.breadcrumb-area.h-i-w {
+  padding: 257px 0px 93px;
+}
+.breadcrumb-area.bc-terms {
+  padding: 257px 0px 150px;
+}
+.breadcrumb-area.bc-contact {
+  padding: 257px 0px 94px;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url(/assets/images/bomb.svg);
+  margin-left: -50px;
+}
+
+
+
+}
+
+/**Tournament page response starts**/
+
+@media  (max-width: 1920px), (max-width: 1080px){
+
+  .t-d .ar .s1{
+    font-size:38px;
+    color: #bf1438;
+    font-family:"Telegraf-UltraBold";
+
+ }
+ .t-d .ar .s2 .s2-1 .s2-1-1{
+  font-size: 26px;
+  color: #a1afd3;
+  font-family: "Telegraf-Regular";
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.t-d .ar .s2 .s2-1 .s2-1-1:hover{
+  font-family: "Telegraf-UltraBold";
+  cursor: pointer;
+
+}
+}
+
+
+@media  (max-width: 1600px), (max-width: 900px){
+
+  .t-d .ar .s1{
+    font-size:32px;
+    color: #bf1438;
+    font-family:"Telegraf-UltraBold";
+    margin-left:0px;
+ }
+ .t-d .ar .s2 .s2-1 .s2-1-1{
+  font-size: 22px;
+  color: #a1afd3;
+  font-family: "Telegraf-Regular";
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.t-d .ar .s2 .s2-1 .s2-1-1:hover{
+  font-family: "Telegraf-UltraBold";
+  cursor: pointer;
+
+}
+}
+
+@media  (max-width: 1280px), (max-width: 1080px){
+
+  .t-d .ar .s1{
+    font-size:30px;
+    color: #bf1438;
+    font-family:"Telegraf-UltraBold";
+    margin-left:44px;
+ }
+ .t-d .ar .s2 .s2-1 .s2-1-1{
+  font-size: 20px;
+  color: #a1afd3;
+  font-family: "Telegraf-Regular";
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.t-d .ar .s2 .s2-1 .s2-1-1:hover{
+  font-family: "Telegraf-UltraBold";
+  cursor: pointer;
+
+}
+}
+}
+/**Tournament page response ends*/

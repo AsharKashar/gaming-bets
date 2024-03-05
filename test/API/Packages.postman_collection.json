@@ -1,0 +1,217 @@
+{
+	"info": {
+		"_postman_id": "c5fdaa0d-5e59-48dd-baff-e221a2160048",
+		"name": "Packages",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "View_Packages",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ca3ada7d-9a2b-47cc-b4b1-036756abd8c6",
+						"exec": [
+							"pm.test(\"Packages return successfully\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "banger2020",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "banger",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.bangergames.com/api/packages/view",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"bangergames",
+						"com"
+					],
+					"path": [
+						"api",
+						"packages",
+						"view"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_Novice_Package",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f2e9ca85-678a-4639-b226-abf9b6b6ec11",
+						"exec": [
+							"pm.test(\"Successfully get novice package\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "banger2020",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "banger",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.bangergames.com/api/packages/get-package/1",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"bangergames",
+						"com"
+					],
+					"path": [
+						"api",
+						"packages",
+						"get-package",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_Elite_Package",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e50de42e-fe70-4050-9175-c257bfdc5530",
+						"exec": [
+							"pm.test(\"Successfully get elite package\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "banger2020",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "banger",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.bangergames.com/api/packages/get-package/2",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"bangergames",
+						"com"
+					],
+					"path": [
+						"api",
+						"packages",
+						"get-package",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_God_Package",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "93ec87b7-010e-4c51-b48c-65331f272900",
+						"exec": [
+							"pm.test(\"Successfully get god package\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "banger2020",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "banger",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.bangergames.com/api/packages/get-package/3",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"bangergames",
+						"com"
+					],
+					"path": [
+						"api",
+						"packages",
+						"get-package",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

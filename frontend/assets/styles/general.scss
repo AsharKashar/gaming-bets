@@ -1,0 +1,345 @@
+html {
+  &::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 22px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #111542;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #be1338;
+    border-radius: 20px;
+  }
+}
+
+#app,
+#root {
+  font-family: Telegraf-Regular, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: $app-background;
+
+  input {
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus,
+    &:-webkit-autofill:active {
+      transition: background-color 5000000s;
+      -webkit-text-fill-color: $text-primary-color !important;
+    }
+  }
+
+  button {
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &.v-application .error--text {
+    color: $text-secondary-color!important;
+    caret-color: $text-secondary-color!important;
+  }
+
+  .carousel {
+    border: 0;
+  }
+
+  .v-dialog {
+    box-shadow: none;
+    position: relative;
+    overflow: visible;
+  }
+
+  .invisible-scrollbar {
+    &::-webkit-scrollbar {
+      width: 0px;
+      height: 0px;
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: transparent;
+      width: 0px;
+      height: 0px;
+    }
+  }
+
+  .inner-btn-dynamic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .team-member {
+    .v-expansion-panel-content__wrap {
+      padding: 0px;
+    }
+  }
+
+  .group-navigation-wrapper {
+
+    .theme--dark.v-tabs>.v-tabs-bar .v-tab:not(.v-tab--active),
+    .theme--dark.v-tabs>.v-tabs-bar .v-tab:not(.v-tab--active)>.v-icon,
+    .theme--dark.v-tabs>.v-tabs-bar .v-tab:not(.v-tab--active)>.v-btn,
+    .theme--dark.v-tabs>.v-tabs-bar .v-tab--disabled {
+      color: rgb(189 18 18 / 60%);
+      color: #a1afd352;
+      font-weight: 900;
+    }
+  }
+
+  .brackets-wrapper {
+    .v-expansion-panel-content__wrap {
+      padding: 0 !important;
+    }
+
+    .v-expansion-panels {
+      z-index: auto;
+    }
+
+    .v-expansion-panel {
+      background-color: #a1afd314 !important;
+      border: 1px solid #010432;
+      box-sizing: border-box;
+      border-radius: 8px 8px 0px 0px;
+    }
+
+    .v-expansion-panel-content {
+      position: absolute;
+      left: 0;
+      right: 0;
+      z-index: 50;
+
+      .v-expansion-panel-content__wrap {
+        padding: 0 !important;
+      }
+    }
+
+    .v-expansion-panel--active>.v-expansion-panel-header {
+      min-height: 48px;
+    }
+
+    .v-expansion-panel-header {
+      padding: 0;
+    }
+
+    .team-wrapper {
+      width: 100%;
+
+      .team {
+        position: relative;
+        border-radius: 15px;
+
+        .match__team {
+          width: 100%;
+        }
+
+        .host-img {
+          position: absolute;
+          top: 15px;
+          left: -15px;
+        }
+
+        .team-info {
+          p {
+            margin: 0;
+          }
+
+          padding: 0;
+          margin: 0;
+
+          display: flex;
+          align-items: center;
+          position: relative;
+
+          .team-img {
+            width: 40px;
+            height: 40px;
+            margin: 0 0 0 5px;
+            border-radius: 50%;
+          }
+
+          .winner-icon {
+            margin-left: 0.3em;
+          }
+
+          .team-name-match {
+            p {
+              padding-left: 1em;
+              font-size: 14px;
+              line-height: 110%;
+              max-width: 90px;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+
+            }
+          }
+
+          .team-points {
+            width: 30px;
+            height: 100%;
+            border: 2px solid #be1338;
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom-right-radius: 8px;
+
+            p {
+              font-weight: 900;
+              font-size: 14px;
+              color: #be1338;
+            }
+          }
+
+          .upper-team {
+            border-bottom-right-radius: 0px;
+            border-top-right-radius: 8px;
+          }
+        }
+      }
+
+      .team-member {
+        border: 1px solid #e7e7e7;
+        background: #010432;
+        border-radius: 0px 0px 8px 8px;
+        cursor: pointer;
+      }
+    }
+
+    @media screen and(max-width: 1480px) {
+      .team {
+
+        .match__team {
+          width: 100%;
+        }
+
+        .team-img {
+          width: 30px !important;
+          height: 30px !important;
+
+        }
+
+        .winner-icon {
+          margin-left: 0.3em;
+        }
+
+        .team-name-match {
+          p {
+            font-size: 10px !important;
+          }
+        }
+
+        .team-points {
+          width: 20px !important;
+
+          p {
+            font-size: 10px !important;
+          }
+        }
+      }
+
+    }
+
+    .group-navigation-wrapper {
+      .v-slide-group__next {
+        height: 50px;
+        width: 50px;
+        background-image: url("~static/images/brackets/angle-right.svg");
+        background-position: center;
+
+
+      }
+
+      .v-slide-group__prev {
+        height: 50px;
+        width: 50px;
+        background-image: url("~static/images/brackets/angle-left.svg");
+        background-position: center;
+
+
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+
+
+
+      .v-tab {
+        font-size: 0.7rem;
+      }
+
+    }
+  }
+}
+
+.language-switcher {
+  .switcher-box {
+    .v-select__selections {
+      text-transform: uppercase !important;
+      color: #A1AFD3 !important;
+      font-size: 12px !important;
+    }
+
+    .v-input__slot {
+      margin-bottom: 0px !important;
+
+      &::before,
+      &::after {
+        display: none !important;
+      }
+    }
+
+    i.v-icon.notranslate.mdi.mdi-menu-down.theme--dark {
+      color: #BE1338 !important;
+      margin-left: -15px !important;
+    }
+
+  }
+}
+
+.challange-card {
+  .v-expansion-panel {
+    margin-top: -2em;
+    background: #31335900 !important;
+
+    &:before {
+      box-shadow: none !important;
+    }
+
+    .v-expansion-panel-header {
+      padding: 15px 0 0 15px!important;
+
+      .v-expansion-panel-header__icon {
+        .v-icon {
+          color: #BE1338 !important;
+        }
+      }
+    }
+
+    .v-expansion-panel-content {
+      .v-expansion-panel-content__wrap {
+        padding: 0px 15px 15px !important;
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .carousel-container {
+    .carousel {
+      .v-carousel ,.v-carousel__item{
+        height: 600px !important;
+      }
+    }
+  }
+}

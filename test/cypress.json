@@ -1,0 +1,10 @@
+{
+  "baseUrl": "https://dev.bangergames.com",
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "results/TEST-[hash].xml"
+  },
+  "viewportWidth": 1440,
+  "viewportHeight": 1080,
+  "projectId": "4oygyu"
+}

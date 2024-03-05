@@ -1,0 +1,122 @@
+stages:
+  - deploy
+  - flushcache
+  - test_api
+  - test_frontend
+
+deploy dev:
+  stage: deploy
+  tags:
+    - development
+  only:
+    - development
+    - /^BG-(.*)*$/
+  script:
+    - cd /home/banger/banger-gaming
+    - sudo git checkout .
+    - sudo git clean -fd .
+    - sudo git fetch
+    - sudo git checkout $CI_COMMIT_REF_NAME
+    - sudo git pull
+    - bash dev.sh
+
+
+deploy staging:
+  stage: deploy
+  tags:
+    - staging
+  only:
+    - staging
+  script:
+    - cd /home/banger/banger-gaming
+    # cleanup files
+    - git checkout .
+    - git clean -fd .
+    - git pull
+    # restart all docker containers
+    - bash staging.sh
+
+#deploy production:
+#  stage: deploy
+#  tags:
+#    - master
+#  only:
+#    - master
+#  script:
+#    - cd /home/banger/banger-games
+#    # cleanup files
+#    - sudo git checkout .
+#    - sudo git clean -fd .
+#    - sudo git pull
+#    # restart all docker containers
+#    - sudo bash prod.sh
+
+postman_tests:
+  stage: test_api
+  tags:
+    - development
+  only:
+    - development
+    - /^BG-(.*)*$/
+  script:
+    - cd /home/banger/banger-gaming
+    - export NVM_DIR="$HOME/.nvm" && . "$NVM_DIR/nvm.sh" --no-use #load nvm
+    - eval "[ -f .nvmrc ] && nvm install || nvm install stable" #install node
+    - newman --version
+    - newman run test/API/Auth.postman_collection.json
+    - newman run test/API/Bomb_Packages.postman_collection.json
+    - newman run test/API/Packages.postman_collection.json
+    - newman run test/API/Home.postman_collection.json "test/API/game_list_search.json" -n 5 --folder Game_List_Search
+    - newman run test/API/Home.postman_collection.json --folder Game_List_Search
+    - newman run test/API/Home.postman_collection.json "test/API/tournament_list_filter.json" -n 5 --folder Tournament_List_Filter
+    - newman run test/API/LeaderBoard.postman_collection.json -d "test/API/game_modes.json" -n 12 --folder Get_LeaderBoard
+    - newman run test/API/LeaderBoard.postman_collection.json -d "test/API/particular_game_leaderboard.json" -n 3 --folder Particular_Game_LeaderBoard
+    - newman run test/API/LeaderBoard.postman_collection.json --folder Monthly_Top_Player
+    - newman run test/API/Tournament.postman_collection.json
+
+run_cypress:
+  stage: test_frontend
+  tags:
+    - development
+  only:
+    - development
+    - /^BG-(.*)*$/
+  script:
+    - sleep 30
+    - cd /home/banger/banger-gaming
+    - sudo bash test.sh "$CI_COMMIT_MESSAGE"
+
+flushcache_development:
+  stage: flushcache
+  tags:
+    - development
+  only:
+    - development
+    - /^BG-(.*)*$/
+  script:
+    - sleep 30
+    - |
+      curl --fail --output "/dev/null" --silent --show-error -X POST "https://api.cloudflare.com/client/v4/zones/$CF_ZONE_ID/purge_cache" -H "Authorization: Bearer $CF_API_TOKEN" -H "Content-Type: application/json" --data '{"purge_everything":true}'
+
+flushcache_staging:
+  stage: flushcache
+  tags:
+    - staging
+  only:
+    - staging
+  script:
+    - sleep 30
+    - |
+      curl --fail --output "/dev/null" --silent --show-error -X POST "https://api.cloudflare.com/client/v4/zones/$CF_ZONE_ID/purge_cache" -H "Authorization: Bearer $CF_API_TOKEN" -H "Content-Type: application/json" --data '{"purge_everything":true}'
+
+#flushcache_prod:
+#  stage: flushcache
+#  tags:
+#    - master
+#  only:
+#    - master
+#  script:
+#    - sleep 60
+#    - |
+#      curl --fail --output "/dev/null" --silent --show-error -X POST "https://api.cloudflare.com/client/v4/zones/$CF_ZONE_ID/purge_cache" -H "Authorization: Bearer $CF_API_TOKEN" -H "Content-Type: application/json" --data '{"purge_everything":true}'
+

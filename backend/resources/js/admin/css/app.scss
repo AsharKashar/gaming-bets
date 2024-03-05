@@ -1,0 +1,19 @@
+.v-application--wrap {
+    min-height: auto;
+    .custom-select {
+        width: 100%;
+        &__label {
+            font-weight: 600;
+            font-size: 16px;
+        }
+    }
+    .errors {
+        color: #d60404;
+        margin: 5px 0;
+    }
+    .error--text {
+        select {
+            border-color: #ff5252!important;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Diagrams</title>
+		<link href="css/default.css" rel="stylesheet" type="text/css" />
+		<link href="http://fonts.googleapis.com/css?family=Cabin+Sketch:bold" rel="stylesheet" type="text/css" />
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script src="js/raphael.js" type="text/javascript"></script>
+		<script src="js/init.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="content">
+			<div class="legend">
+				<h1>User Progress</h1>
+				<div class="skills">
+					<ul>
+						<li class="jq">Winning Rate</li>
+						<li class="css">Overall Rank</li>
+
+					</ul>
+				</div>	
+			</div>
+			<div id="diagram"></div>
+		</div>
+
+		<div class="footer">
+			<div class="inside">
+				<a href="http://playground.mobily.pl">Marcin Dziewulski</a> for <a href="http://tympanus.net/codrops/2011/04/22/animated-skills-diagram/">Codrops</a>
+			</div>
+		</div>
+
+		<div class="get">
+			<div class="arc">
+				<span class="text">Winning Rate</span>
+				<input type="hidden" class="percent" value="75" />
+				<input type="hidden" class="color" value="#97BE0D" />
+			</div>
+			<div class="arc">
+				<span class="text">Overall Rank</span>
+				<input type="hidden" class="percent" value="90" />
+				<input type="hidden" class="color" value="#D84F5F" />
+			</div>
+
+		</div>
+	</body>
+</html>

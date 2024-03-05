@@ -1,0 +1,11 @@
+@import "variable";
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-vue/src/index.scss';
+
+@import "fonts";
+@import "profile";
+
+
+.header {
+    position: inherit !important;
+}

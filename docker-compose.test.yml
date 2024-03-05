@@ -1,0 +1,33 @@
+version: '3.7'
+
+services:
+#  e2e-electron:
+#    container_name: banger-electron
+#    image: "cypress/included:4.1.0"
+#    volumes:
+#      - ./test/cypress:/cypress
+#      - ./test/cypress.json:/cypress.json
+
+  e2e-chrome:
+    container_name: banger-chrome
+    image: "cypress/included:5.3.0"
+    shm_size: '256mb'
+    command: "--headless --browser chrome --record --key 60830376-1571-4b2c-84b4-7e6d418ed544"
+    environment:
+      COMMIT_INFO_MESSAGE: ${COMMIT_INFO_MESSAGE}
+      COMMIT_INFO_BRANCH: ${COMMIT_INFO_BRANCH}
+      COMMIT_INFO_AUTHOR: ${COMMIT_INFO_AUTHOR}
+    volumes:
+      - ./test/cypress:/cypress
+      - ./test/cypress.json:/cypress.json
+#
+#  e2e-firefox:
+#    container_name: banger-firefox
+#    image: "cypress/included:4.1.0"
+#    command: "--browser firefox --config video=false"
+#
+#    environment:
+#      - DEBUG=cypress:server:browsers:firefox-util,cypress:server:util:process_profiler
+#    volumes:
+#      - ./test/cypress:/cypress
+#      - ./test/cypress.json:/cypress.json

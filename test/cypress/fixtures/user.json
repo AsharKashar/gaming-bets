@@ -1,0 +1,17 @@
+[
+    {
+      "username": "priamo+testuser@bangergames.com",
+      "password": "WrongPassword",
+      "error": 1
+    },
+    {
+      "username": "NotAnEmail@qwery.com",
+      "password": "245g245g245g",
+      "error": 1
+    },
+    {
+      "username": "NotAnEmail@qwery.com",
+      "password": "WrongPassword",
+      "error": 1
+    }
+  ]

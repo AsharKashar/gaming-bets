@@ -1,0 +1,77 @@
+@import "~/assets/styles/sizes";
+@import "~/assets/styles/colors";
+
+.team-member{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 43px;
+    border-bottom: 1px solid $app-background;
+    font-family: Telegraf-Regular, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 94%;
+    color: $text-primary-color;
+    user-select: none;
+
+    .member-rank{
+        img{
+            height: 24px;
+            margin-left: 10px;
+        }
+        flex-basis: 9%;
+    }
+
+    .member-avatar{
+        height: 30px;
+        width: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        margin-left: 3%;
+        flex-basis: 9%;
+    }
+
+    .name{
+        margin: 0 3%;
+        flex-basis: 26%;
+    }
+
+    .status{
+        flex-basis: 11%;
+    }
+
+    .actions{
+        margin-left: auto;
+        margin-right: 23px;
+        cursor: pointer;
+
+        svg{
+            height: 17px;
+        }
+    }
+
+    .actions-menu{
+        display: flex;
+        align-items: center;
+
+        svg{
+            height: 12px;
+            margin-right: 3px;
+            margin-left: 8px;
+        }
+
+        .cancel-action{
+            font-family: Telegraf-Regular, serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 94%;
+            display: flex;
+            align-items: center;
+            color: #BE1338;
+        }
+    }
+}

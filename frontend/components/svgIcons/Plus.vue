@@ -1,0 +1,28 @@
+<template>
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M10 0H6V6H0V10H6V16H10V10H16V6H10V0Z"
+      :fill="color"
+    />
+  </svg>
+</template>
+
+<script>
+export default {
+  name: 'Plus',
+  props: {
+    color: {
+      type: String,
+      default: '#BE1338'
+    }
+  }
+};
+</script>

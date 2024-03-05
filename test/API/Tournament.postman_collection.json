@@ -1,0 +1,168 @@
+{
+	"info": {
+		"_postman_id": "2db23ab3-074d-4cbb-be9e-00cc202e0d34",
+		"name": "Tournament",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Tournament_List",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "c768a2f2-ce1c-4e97-9759-fe4347fcfa51",
+						"exec": [
+							"pm.test(\"Successfully Returns Tournament List\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201]);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "banger2020",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "banger",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.bangergames.com/api/tournaments",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"bangergames",
+						"com"
+					],
+					"path": [
+						"api",
+						"tournaments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tournament_By_Id",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ed9a7bf3-0adb-4e15-84cf-edcba3ad7203",
+						"exec": [
+							"pm.test(\"Successfully Returns Tournament Name\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201]);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "banger2020",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "banger",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.bangergames.com/api/tournaments/1",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"bangergames",
+						"com"
+					],
+					"path": [
+						"api",
+						"tournaments",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tournament_Filters",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "2ce6957d-820e-4ea4-9677-82c001d191ed",
+						"exec": [
+							"pm.test(\"Successfully Tournament Filters\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201]);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "banger2020",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "banger",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.bangergames.com/api/tournaments/filters?gameId=1\n",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"bangergames",
+						"com"
+					],
+					"path": [
+						"api",
+						"tournaments",
+						"filters"
+					],
+					"query": [
+						{
+							"key": "gameId",
+							"value": "1\n"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

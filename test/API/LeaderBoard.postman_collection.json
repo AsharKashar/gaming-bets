@@ -1,0 +1,211 @@
+{
+	"info": {
+		"_postman_id": "92abebfc-74e7-4427-8bb9-b3b9e63b0111",
+		"name": "LeaderBoard",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get_LeaderBoard",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "6dd123dc-01af-4bf9-8bbd-b2c05f60363f",
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "b285f742-26b4-49ee-8e50-a7f901ec13e9",
+						"exec": [
+							"pm.test(\"Successful LeaderBoard request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201,202]);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\n{\n\"match_type\": \"{{match_type}}\",\n\"game_mode\": \"{{game_mode}}\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev.bangergames.com/api/leaderboard/get-gameleaderboard?game_id=10&game_mode_id=5&game_type_id=3",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"bangergames",
+						"com"
+					],
+					"path": [
+						"api",
+						"leaderboard",
+						"get-gameleaderboard"
+					],
+					"query": [
+						{
+							"key": "game_id",
+							"value": "1"
+						},
+						{
+							"key": "match_type_id",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "game_mode_id",
+							"value": "1"
+						},
+						{
+							"key": "game_type_id",
+							"value": "3"
+						}
+					]
+				},
+				"description": "Get leaderboard for a particular game type"
+			},
+			"response": []
+		},
+		{
+			"name": "Particular_Game_LeaderBoard",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "8ca0e8a3-c46d-441e-9948-663270162297",
+						"exec": [
+							"pm.test(\"Successful Particular Game LeaderBoard request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201,202]);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"game_name\": \"CSGO\"\n\t\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev.bangergames.com/api/leaderboard/get-game-topthree?game_id=10",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"bangergames",
+						"com"
+					],
+					"path": [
+						"api",
+						"leaderboard",
+						"get-game-topthree"
+					],
+					"query": [
+						{
+							"key": "game_id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Monthly_Top_Player",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e301057d-a80c-401c-9282-a034c4a48d8c",
+						"exec": [
+							"pm.test(\"Get Monthly Top Players\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.bangergames.com/api/leaderboard/monthly-top-player",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"bangergames",
+						"com"
+					],
+					"path": [
+						"api",
+						"leaderboard",
+						"monthly-top-player"
+					]
+				},
+				"description": "Monthly top three players"
+			},
+			"response": []
+		},
+		{
+			"name": "History_Top_Monthly",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev.bangergames.com/api/leaderboard/get-history-top-monthly",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"bangergames",
+						"com"
+					],
+					"path": [
+						"api",
+						"leaderboard",
+						"get-history-top-monthly"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "banger2020",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "banger",
+				"type": "string"
+			}
+		]
+	},
+	"protocolProfileBehavior": {}
+}

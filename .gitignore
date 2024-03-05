@@ -1,0 +1,13 @@
+.idea
+.DS_Store
+.env
+/deployment/certbot/conf/csr
+/deployment/certbot/conf/keys
+deployment/certbot/conf/.certbot.lock
+
+test/node_modules/
+test/results/
+test/cypress/videos/spec/
+test/cypress/screenshots
+
+test/package-lock.json

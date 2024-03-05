@@ -1,0 +1,30 @@
+.banger-default-dialog{
+  border: 8px solid #BE1338;
+  border-radius: 32px;
+
+  background: #010431;
+  padding: 44px;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  #safari {
+    background-color: #010432;
+  }
+}
+
+.custom-notification {
+  left: 24px;
+  bottom: 20px;
+  width: 444px !important;
+  max-width: calc(100% - 48px);
+}
+.custom-notification-demo {
+  right: 24px;
+  top: 20px;
+  width: 444px !important;
+  max-width: calc(100% - 48px);
+}
