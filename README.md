@@ -1,9 +1,7 @@
 # Gaming-bets Documentation
 
 ### Branches
-- Production: origin/master 
-- Staging: origin/staging
-- Development: origin/development
+- Development: origin/master
 
 
 ## Docker Container List
