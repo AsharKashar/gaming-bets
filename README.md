@@ -1,9 +1,9 @@
-# Banger Games Documentation
+# Gaming-bets Documentation
 
 ### Branches
-- Production: origin/master (Will be deployed before 2020-05-01)
-- Staging: origin/staging: https://staging.bangergames.com
-- Development: origin/development: https://dev.bangergames.com
+- Production: origin/master 
+- Staging: origin/staging
+- Development: origin/development
 
 
 ## Docker Container List
